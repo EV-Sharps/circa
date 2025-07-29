@@ -4,6 +4,8 @@ import os
 import json
 import unicodedata
 
+from datetime import datetime
+
 def convertTeam(team):
 	if team == "B0S":
 		return "bos"
@@ -74,11 +76,14 @@ def parsePlayer(player):
 	player = strip_accents(player).lower().replace(".", "").replace("'", "").replace("_", " ").replace("-", " ").replace(" jr", "").replace(" sr", "").replace(" iv", "").replace(" iii", "").replace(" ii", "")
 	player = player.split(" (")[0]
 	return player
+
 def parse():
 	with open("response.json") as fh:
 		response = json.load(fh)
 
 	data = {}
+	dt = str(datetime.now())[:10]
+	data[dt] = {}
 	for row in response["Games"]:
 		if row["LeagueName"] != "MLB - PLAYER TO HIT A HOME RUN":
 			continue
@@ -93,8 +98,8 @@ def parse():
 		game = f"{convertTeam(a)} @ {convertTeam(h)}"
 		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
 
-		data.setdefault(game, {})
-		data[game][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+		data[dt].setdefault(game, {"hr": {}})
+		data[dt][game]["hr"][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
 
 	with open("circa.json", "w") as fh:
 		json.dump(data, fh, indent=4)
