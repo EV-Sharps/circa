@@ -2,10 +2,103 @@
 import requests
 import os
 import json
+import unicodedata
 
+def convertTeam(team):
+	if team == "B0S":
+		return "bos"
+	team = team.lower().replace(".", "").replace(":", "")
+	t = team.replace(" ", "")[:3].strip()
+	if "cubs" in team:
+		return "chc"
+	elif t == "art":
+		return "ari"
+	elif t == "80s":
+		return "bos"
+	elif t == "cii":
+		return "cin"
+	elif t in ["chi", "chy", "chk", "cws", "chv"]:
+		return "chw"
+	elif t in ["kan", "kcr"]:
+		return "kc"
+	elif "dodgers" in team:
+		return "lad"
+	elif t == "los":
+		return "laa"
+	elif t == "nil":
+		return "mil"
+	elif t in ["nia", "mta"]:
+		return "mia"
+	elif t in ["nin", "win", "hin"]:
+		return "min"
+	elif t == "nyh":
+		return "nym"
+	elif t == "ny":
+		return "nym"
+	elif t == "nyn":
+		return "nym"
+	elif t == "new":
+		if "yankees" in team:
+			return "nyy"
+		return "nym"
+	elif t == "pht":
+		return "phi"
+	elif t == "ath" or t == "the":
+		return "ath"
+	elif t == "was":
+		return "wsh"
+	elif t == "sdp":
+		return "sd"
+	elif t == "sfg":
+		return "sf"
+	elif t == "san":
+		if "padres" in team:
+			return "sd"
+		return "sf"
+	elif t in ["tam", "tbr"]:
+		return "tb"
+
+	if t == "oak":
+		return "ath"
+	return t
+
+def strip_accents(text):
+	try:
+		text = unicode(text, 'utf-8')
+	except NameError: # unicode is a default on python 3
+		pass
+	text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode("utf-8")
+	return str(text)
+
+def parsePlayer(player):
+	player = strip_accents(player).lower().replace(".", "").replace("'", "").replace("_", " ").replace("-", " ").replace(" jr", "").replace(" sr", "").replace(" iv", "").replace(" iii", "").replace(" ii", "")
+	player = player.split(" (")[0]
+	return player
 def parse():
-	with open("response") as fh:
+	with open("response.json") as fh:
 		response = json.load(fh)
+
+	data = {}
+	for row in response["Games"]:
+		if row["LeagueName"] != "MLB - PLAYER TO HIT A HOME RUN":
+			continue
+
+		if row["Heading"].startswith("DH GM"):
+			print("double", row["Heading"])
+			continue
+
+		game = row["Heading"].split(" ")[0]
+		circaGame = game
+		a,h = map(str, game.split("/"))
+		game = f"{convertTeam(a)} @ {convertTeam(h)}"
+		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
+
+		data.setdefault(game, {})
+		data[game][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+
+	with open("circa.json", "w") as fh:
+		json.dump(data, fh, indent=4)
+
 
 def callAPI():
 	url = "https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon"
@@ -59,4 +152,5 @@ def callAPI():
 
 
 if __name__ == "__main__":
-	callAPI()
+	#callAPI()
+	parse()
