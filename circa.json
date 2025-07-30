@@ -1,6 +1,14 @@
 {
     "2025-07-30": {
         "tor @ bal": {
+            "k": {
+                "jose berrios": {
+                    "4.5": "-110/-120"
+                },
+                "dean kremer": {
+                    "3.5": "-160/+130"
+                }
+            },
             "hr": {
                 "vladimir guerrero": "+320/-395",
                 "addison barger": "+320/-395",
@@ -11,6 +19,14 @@
             }
         },
         "bos @ min": {
+            "k": {
+                "brayan bello": {
+                    "4.5": "-135/+105"
+                },
+                "zebby matthews": {
+                    "5.5": "+110/-140"
+                }
+            },
             "hr": {
                 "roman anthony": "+600/-850",
                 "alex bregman": "+450/-590",
@@ -21,6 +37,14 @@
             }
         },
         "ari @ det": {
+            "k": {
+                "ryne nelson": {
+                    "4.5": "+120/-150"
+                },
+                "chris paddack": {
+                    "4.5": "+130/-160"
+                }
+            },
             "hr": {
                 "ketel marte": "+385/-485",
                 "corbin carroll": "+330/-405",
@@ -33,6 +57,14 @@
             }
         },
         "chc @ mil": {
+            "k": {
+                "shota imanaga": {
+                    "4.5": "+120/-150"
+                },
+                "freddy peralta": {
+                    "6.5": "+105/-135"
+                }
+            },
             "hr": {
                 "carson kelly": "+600/-850",
                 "kyle tucker": "+440/-575",
@@ -45,6 +77,14 @@
             }
         },
         "wsh @ hou": {
+            "k": {
+                "mackenzie gore": {
+                    "6.5": "+115/-145"
+                },
+                "ryan gusto": {
+                    "4.5": "-115/-115"
+                }
+            },
             "hr": {
                 "cj abrams": "+450/-590",
                 "james wood": "+420/-545",

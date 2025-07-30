@@ -85,7 +85,12 @@ def parse():
 	dt = str(datetime.now())[:10]
 	data[dt] = {}
 	for row in response["Games"]:
-		if row["LeagueName"] != "MLB - PLAYER TO HIT A HOME RUN":
+		prop = ""
+		if row["LeagueName"] == "MLB - PLAYER TO HIT A HOME RUN":
+			prop = "hr"
+		elif row["LeagueName"] == "MLB - PITCHING PROPS":
+			prop = "k"
+		else:
 			continue
 
 		if row["Heading"].startswith("DH GM"):
@@ -98,8 +103,14 @@ def parse():
 		game = f"{convertTeam(a)} @ {convertTeam(h)}"
 		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
 
-		data[dt].setdefault(game, {"hr": {}})
-		data[dt][game]["hr"][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+		data[dt].setdefault(game, {})
+		data[dt][game].setdefault(prop, {})
+		if prop == "hr":
+			data[dt][game]["hr"][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+		else:
+			data[dt][game][prop].setdefault(player, {})
+			line = str(row["GameLine"]["RawTotalOver"])
+			data[dt][game][prop][player][line] = f"""{row["GameLine"]["OverOdds"]}/{row["GameLine"]["UnderOdds"]}"""
 
 	with open("circa.json", "w") as fh:
 		json.dump(data, fh, indent=4)
