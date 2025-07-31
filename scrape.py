@@ -1,4 +1,5 @@
 
+import argparse
 import requests
 import os
 import json
@@ -76,6 +77,35 @@ def parsePlayer(player):
 	player = strip_accents(player).lower().replace(".", "").replace("'", "").replace("_", " ").replace("-", " ").replace(" jr", "").replace(" sr", "").replace(" iv", "").replace(" iii", "").replace(" ii", "")
 	player = player.split(" (")[0]
 	return player
+
+def parseNFL():
+	with open("response.json") as fh:
+		response = json.load(fh)
+
+	data = {}
+	dt = datetime.now().isoformat()
+	for row in response["Games"]:
+		prop = ""
+		if row["LeagueName"].startswith("NFL - TOTAL REG SEASON"):
+			prop = " ".join(row["LeagueName"].lower().split(" ")[-2:])\
+				.replace("yards", "yd")\
+				.replace("passing", "pass")\
+				.replace("receiving", "rec")\
+				.replace("rushing", "rush")\
+				.replace(" ", "_")
+		else:
+			continue
+
+		player = parsePlayer(row["Heading"].split(" (")[0])
+		line = str(row["GameLine"]["RawTotalOver"])
+
+		data.setdefault(prop, {})
+		data[prop].setdefault(player, {})
+		data[prop][player].setdefault(line, {})
+		data[prop][player][line] = f"""{row["GameLine"]["RawOverOdds"]}/{row["GameLine"]["RawUnderOdds"]}"""
+
+	with open("futures.json", "w") as fh:
+		json.dump(data, fh, indent=4)
 
 def parse():
 	with open("response.json") as fh:
@@ -169,4 +199,11 @@ def callAPI():
 
 if __name__ == "__main__":
 	#callAPI()
-	parse()
+	parser = argparse.ArgumentParser()
+	parser.add_argument("--nfl", action="store_true")
+	args = parser.parse_args()
+
+	if args.nfl:
+		parseNFL()
+	else:
+		parse()
