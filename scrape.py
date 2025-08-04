@@ -236,7 +236,6 @@ def parse(movement):
 		data[dt][game].setdefault(prop, {})
 		if prop == "hr":
 			ou = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
-			over = ou.split("/")[0]
 			data[dt][game]["hr"][player] = ou
 			if movement:
 				try:
