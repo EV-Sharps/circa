@@ -347,28 +347,28 @@
       "HasProps": true,
       "HasPeriods": true,
       "GameLine": {
-        "VOdds": "+165",
-        "HOdds": "-185",
+        "VOdds": "+174",
+        "HOdds": "-195",
         "VSpreadPoints": "+1½",
-        "VSpreadOdds": "-138",
+        "VSpreadOdds": "-130",
         "HSpreadPoints": "-1½",
-        "HSpreadOdds": "+118",
+        "HSpreadOdds": "+110",
         "OverPoints": "OV 8",
         "OverOdds": "",
         "UnderPoints": "UN 8",
         "UnderOdds": "",
         "VSpec": "",
         "HSpec": "",
-        "RawVOdds": 165,
-        "RawHOdds": -185,
+        "RawVOdds": 174,
+        "RawHOdds": -195,
         "RawTotalOver": 8.0,
         "RawOverOdds": 999999,
         "RawTotalUnder": 8.0,
         "RawUnderOdds": 999999,
         "RawVSpread": 1.5,
-        "RawVSpreadOdds": -138,
+        "RawVSpreadOdds": -130,
         "RawHSpread": -1.5,
-        "RawHSpreadOdds": 118,
+        "RawHSpreadOdds": 110,
         "RawVSpecOdds": 999999,
         "RawHSpecOdds": 999999
       },
@@ -401,28 +401,28 @@
       "HasProps": true,
       "HasPeriods": true,
       "GameLine": {
-        "VOdds": "-140",
-        "HOdds": "+126",
+        "VOdds": "-143",
+        "HOdds": "+128",
         "VSpreadPoints": "-1½",
-        "VSpreadOdds": "+115",
+        "VSpreadOdds": "+110",
         "HSpreadPoints": "+1½",
-        "HSpreadOdds": "-135",
+        "HSpreadOdds": "-130",
         "OverPoints": "OV 8½",
         "OverOdds": "EV",
         "UnderPoints": "UN 8½",
         "UnderOdds": "-120",
         "VSpec": "",
         "HSpec": "",
-        "RawVOdds": -140,
-        "RawHOdds": 126,
+        "RawVOdds": -143,
+        "RawHOdds": 128,
         "RawTotalOver": 8.5,
         "RawOverOdds": 100,
         "RawTotalUnder": 8.5,
         "RawUnderOdds": -120,
         "RawVSpread": -1.5,
-        "RawVSpreadOdds": 115,
+        "RawVSpreadOdds": 110,
         "RawHSpread": 1.5,
-        "RawHSpreadOdds": -135,
+        "RawHSpreadOdds": -130,
         "RawVSpecOdds": 999999,
         "RawHSpecOdds": 999999
       },
@@ -1725,8 +1725,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402962,
-      "VisitorTeamId": 2402961
+      "HomeTeamid": 2404924,
+      "VisitorTeamId": 2404923
     },
     {
       "Id": 669711,
@@ -1833,8 +1833,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402882,
-      "VisitorTeamId": 2402881
+      "HomeTeamid": 2404912,
+      "VisitorTeamId": 2404911
     },
     {
       "Id": 669708,
@@ -1941,8 +1941,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2399980,
-      "VisitorTeamId": 2399979
+      "HomeTeamid": 2404974,
+      "VisitorTeamId": 2404973
     },
     {
       "Id": 669703,
@@ -2427,8 +2427,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402974,
-      "VisitorTeamId": 2402973
+      "HomeTeamid": 2404926,
+      "VisitorTeamId": 2404925
     },
     {
       "Id": 669724,
@@ -2535,8 +2535,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400434,
-      "VisitorTeamId": 2400433
+      "HomeTeamid": 2404914,
+      "VisitorTeamId": 2404913
     },
     {
       "Id": 669721,
@@ -2643,8 +2643,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400436,
-      "VisitorTeamId": 2400435
+      "HomeTeamid": 2404976,
+      "VisitorTeamId": 2404975
     },
     {
       "Id": 669716,
@@ -3050,9 +3050,9 @@
         "VOdds": "",
         "HOdds": "",
         "VSpreadPoints": "+1½",
-        "VSpreadOdds": "-260",
+        "VSpreadOdds": "-250",
         "HSpreadPoints": "-1½",
-        "HSpreadOdds": "+220",
+        "HSpreadOdds": "+215",
         "OverPoints": "",
         "OverOdds": "",
         "UnderPoints": "",
@@ -3066,9 +3066,9 @@
         "RawTotalUnder": 999999.0,
         "RawUnderOdds": 999999,
         "RawVSpread": 1.5,
-        "RawVSpreadOdds": -260,
+        "RawVSpreadOdds": -250,
         "RawHSpread": -1.5,
-        "RawHSpreadOdds": 220,
+        "RawHSpreadOdds": 215,
         "RawVSpecOdds": 999999,
         "RawHSpecOdds": 999999
       },
@@ -3129,8 +3129,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402966,
-      "VisitorTeamId": 2402965
+      "HomeTeamid": 2404928,
+      "VisitorTeamId": 2404927
     },
     {
       "Id": 669737,
@@ -3237,8 +3237,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402884,
-      "VisitorTeamId": 2402883
+      "HomeTeamid": 2404916,
+      "VisitorTeamId": 2404915
     },
     {
       "Id": 669734,
@@ -3345,8 +3345,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400032,
-      "VisitorTeamId": 2400031
+      "HomeTeamid": 2404978,
+      "VisitorTeamId": 2404977
     },
     {
       "Id": 669729,
@@ -3831,8 +3831,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402968,
-      "VisitorTeamId": 2402967
+      "HomeTeamid": 2404930,
+      "VisitorTeamId": 2404929
     },
     {
       "Id": 669750,
@@ -3939,8 +3939,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402886,
-      "VisitorTeamId": 2402885
+      "HomeTeamid": 2404918,
+      "VisitorTeamId": 2404917
     },
     {
       "Id": 669747,
@@ -4047,8 +4047,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400058,
-      "VisitorTeamId": 2400057
+      "HomeTeamid": 2404980,
+      "VisitorTeamId": 2404979
     },
     {
       "Id": 669742,
@@ -4076,9 +4076,9 @@
         "VOdds": "",
         "HOdds": "",
         "VSpreadPoints": "-2½",
-        "VSpreadOdds": "+180",
+        "VSpreadOdds": "+170",
         "HSpreadPoints": "+2½",
-        "HSpreadOdds": "-210",
+        "HSpreadOdds": "-195",
         "OverPoints": "",
         "OverOdds": "",
         "UnderPoints": "",
@@ -4092,9 +4092,9 @@
         "RawTotalUnder": 999999.0,
         "RawUnderOdds": 999999,
         "RawVSpread": -2.5,
-        "RawVSpreadOdds": 180,
+        "RawVSpreadOdds": 170,
         "RawHSpread": 2.5,
-        "RawHSpreadOdds": -210,
+        "RawHSpreadOdds": -195,
         "RawVSpecOdds": 999999,
         "RawHSpecOdds": 999999
       },
@@ -4458,17 +4458,17 @@
         "HSpreadPoints": "",
         "HSpreadOdds": "",
         "OverPoints": "OV 4½",
-        "OverOdds": "+105",
+        "OverOdds": "+110",
         "UnderPoints": "UN 4½",
-        "UnderOdds": "-125",
+        "UnderOdds": "-130",
         "VSpec": "",
         "HSpec": "",
         "RawVOdds": 999999,
         "RawHOdds": 999999,
         "RawTotalOver": 4.5,
-        "RawOverOdds": 105,
+        "RawOverOdds": 110,
         "RawTotalUnder": 4.5,
-        "RawUnderOdds": -125,
+        "RawUnderOdds": -130,
         "RawVSpread": 999999.0,
         "RawVSpreadOdds": 999999,
         "RawHSpread": 999999.0,
@@ -4695,8 +4695,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402976,
-      "VisitorTeamId": 2402975
+      "HomeTeamid": 2404932,
+      "VisitorTeamId": 2404931
     },
     {
       "Id": 670120,
@@ -4749,8 +4749,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2402978,
-      "VisitorTeamId": 2402977
+      "HomeTeamid": 2404934,
+      "VisitorTeamId": 2404933
     },
     {
       "Id": 669774,
@@ -4803,8 +4803,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400532,
-      "VisitorTeamId": 2400531
+      "HomeTeamid": 2404920,
+      "VisitorTeamId": 2404919
     },
     {
       "Id": 669775,
@@ -4857,8 +4857,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400534,
-      "VisitorTeamId": 2400533
+      "HomeTeamid": 2404922,
+      "VisitorTeamId": 2404921
     },
     {
       "Id": 669766,
@@ -5019,8 +5019,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400536,
-      "VisitorTeamId": 2400535
+      "HomeTeamid": 2404982,
+      "VisitorTeamId": 2404981
     },
     {
       "Id": 669777,
@@ -5073,8 +5073,8 @@
       "TntLines": null,
       "HTeamLogoFlag": false,
       "VTeamLogoFlag": false,
-      "HomeTeamid": 2400538,
-      "VisitorTeamId": 2400537
+      "HomeTeamid": 2404984,
+      "VisitorTeamId": 2404983
     },
     {
       "Id": 669756,
@@ -6186,17 +6186,17 @@
         "HSpreadPoints": "",
         "HSpreadOdds": "",
         "OverPoints": "OV 6½",
-        "OverOdds": "-140",
+        "OverOdds": "-150",
         "UnderPoints": "UN 6½",
-        "UnderOdds": "+110",
+        "UnderOdds": "+120",
         "VSpec": "",
         "HSpec": "",
         "RawVOdds": 999999,
         "RawHOdds": 999999,
         "RawTotalOver": 6.5,
-        "RawOverOdds": -140,
+        "RawOverOdds": -150,
         "RawTotalUnder": 6.5,
-        "RawUnderOdds": 110,
+        "RawUnderOdds": 120,
         "RawVSpread": 999999.0,
         "RawVSpreadOdds": 999999,
         "RawHSpread": 999999.0,
@@ -6996,17 +6996,17 @@
         "HSpreadPoints": "",
         "HSpreadOdds": "",
         "OverPoints": "OV 4½",
-        "OverOdds": "+155",
+        "OverOdds": "+140",
         "UnderPoints": "UN 4½",
-        "UnderOdds": "-190",
+        "UnderOdds": "-170",
         "VSpec": "",
         "HSpec": "",
         "RawVOdds": 999999,
         "RawHOdds": 999999,
         "RawTotalOver": 4.5,
-        "RawOverOdds": 155,
+        "RawOverOdds": 140,
         "RawTotalUnder": 4.5,
-        "RawUnderOdds": -190,
+        "RawUnderOdds": -170,
         "RawVSpread": 999999.0,
         "RawVSpreadOdds": 999999,
         "RawHSpread": 999999.0,
@@ -9041,8 +9041,8 @@
       "HasProps": false,
       "HasPeriods": false,
       "GameLine": {
-        "VOdds": "+475",
-        "HOdds": "-630",
+        "VOdds": "+550",
+        "HOdds": "-750",
         "VSpreadPoints": "",
         "VSpreadOdds": "",
         "HSpreadPoints": "",
@@ -9053,8 +9053,8 @@
         "UnderOdds": "",
         "VSpec": "",
         "HSpec": "",
-        "RawVOdds": 475,
-        "RawHOdds": -630,
+        "RawVOdds": 550,
+        "RawHOdds": -750,
         "RawTotalOver": 999999.0,
         "RawOverOdds": 999999,
         "RawTotalUnder": 999999.0,
