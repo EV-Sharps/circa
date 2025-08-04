@@ -65,6 +65,70 @@ def convertTeam(team):
 		return "ath"
 	return t
 
+def convertMGMMLBTeam(team):
+	team = team.lower()
+	if team in ["diamondbacks", "d`backs"]:
+		return "ari"
+	elif team == "braves":
+		return "atl"
+	elif team == "orioles":
+		return "bal"
+	elif team == "red sox":
+		return "bos"
+	elif team == "cubs":
+		return "chc"
+	elif team == "white sox":
+		return "chw"
+	elif team == "reds":
+		return "cin"
+	elif team == "guardians":
+		return "cle"
+	elif team == "rockies":
+		return "col"
+	elif team == "tigers":
+		return "det"
+	elif team == "astros":
+		return "hou"
+	elif team == "royals":
+		return "kc"
+	elif team == "angels":
+		return "laa"
+	elif team == "dodgers":
+		return "lad"
+	elif team == "marlins":
+		return "mia"
+	elif team == "brewers":
+		return "mil"
+	elif team == "twins":
+		return "min"
+	elif team == "mets":
+		return "nym"
+	elif team == "yankees":
+		return "nyy"
+	elif team == "athletics":
+		return "ath"
+	elif team == "phillies":
+		return "phi"
+	elif team == "pirates":
+		return "pit"
+	elif team == "padres":
+		return "sd"
+	elif team == "giants":
+		return "sf"
+	elif team == "mariners":
+		return "sea"
+	elif team == "cardinals":
+		return "stl"
+	elif team == "rays":
+		return "tb"
+	elif team == "rangers":
+		return "tex"
+	elif team == "blue jays":
+		return "tor"
+	elif team == "nationals":
+		return "wsh"
+	return team
+
 def strip_accents(text):
 	try:
 		text = unicode(text, 'utf-8')
@@ -120,6 +184,16 @@ def parse():
 			prop = "hr"
 		elif row["LeagueName"] == "MLB - PITCHING PROPS":
 			prop = "k"
+		elif row["LeagueName"] == "MLB - PLAYER TO STEAL A BASE":
+			prop = "sb"
+		elif row["LeagueName"] == "MLB - PLAYER TOTAL BASES":
+			prop = "tb"
+		elif row["LeagueName"] == "MLB - PLAYER TO RECORD A HIT":
+			prop = "h"
+		elif row["LeagueName"] == "MLB - PLAYER TO RECORD RBI":
+			prop = "rbi"
+		elif row["LeagueName"] == "MLB - 1ST 5 INNINGS":
+			prop = "f5"
 		else:
 			continue
 
@@ -127,16 +201,39 @@ def parse():
 			print("double", row["Heading"])
 			continue
 
-		game = row["Heading"].split(" ")[0]
+		game = row["Heading"].replace("BLUE JAYS", "TOR").split(" ")[0]
 		circaGame = game
 		a,h = map(str, game.split("/"))
+
+		if prop == "f5":
+			game = f"{convertMGMMLBTeam(a)} @ {convertMGMMLBTeam(h)}"
+			data[dt].setdefault(game, {})
+			if row["GameLine"]["VSpreadOdds"]:
+				line = str(float(row["GameLine"]["VSpreadPoints"].replace("½", ".5")))
+				ou = row["GameLine"]["VSpreadOdds"]+"/"+row["GameLine"]["HSpreadOdds"]
+				data[dt][game]["f5_spread"] = {
+					line: ou.replace("EV", "+100")
+				}
+			if row["GameLine"]["OverOdds"]:
+				line = str(float(row["GameLine"]["OverPoints"].split(" ")[-1].replace("½", ".5")))
+				ou = row["GameLine"]["OverOdds"]+"/"+row["GameLine"]["UnderOdds"]
+				data[dt][game]["f5_total"] = {
+					line: ou.replace("EV", "+100")
+				}
+			if row["GameLine"]["VOdds"]:
+				ou = row["GameLine"]["VOdds"]+"/"+row["GameLine"]["HOdds"]
+				data[dt][game]["f5_ml"] = ou.replace("EV", "+100")
+			continue
+
 		game = f"{convertTeam(a)} @ {convertTeam(h)}"
 		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
-
 		data[dt].setdefault(game, {})
 		data[dt][game].setdefault(prop, {})
 		if prop == "hr":
 			data[dt][game]["hr"][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+		elif prop in ["h", "sb", "rbi"]:
+			data[dt][game][prop].setdefault(player, {})
+			data[dt][game][prop][player]["0.5"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
 		else:
 			data[dt][game][prop].setdefault(player, {})
 			line = str(row["GameLine"]["RawTotalOver"])
