@@ -199,6 +199,8 @@ def parse(movement):
 			prop = "rbi"
 		elif row["LeagueName"] == "MLB - 1ST 5 INNINGS":
 			prop = "f5"
+		elif row["LeagueName"] == "MLB - 1ST INNING RUN YES/NO":
+			prop = "rfi"
 		else:
 			continue
 
@@ -206,7 +208,7 @@ def parse(movement):
 			print("double", row["Heading"])
 			continue
 
-		game = row["Heading"].replace("BLUE JAYS", "TOR").split(" ")[0]
+		game = row["Heading"].replace("BLUE JAYS", "TOR").replace("RED SOX", "BOS").split(" ")[0]
 		circaGame = game
 		a,h = map(str, game.split("/"))
 
@@ -234,7 +236,10 @@ def parse(movement):
 		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
 		data[dt].setdefault(game, {})
 		data[dt][game].setdefault(prop, {})
-		if prop == "hr":
+		if prop == "rfi":
+			game = f"{convertMGMMLBTeam(a)} @ {convertMGMMLBTeam(h)}"
+			data[dt][game]["rfi"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}""".replace("EV", "+100")
+		elif prop == "hr":
 			ou = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
 			data[dt][game]["hr"][player] = ou
 			if movement:
@@ -249,7 +254,8 @@ def parse(movement):
 		else:
 			data[dt][game][prop].setdefault(player, {})
 			line = str(row["GameLine"]["RawTotalOver"])
-			data[dt][game][prop][player][line] = f"""{row["GameLine"]["OverOdds"]}/{row["GameLine"]["UnderOdds"]}"""
+			ou = f"""{row["GameLine"]["OverOdds"]}/{row["GameLine"]["UnderOdds"]}"""
+			data[dt][game][prop][player][line] = ou.replace("EV", "+100")
 
 	with open("circa.json", "w") as fh:
 		json.dump(data, fh, indent=4)
