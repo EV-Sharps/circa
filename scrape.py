@@ -171,9 +171,14 @@ def parseNFL():
 	with open("futures.json", "w") as fh:
 		json.dump(data, fh, indent=4)
 
-def parse():
+def parse(movement):
 	with open("response.json") as fh:
 		response = json.load(fh)
+
+	old = {}
+	if movement:
+		with open("circa.json") as fh:
+			old = json.load(fh)
 
 	data = {}
 	dt = str(datetime.now())[:10]
@@ -230,7 +235,15 @@ def parse():
 		data[dt].setdefault(game, {})
 		data[dt][game].setdefault(prop, {})
 		if prop == "hr":
-			data[dt][game]["hr"][player] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+			ou = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+			over = ou.split("/")[0]
+			data[dt][game]["hr"][player] = ou
+			if movement:
+				try:
+					if ou != old[dt][game]["hr"][player]:
+						print(game, player, old[dt][game]["hr"][player], " TO ", ou)
+				except:
+					pass
 		elif prop in ["h", "sb", "rbi"]:
 			data[dt][game][prop].setdefault(player, {})
 			data[dt][game][prop][player]["0.5"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
@@ -298,9 +311,10 @@ if __name__ == "__main__":
 	#callAPI()
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--nfl", action="store_true")
+	parser.add_argument("--movement", "-m", action="store_true")
 	args = parser.parse_args()
 
 	if args.nfl:
 		parseNFL()
 	else:
-		parse()
+		parse(args.movement)
