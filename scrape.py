@@ -208,7 +208,7 @@ def parse(movement):
 			print("double", row["Heading"])
 			continue
 
-		game = row["Heading"].replace("BLUE JAYS", "TOR").replace("RED SOX", "BOS").split(" ")[0]
+		game = row["Heading"].replace("WHITE SOX", "CHW").replace("BLUE JAYS", "TOR").replace("RED SOX", "BOS").split(" ")[0]
 		circaGame = game
 		a,h = map(str, game.split("/"))
 
