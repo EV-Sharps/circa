@@ -1,56 +1,8 @@
 {
     "2025-08-06": {
-        "sf @ pit": {
-            "f5_total": {
-                "4.0": "-125/+105"
-            },
-            "f5_ml": "-150/+130",
-            "rfi": "+105/-125",
-            "k": {
-                "robbie ray": {
-                    "6.5": "-105/-125"
-                },
-                "andrew heaney": {
-                    "3.5": "-170/+140"
-                }
-            },
-            "hr": {
-                "rafael devers": "+460/-605",
-                "matt chapman": "+390/-495",
-                "willy adames": "+410/-525",
-                "heliot ramos": "+445/-580",
-                "bryan reynolds": "+625/-900",
-                "andrew mccutchen": "+625/-900"
-            }
-        },
-        "bal @ phi": {
-            "f5_spread": {
-                "0.5": "-115/-105"
-            },
-            "f5_ml": "+132/-152",
-            "rfi": "+125/-145",
-            "k": {
-                "trevor rogers": {
-                    "5.5": "+125/-155"
-                },
-                "ranger suarez": {
-                    "6.5": "+120/-150"
-                }
-            },
-            "hr": {
-                "gunnar henderson": "+550/-750",
-                "jackson holliday": "+725/-1100",
-                "adley rutschman": "+700/-1050",
-                "jordan westburg": "+525/-710",
-                "kyle schwarber": "+265/-320",
-                "bryce harper": "+385/-485",
-                "trea turner": "+455/-600",
-                "nick castellanos": "+450/-590"
-            }
-        },
         "min @ det": {
             "f5_spread": {
-                "0.5": "+100/-120"
+                "0.5": "+105/-125"
             },
             "f5_total": {
                 "4.5": "-120/+100"
@@ -76,20 +28,14 @@
             }
         },
         "cle @ nym": {
-            "f5_spread": {
-                "0.5": "-105/-115"
-            },
-            "f5_total": {
-                "4.0": "-115/-105"
-            },
-            "f5_ml": "+145/-165",
+            "f5_ml": "+135/-155",
             "rfi": "+120/-140",
             "k": {
                 "gavin williams": {
                     "5.5": "+115/-145"
                 },
                 "david peterson": {
-                    "4.5": "-130/+100"
+                    "4.5": "-155/+125"
                 }
             },
             "hr": {
@@ -141,16 +87,16 @@
         },
         "nyy @ tex": {
             "f5_spread": {
-                "-0.5": "+105/-125"
+                "-0.5": "+108/-128"
             },
             "f5_total": {
                 "4.0": "-120/+100"
             },
-            "f5_ml": "-135/+115",
+            "f5_ml": "-132/+112",
             "rfi": "+100/-120",
             "k": {
                 "carlos rodon": {
-                    "6.5": "-155/+125"
+                    "6.5": "-140/+110"
                 },
                 "jack leiter": {
                     "5.5": "+100/-130"
@@ -168,9 +114,12 @@
         },
         "tor @ col": {
             "f5_spread": {
-                "-0.5": "-145/+125"
+                "-0.5": "-148/+128"
             },
-            "f5_ml": "-200/+175",
+            "f5_total": {
+                "6.0": "-105/-115"
+            },
+            "f5_ml": "-210/+180",
             "rfi": "-145/+125",
             "k": {
                 "kevin gausman": {
@@ -183,10 +132,6 @@
             "hr": {
                 "vladimir guerrero": "+300/-365",
                 "bo bichette": "+395/-500",
-                "daulton varsho": "+445/-580",
-                "addison barger": "+360/-450",
-                "hunter goodman": "+290/-350",
-                "brenton doyle": "+600/-850",
                 "mickey moniak": "+390/-495",
                 "warming bernabel": "+625/-900"
             }
@@ -424,7 +369,7 @@
                 "luis robert": "+530/-720",
                 "andrew benintendi": "+625/-900",
                 "colson montgomery": "+675/-1000",
-                "cal raleigh": "+210/-245",
+                "cal raleigh": "+220/-260",
                 "eugenio suarez": "+300/-365",
                 "julio rodriguez": "+400/-510",
                 "randy arozarena": "+350/-435",
@@ -459,12 +404,6 @@
                     "0.5": "+325/-415"
                 }
             }
-        },
-        "gia @ pir": {
-            "rfi": {}
-        },
-        "ori @ phi": {
-            "rfi": {}
         },
         "twi @ tig": {
             "rfi": {}
