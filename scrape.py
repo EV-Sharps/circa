@@ -347,7 +347,7 @@ if __name__ == "__main__":
 	if args.nfl:
 		parseNFL()
 	else:
-		#downloadResponse()
+		downloadResponse()
 		parse(args.movement)
 
 
