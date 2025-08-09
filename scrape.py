@@ -182,7 +182,6 @@ def parse(movement):
 
 	data = {}
 	dt = str(datetime.now())[:10]
-	data[dt] = {}
 	for row in response["Games"]:
 		prop = ""
 		if row["LeagueName"] == "MLB - PLAYER TO HIT A HOME RUN":
@@ -214,34 +213,34 @@ def parse(movement):
 
 		if prop == "f5":
 			game = f"{convertMGMMLBTeam(a)} @ {convertMGMMLBTeam(h)}"
-			data[dt].setdefault(game, {})
+			data.setdefault(game, {})
 			if row["GameLine"]["VSpreadOdds"]:
 				line = str(float(row["GameLine"]["VSpreadPoints"].replace("½", ".5")))
 				ou = row["GameLine"]["VSpreadOdds"]+"/"+row["GameLine"]["HSpreadOdds"]
-				data[dt][game]["f5_spread"] = {
+				data[game]["f5_spread"] = {
 					line: ou.replace("EV", "+100")
 				}
 			if row["GameLine"]["OverOdds"]:
 				line = str(float(row["GameLine"]["OverPoints"].split(" ")[-1].replace("½", ".5")))
 				ou = row["GameLine"]["OverOdds"]+"/"+row["GameLine"]["UnderOdds"]
-				data[dt][game]["f5_total"] = {
+				data[game]["f5_total"] = {
 					line: ou.replace("EV", "+100")
 				}
 			if row["GameLine"]["VOdds"]:
 				ou = row["GameLine"]["VOdds"]+"/"+row["GameLine"]["HOdds"]
-				data[dt][game]["f5_ml"] = ou.replace("EV", "+100")
+				data[game]["f5_ml"] = ou.replace("EV", "+100")
 			continue
 
 		game = f"{convertTeam(a)} @ {convertTeam(h)}"
 		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
-		data[dt].setdefault(game, {})
-		data[dt][game].setdefault(prop, {})
+		data.setdefault(game, {})
+		data[game].setdefault(prop, {})
 		if prop == "rfi":
 			game = f"{convertMGMMLBTeam(a)} @ {convertMGMMLBTeam(h)}"
-			data[dt][game]["rfi"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}""".replace("EV", "+100")
+			data[game]["rfi"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}""".replace("EV", "+100")
 		elif prop == "hr":
 			ou = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
-			data[dt][game]["hr"][player] = ou
+			data[game]["hr"][player] = ou
 			if movement:
 				try:
 					if ou != old[dt][game]["hr"][player]:
@@ -249,16 +248,16 @@ def parse(movement):
 				except:
 					pass
 		elif prop in ["h", "sb", "rbi"]:
-			data[dt][game][prop].setdefault(player, {})
-			data[dt][game][prop][player]["0.5"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
+			data[game][prop].setdefault(player, {})
+			data[game][prop][player]["0.5"] = f"""{row["GameLine"]["VOdds"]}/{row["GameLine"]["HOdds"]}"""
 		else:
-			data[dt][game][prop].setdefault(player, {})
+			data[game][prop].setdefault(player, {})
 			line = str(row["GameLine"]["RawTotalOver"])
 			ou = f"""{row["GameLine"]["OverOdds"]}/{row["GameLine"]["UnderOdds"]}"""
-			data[dt][game][prop][player][line] = ou.replace("EV", "+100")
+			data[game][prop][player][line] = ou.replace("EV", "+100")
 
 	with open("circa.json", "w") as fh:
-		json.dump(data, fh, indent=4)
+		json.dump({"updated": datetime.now().isoformat(), "data": data}, fh, indent=4)
 
 
 def callAPI():
