@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-09T09:42:07.272917",
+    "updated": "2025-08-09T09:44:39.432791",
     "data": {
         "hou @ nyy": {
             "f5_spread": {
@@ -240,14 +240,14 @@
                 }
             },
             "hr": {
-                "dh gm1 k stowers": "+390/-495",
-                "dh gm1 a ramirez": "+460/-605",
-                "dh gm1 o lopez": "+725/-1100",
-                "dh gm1 m olson": "+320/-395",
-                "dh gm1 s murphy": "+435/-565",
-                "dh gm1 m ozuna": "+370/-460",
-                "dh gm1 d baldwin": "+530/-720",
-                "dh gm1 m harris": "+530/-720"
+                "k stowers": "+390/-495",
+                "a ramirez": "+460/-605",
+                "o lopez": "+725/-1100",
+                "m olson": "+320/-395",
+                "s murphy": "+435/-565",
+                "m ozuna": "+370/-460",
+                "d baldwin": "+530/-720",
+                "m harris": "+530/-720"
             }
         }
     }

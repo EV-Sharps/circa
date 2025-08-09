@@ -234,6 +234,7 @@ def parse(movement):
 
 		game = f"{convertTeam(a)} @ {convertTeam(h)}"
 		player = parsePlayer(row["Heading"].split(" (")[0].split(circaGame+" ")[-1])
+		player = player.replace("dh gm1 ", "")
 		data.setdefault(game, {})
 		data[game].setdefault(prop, {})
 		if prop == "rfi":
