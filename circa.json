@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-09T13:04:33.781255",
+    "updated": "2025-08-09T13:30:12.207649",
     "data": {
         "hou @ nyy": {
             "f5_spread": {
@@ -22,7 +22,7 @@
                 "jose altuve": "+550/-750",
                 "christian walker": "+400/-510",
                 "yainer diaz": "+550/-750",
-                "jeremy pena": "+675/-1000",
+                "jeremy pena": "+535/-725",
                 "aaron judge": "+245/-290",
                 "giancarlo stanton": "+380/-475",
                 "jazz chizholm": "+550/-750",
@@ -389,7 +389,7 @@
                     "4.5": "+110/-140"
                 },
                 "michael king": {
-                    "5.5": "+115/-145"
+                    "5.5": "+140/-170"
                 }
             },
             "hr": {
@@ -418,7 +418,7 @@
                 }
             },
             "hr": {
-                "vladimir guerrero": "+360/-450",
+                "vladimir guerrero": "+400/-510",
                 "bo bichette": "+480/-640",
                 "daulton varsho": "+560/-770",
                 "addison barger": "+510/-685",
@@ -499,28 +499,23 @@
         },
         "mia @ atl": {
             "k": {
-                "dh gm 1 r gusto": {
-                    "4.5": "+120/-150"
-                },
-                "dh gm 1 h waldrep": {
-                    "4.5": "+130/-160"
-                },
                 "dh gm 2 sandy alcantara": {
                     "4.5": "-115/-115"
                 },
                 "dh gm 2 erick fedde": {
                     "4.5": "+125/-155"
                 }
-            },
+            }
+        },
+        "mia-gm2 @ atl-gm2": {
             "hr": {
-                "kyle stowers": "+390/-495",
-                "agustin ramirez": "+460/-605",
-                "otto lopez": "+725/-1100",
-                "matt olson": "+380/-475",
-                "sean murphy": "+435/-565",
-                "marcell ozuna": "+370/-460",
-                "drake baldwin": "+530/-720",
-                "michael harris": "+530/-720"
+                "kyle stowers": "+350/-435",
+                "agustin ramirez": "+480/-640",
+                "otto lopez": "+825/-1300",
+                "matt olson": "+430/-560",
+                "marcell ozuna": "+450/-590",
+                "drake baldwin": "+520/-700",
+                "michael harris": "+600/-850"
             }
         }
     }
