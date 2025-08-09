@@ -203,13 +203,14 @@ def parse(movement):
 		else:
 			continue
 
-		if row["Heading"].startswith("DH GM"):
+		if row["Heading"].startswith("DH G"):
 			print("double", row["Heading"])
 			continue
 
 		game = row["Heading"].replace("WHITE SOX", "CHW").replace("BLUE JAYS", "TOR").replace("RED SOX", "BOS").split(" ")[0]
 		circaGame = game
 		a,h = map(str, game.split("/"))
+
 
 		if prop == "f5":
 			game = f"{convertMGMMLBTeam(a)} @ {convertMGMMLBTeam(h)}"
