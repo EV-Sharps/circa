@@ -1,34 +1,6 @@
 {
-    "updated": "2025-08-09T18:26:19.293363",
+    "updated": "2025-08-09T18:49:08.212832",
     "data": {
-        "cin @ pit": {
-            "f5_spread": {
-                "-0.5": "+132/-152"
-            },
-            "f5_total": {
-                "4.5": "+105/-125"
-            },
-            "f5_ml": "-112/-108",
-            "rfi": "+100/-120",
-            "k": {
-                "nick martinez": {
-                    "4.5": "+120/-150"
-                },
-                "braxton ashcraft": {
-                    "2.5": "-150/+120"
-                }
-            },
-            "hr": {
-                "elly de la cruz": "+550/-750",
-                "spencer steer": "+800/-1250",
-                "matt mclain": "+800/-1250",
-                "tj friedl": "+900/-1450",
-                "oneil cruz": "+440/-575",
-                "bryan reynolds": "+750/-1150",
-                "andrew mccutchen": "+750/-1150",
-                "nick gonzalez": "+900/-1450"
-            }
-        },
         "ath @ bal": {
             "f5_spread": {
                 "0.5": "-145/+125"
@@ -94,7 +66,7 @@
             "rfi": "-120/+100",
             "k": {
                 "tobias myers": {
-                    "3.5": "+100/-130"
+                    "3.5": "+125/-155"
                 }
             },
             "hr": {
@@ -185,7 +157,7 @@
             "rfi": "-115/-105",
             "k": {
                 "colin rea": {
-                    "3.5": "+105/-135"
+                    "3.5": "-115/-115"
                 },
                 "andre pallante": {
                     "3.5": "-125/-105"
@@ -195,7 +167,7 @@
                 "pete crow armstrong": "+460/-605",
                 "seiya suzuki": "+435/-565",
                 "michael busch": "+470/-620",
-                "kyle tucker": "+470/-620",
+                "kyle tucker": "+455/-600",
                 "dansby swanson": "+600/-850",
                 "alec burleson": "+460/-605",
                 "lars nootbaar": "+465/-615",
@@ -363,9 +335,6 @@
                 "randy arozarena": "+460/-605",
                 "jorge polanco": "+560/-770"
             }
-        },
-        "red @ pir": {
-            "rfi": {}
         },
         "ath @ ori": {
             "rfi": {}

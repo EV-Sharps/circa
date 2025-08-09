@@ -142,6 +142,28 @@ def parsePlayer(player):
 	player = player.split(" (")[0]
 	return player
 
+def downloadResponse():
+	command = """curl 'https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon' \
+-X POST \
+-H 'Host: ia.circasports.com' \
+-H 'Accept: application/json, text/plain, */*' \
+-H 'Sec-Fetch-Site: same-origin' \
+-H 'Accept-Language: en-US,en;q=0.9' \
+-H 'Sec-Fetch-Mode: cors' \
+-H 'Origin: https://ia.circasports.com' \
+-H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148' \
+-H 'Referer: https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20baseball&sportId=23&leagueId=1138&leagueName=MLB%20-%20PLAYER%20TO%20HIT%20A%20HOME%20RUN' \
+-H 'Connection: keep-alive' \
+-H 'Sec-Fetch-Dest: empty' \
+-H 'Content-Type: application/json' \
+--cookie '_ga_1PZGDRY6F5=GS2.1.s1754779621$o1$g1$t1754779634$j47$l0$h0; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; ASP.NET_SessionId=un11u1d1du2t1czapzfeyakh; GvcSessionKey=un11u1d1du2t1czapzfeyakh; NativeApp=true; NativeAppKey=true; registration=no' \
+--data-raw '{"LeagueId":0,"LeagueIds":"5,548,618,532,620,554,1124,1138,1930,1125,1928,1139,1935,1792,1275,1241","LineTypeId":1,"OddsFormat":"moneyline"}' \
+--proxy http://localhost:9090 \
+-o response.json
+"""
+
+	os.system(command)
+
 def parseNFL():
 	with open("response.json") as fh:
 		response = json.load(fh)
@@ -325,4 +347,9 @@ if __name__ == "__main__":
 	if args.nfl:
 		parseNFL()
 	else:
+		#downloadResponse()
 		parse(args.movement)
+
+
+
+
