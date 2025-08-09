@@ -178,7 +178,7 @@ def parse(movement):
 	old = {}
 	if movement:
 		with open("circa.json") as fh:
-			old = json.load(fh)
+			old = json.load(fh)["data"]
 
 	data = {}
 	dt = str(datetime.now())[:10]
@@ -247,8 +247,8 @@ def parse(movement):
 			data[game]["hr"][player] = ou
 			if movement:
 				try:
-					if ou != old[dt][game]["hr"][player]:
-						print(game, player, old[dt][game]["hr"][player], " TO ", ou)
+					if ou != old[game]["hr"][player]:
+						print(game, player, old[game]["hr"][player], " TO ", ou)
 				except:
 					pass
 		elif prop in ["h", "sb", "rbi"]:
