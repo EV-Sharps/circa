@@ -143,6 +143,7 @@ def parsePlayer(player):
 	return player
 
 def downloadResponse():
+	cookie = "_ga_1PZGDRY6F5=GS2.1.s1754834020$o3$g1$t1754834050$j30$l0$h0; _ga=GA1.1.2076399515.1754779621; ASP.NET_SessionId=jknnirmnmlps5cawlamcdaoq; GvcSessionKey=jknnirmnmlps5cawlamcdaoq; KeepBets=false; NativeApp=true; NativeAppKey=true; gDetails=%5B%5D; lDetails=%5B%5D"
 	command = """curl 'https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon' \
 -X POST \
 -H 'Host: ia.circasports.com' \
@@ -156,7 +157,7 @@ def downloadResponse():
 -H 'Connection: keep-alive' \
 -H 'Sec-Fetch-Dest: empty' \
 -H 'Content-Type: application/json' \
---cookie '_ga_1PZGDRY6F5=GS2.1.s1754779621$o1$g1$t1754779634$j47$l0$h0; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; ASP.NET_SessionId=un11u1d1du2t1czapzfeyakh; GvcSessionKey=un11u1d1du2t1czapzfeyakh; NativeApp=true; NativeAppKey=true; registration=no' \
+--cookie '"""+cookie+"""' \
 --data-raw '{"LeagueId":0,"LeagueIds":"5,548,618,532,620,554,1124,1138,1930,1125,1928,1139,1935,1792,1275,1241","LineTypeId":1,"OddsFormat":"moneyline"}' \
 --proxy http://localhost:9090 \
 -o response.json
