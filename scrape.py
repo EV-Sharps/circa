@@ -271,7 +271,7 @@ def parse(movement):
 			if movement:
 				try:
 					if player not in old[game]["hr"]:
-						print("adding", game, player, old[game]["hr"][player], " TO ", ou)
+						print("adding", game, player, ou)
 					elif ou != old[game]["hr"][player]:
 						print(game, player, old[game]["hr"][player], " TO ", ou)
 				except:
