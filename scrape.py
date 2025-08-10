@@ -143,7 +143,7 @@ def parsePlayer(player):
 	return player
 
 def downloadResponse():
-	cookie = "_ga_1PZGDRY6F5=GS2.1.s1754834020$o3$g1$t1754834050$j30$l0$h0; _ga=GA1.1.2076399515.1754779621; ASP.NET_SessionId=jknnirmnmlps5cawlamcdaoq; GvcSessionKey=jknnirmnmlps5cawlamcdaoq; KeepBets=false; NativeApp=true; NativeAppKey=true; gDetails=%5B%5D; lDetails=%5B%5D"
+	cookie = "_ga_1PZGDRY6F5=GS2.1.s1754837516$o4$g1$t1754837523$j53$l0$h0; ASP.NET_SessionId=aek1zwfztdsk1kbeofvyqntr; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; GvcSessionKey=aek1zwfztdsk1kbeofvyqntr; NativeApp=true; NativeAppKey=true"
 	command = """curl 'https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon' \
 -X POST \
 -H 'Host: ia.circasports.com' \
