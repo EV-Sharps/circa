@@ -142,8 +142,8 @@ def parsePlayer(player):
 	player = player.split(" (")[0]
 	return player
 
-def downloadResponse():
-	cookie = "_ga_1PZGDRY6F5=GS2.1.s1754837516$o4$g1$t1754837523$j53$l0$h0; ASP.NET_SessionId=aek1zwfztdsk1kbeofvyqntr; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; GvcSessionKey=aek1zwfztdsk1kbeofvyqntr; NativeApp=true; NativeAppKey=true"
+def downloadResponse(cookie):
+	#cookie = "_ga_1PZGDRY6F5=GS2.1.s1754837516$o4$g1$t1754837523$j53$l0$h0; ASP.NET_SessionId=aek1zwfztdsk1kbeofvyqntr; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; GvcSessionKey=aek1zwfztdsk1kbeofvyqntr; NativeApp=true; NativeAppKey=true"
 	command = """curl 'https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon' \
 -X POST \
 -H 'Host: ia.circasports.com' \
@@ -345,12 +345,13 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--nfl", action="store_true")
 	parser.add_argument("--movement", "-m", action="store_true")
+	parser.add_argument("--cookie", "-c")
 	args = parser.parse_args()
 
 	if args.nfl:
 		parseNFL()
 	else:
-		downloadResponse()
+		downloadResponse(args.cookie)
 		parse(args.movement)
 
 
