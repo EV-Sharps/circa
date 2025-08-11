@@ -3,7 +3,7 @@ from mitmproxy import http, ctx
 import json, os, re, time
 
 
-UPSTREAM = ("127.0.0.1", 9090)
+UPSTREAM = ("0.0.0.0", 9090)
 REFERER_MATCH = "HOME"
 COOKIE_SAVE_PATH = "cookie.json"
 CIRCA_HOST = "ia.circasports.com"
@@ -33,21 +33,21 @@ def _save_cookie_store(store: dict):
 def request(flow: http.HTTPFlow):
 	# Decide routing based on Referer
 	referer = flow.request.headers.get("Referer") or flow.request.headers.get("referer") or ""
-	print(referer)
-	if "circasports.com" in flow.request.pretty_host and REFERER_MATCH in referer:
+	#print("ref", referer)
+	if ("circasports.com" in flow.request.pretty_host and REFERER_MATCH in referer):
 		# Route this single request via the upstream proxy
+		ctx.log.info("in here")
 		try:
 			flow.live.change_upstream_proxy(server=UPSTREAM)  # mitmproxy >=8
 			ctx.log.info(f"[SelectiveProxy] Using upstream for {flow.request.url} (Referer matched)")
 		except Exception as e:
 			ctx.log.warn(f"[SelectiveProxy] change_upstream_proxy failed: {e}")
 	else:
-		# Ensure we are NOT using any upstream for this request
 		try:
 			flow.live.change_upstream_proxy(server=None)
-			ctx.log.info(f"[SelectiveProxy] Direct connect for {flow.request.url}")
-		except Exception as e:
-			ctx.log.warn(f"[SelectiveProxy] Could not reset upstream: {e}")
+		except:
+			pass
+		return
 
 	# Save Cookie header (per host)
 	cookie = flow.request.headers.get("Cookie")
