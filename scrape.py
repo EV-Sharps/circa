@@ -351,7 +351,8 @@ if __name__ == "__main__":
 	if args.nfl:
 		parseNFL()
 	else:
-		downloadResponse(args.cookie)
+		if args.cookie:
+			downloadResponse(args.cookie)
 		parse(args.movement)
 
 
