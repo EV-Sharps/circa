@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-11T11:16:16.965429",
+    "updated": "2025-08-11T11:59:33.724492",
     "data": {
         "phi @ cin": {
             "f5_spread": {
@@ -19,7 +19,7 @@
                 }
             },
             "hr": {
-                "kyle schwarber": "+165/-190",
+                "kyle schwarber": "+175/-200",
                 "bryce harper": "+320/-395",
                 "trea turner": "+450/-590",
                 "nick castellanos": "+400/-510",
@@ -47,7 +47,7 @@
                 }
             },
             "hr": {
-                "royce lewis": "+405/-520",
+                "royce lewis": "+460/-605",
                 "trevor larnach": "+560/-770",
                 "aaron judge": "+165/-190",
                 "cody bellinger": "+370/-460",
@@ -69,7 +69,7 @@
                     "3.5": "+105/-135"
                 },
                 "jose quintana": {
-                    "4.5": "+100/-130"
+                    "4.5": "-125/-105"
                 }
             },
             "hr": {
@@ -319,18 +319,18 @@
                 }
             },
             "hr": {
-                "junior caminero": "+265/-320",
+                "junior caminero": "+255/-305",
                 "brandon lowe": "+310/-380",
                 "yandy diaz": "+290/-350",
                 "josh lowe": "+625/-900",
                 "nick kurtz": "+295/-360",
                 "brent rooker": "+280/-340",
-                "shea langeliers": "+275/-330",
-                "tyler soderstrom": "+400/-510"
+                "shea langeliers": "+260/-310",
+                "tyler soderstrom": "+385/-485"
             },
             "tb": {
                 "nick kurtz": {
-                    "1.5": "+105/-135"
+                    "1.5": "-105/-125"
                 },
                 "brent rooker": {
                     "1.5": "-115/-115"
