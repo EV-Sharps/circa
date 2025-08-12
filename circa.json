@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-12T10:26:44.661753",
+    "updated": "2025-08-12T10:43:15.239857",
     "data": {
         "sea @ bal": {
             "f5_spread": {
@@ -21,7 +21,7 @@
             "hr": {
                 "cal raleigh": "+160/-185",
                 "eugenio suarez": "+340/-420",
-                "julio rodriguez": "+400/-510",
+                "julio rodriguez": "+360/-450",
                 "randy arozarena": "+390/-490",
                 "gunnar henderson": "+405/-520",
                 "ryan mountcastle": "+700/-1050",
@@ -320,7 +320,7 @@
                     "5.5": "+105/-135"
                 },
                 "victor mederos": {
-                    "2.5": "-120/-110"
+                    "2.5": "-115/-115"
                 }
             },
             "hr": {
