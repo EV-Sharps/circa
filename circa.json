@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-12T16:58:20.796559",
+    "updated": "2025-08-12T18:03:24.681257",
     "data": {
         "sea @ bal": {
             "f5_spread": {
@@ -40,12 +40,12 @@
                     "5.5": "+130/-160"
                 },
                 "brady singer": {
-                    "5.5": "+140/-170"
+                    "5.5": "+120/-150"
                 }
             },
             "hr": {
                 "kyle schwarber": "+160/-185",
-                "bryce harper": "+215/-250",
+                "bryce harper": "+220/-260",
                 "trea turner": "+520/-700",
                 "nick castellanos": "+520/-700",
                 "elly de la cruz": "+625/-900",
@@ -58,10 +58,10 @@
                 "0.5": "-132/+112"
             },
             "f5_total": {
-                "5.0": "+100/-120"
+                "5.0": "+110/-130"
             },
             "f5_ml": "+105/-125",
-            "rfi": "+100/-120",
+            "rfi": "-105/-115",
             "k": {
                 "janson junk": {
                     "3.5": "+110/-140"
@@ -76,7 +76,7 @@
                 "xavier edwards": "+1400/-3000",
                 "jose ramirez": "+340/-420",
                 "kyle manzardo": "+360/-450",
-                "carlos santana": "+550/-750",
+                "carlos santana": "+575/-800",
                 "steven kwan": "+775/-1200"
             }
         },
@@ -111,10 +111,13 @@
             },
             "hr": {
                 "kyle tucker": "+370/-460",
-                "seiya suzuki": "+310/-380",
+                "seiya suzuki": "+335/-410",
                 "pete crow armstrong": "+415/-535",
                 "michael busch": "+375/-470",
-                "dansby swanson": "+575/-800"
+                "dansby swanson": "+575/-800",
+                "vladimir guerrero": "+310/-380",
+                "bo bichette": "+550/-750",
+                "daulton varsho": "+415/-535"
             },
             "tb": {
                 "kyle tucker": {
@@ -261,7 +264,7 @@
                     "3.5": "+145/-175"
                 },
                 "michael wacha": {
-                    "4.5": "-110/-120"
+                    "4.5": "-125/-105"
                 }
             },
             "hr": {
@@ -450,9 +453,6 @@
             "h": {
                 "lawrence butler": {
                     "0.5": "-150/+120"
-                },
-                "jj bleday": {
-                    "0.5": "-130/EV"
                 }
             },
             "rbi": {
