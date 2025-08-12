@@ -270,7 +270,7 @@ def parse(movement):
 			data[game]["hr"][player] = ou
 			if movement:
 				try:
-					if player not in old[game]["hr"]:
+					if game not in old or player not in old[game].get("hr", {}):
 						print("adding", game, player, ou)
 					elif ou != old[game]["hr"][player]:
 						print(game, player, old[game]["hr"][player], " TO ", ou)

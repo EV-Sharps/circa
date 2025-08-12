@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-12T10:07:37.025906",
+    "updated": "2025-08-12T10:26:44.661753",
     "data": {
         "sea @ bal": {
             "f5_spread": {
@@ -93,7 +93,7 @@
             "rfi": "-115/-105",
             "k": {
                 "ben brown": {
-                    "4.5": "+115/-145"
+                    "4.5": "+140/-170"
                 },
                 "jose berrios": {
                     "4.5": "+120/-150"
@@ -191,7 +191,7 @@
                 "spencer horwitz": "+675/-1000",
                 "andrew mccutchen": "+600/-850",
                 "william contreras": "+600/-850",
-                "andrew vaughn": "+550/-750",
+                "andrew vaughn": "+625/-900",
                 "christian yelich": "+550/-750",
                 "brice turang": "+750/-1150"
             }
@@ -320,7 +320,7 @@
                     "5.5": "+105/-135"
                 },
                 "victor mederos": {
-                    "2.5": "-145/+115"
+                    "2.5": "-120/-110"
                 }
             },
             "hr": {
@@ -384,9 +384,9 @@
                 "yandy diaz": "+340/-420",
                 "josh lowe": "+675/-1000",
                 "nick kurtz": "+290/-350",
-                "brent rooker": "+290/-350",
-                "shea langeliers": "+280/-340",
-                "tyler soderstrom": "+425/-550"
+                "brent rooker": "+280/-340",
+                "shea langeliers": "+265/-320",
+                "tyler soderstrom": "+405/-520"
             },
             "tb": {
                 "shea langeliers": {
