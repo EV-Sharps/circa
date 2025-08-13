@@ -1,14 +1,14 @@
 {
-    "updated": "2025-08-13T13:13:31.362495",
+    "updated": "2025-08-13T13:38:17.171967",
     "data": {
         "pit @ mil": {
             "f5_spread": {
-                "0.5": "+135/-155"
+                "0.5": "+130/-150"
             },
             "f5_total": {
                 "4.0": "+105/-125"
             },
-            "f5_ml": "+215/-250",
+            "f5_ml": "+205/-240",
             "rfi": "+130/-150",
             "k": {
                 "mitch keller": {
@@ -88,7 +88,7 @@
                 "0.5": "-105/-115"
             },
             "f5_total": {
-                "4.5": "-120/+100"
+                "4.5": "-115/-105"
             },
             "f5_ml": "+145/-165",
             "rfi": "-110/-110",
@@ -131,7 +131,7 @@
             "hr": {
                 "brenton doyle": "+825/-1300",
                 "mickey moniak": "+540/-735",
-                "jordan beck": "+625/-900",
+                "jordan beck": "+700/-1050",
                 "ivan herrera": "+470/-620",
                 "alec burleson": "+560/-770",
                 "brendan donovan": "+825/-1300",
@@ -240,7 +240,7 @@
                 "randy arozarena": "+440/-575",
                 "josh naylor": "+520/-700",
                 "gunnar henderson": "+400/-510",
-                "ryan mountcastle": "+560/-770",
+                "ryan mountcastle": "+675/-1000",
                 "adley rutschman": "+480/-640"
             }
         },
@@ -377,7 +377,7 @@
                 "matt olson": "+520/-700",
                 "marcell ozuna": "+545/-745",
                 "ozzie albies": "+650/-950",
-                "juan soto": "+250/-300",
+                "juan soto": "+270/-325",
                 "pete alonso": "+280/-340",
                 "francisco lindor": "+420/-545",
                 "brandon nimmo": "+450/-590"
