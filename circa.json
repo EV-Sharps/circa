@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-13T10:05:27.465415",
+    "updated": "2025-08-13T10:13:56.928035",
     "data": {
         "pit @ mil": {
             "f5_spread": {
@@ -392,6 +392,45 @@
                 },
                 "jt ginn": {
                     "4.5": "+120/-150"
+                }
+            },
+            "hr": {
+                "junior caminero": "+295/-360",
+                "brandon lowe": "+350/-435",
+                "yandy diaz": "+460/-605",
+                "josh lowe": "+600/-850",
+                "nick kurtz": "+290/-350",
+                "brent rooker": "+330/-405",
+                "shea langeliers": "+300/-365",
+                "tyler soderstrom": "+450/-590"
+            },
+            "tb": {
+                "brent rooker": {
+                    "1.5": "+110/-140"
+                },
+                "shea langeliers": {
+                    "1.5": "+105/-135"
+                }
+            },
+            "h": {
+                "lawrence butler": {
+                    "0.5": "-155/+125"
+                },
+                "jj bleday": {
+                    "0.5": "-130/EV"
+                }
+            },
+            "rbi": {
+                "brent rooker": {
+                    "0.5": "+160/-195"
+                },
+                "nick kurtz": {
+                    "0.5": "+170/-210"
+                }
+            },
+            "sb": {
+                "lawrence butler": {
+                    "0.5": "+625/-900"
                 }
             }
         },
