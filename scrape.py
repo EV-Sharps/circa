@@ -142,8 +142,14 @@ def parsePlayer(player):
 	player = player.split(" (")[0]
 	return player
 
-def downloadResponse(cookie):
+def downloadResponse(cookie, nfl):
 	#cookie = "_ga_1PZGDRY6F5=GS2.1.s1754837516$o4$g1$t1754837523$j53$l0$h0; ASP.NET_SessionId=aek1zwfztdsk1kbeofvyqntr; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; GvcSessionKey=aek1zwfztdsk1kbeofvyqntr; NativeApp=true; NativeAppKey=true"
+	ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20baseball&sportId=23&leagueId=1138&leagueName=MLB%20-%20PLAYER%20TO%20HIT%20A%20HOME%20RUN"
+	leagueIds = "5,548,618,532,620,554,1124,1138,1930,1125,1928,1139,1935,1792,1275,1241"
+	if nfl:
+		ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20fb&sportId=11&leagueId=1982&leagueName=NFL%20-%20TOTAL%20REG%20SEASON%20PASSING%20YARDS"
+		leagueIds = "567,568,2159,571,713,1338,580,613,581,2213,612,690,324,1086,1781,1088,1786,1948,1126,2238,1776,1777,1778,1780,1982,1983,1984,2240,2241,1142,1403,1094,1498,1784,1785,1779,18,1968"
+
 	command = """curl 'https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon' \
 -X POST \
 -H 'Host: ia.circasports.com' \
@@ -153,12 +159,12 @@ def downloadResponse(cookie):
 -H 'Sec-Fetch-Mode: cors' \
 -H 'Origin: https://ia.circasports.com' \
 -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148' \
--H 'Referer: https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20baseball&sportId=23&leagueId=1138&leagueName=MLB%20-%20PLAYER%20TO%20HIT%20A%20HOME%20RUN' \
+-H 'Referer: """+ref+"""' \
 -H 'Connection: keep-alive' \
 -H 'Sec-Fetch-Dest: empty' \
 -H 'Content-Type: application/json' \
 --cookie '"""+cookie+"""' \
---data-raw '{"LeagueId":0,"LeagueIds":"5,548,618,532,620,554,1124,1138,1930,1125,1928,1139,1935,1792,1275,1241","LineTypeId":1,"OddsFormat":"moneyline"}' \
+--data-raw '{"LeagueId":0,"LeagueIds":\""""+leagueIds+"""\","LineTypeId":1,"OddsFormat":"moneyline"}' \
 --proxy http://localhost:9090 \
 -o response.json
 """
@@ -350,12 +356,14 @@ if __name__ == "__main__":
 	parser.add_argument("--cookie", "-c")
 	args = parser.parse_args()
 
+	if args.cookie:
+		downloadResponse(args.cookie, args.nfl)
+	
+
 	if args.nfl:
 		parseNFL()
 	else:
-		if args.cookie:
-			downloadResponse(args.cookie)
-		parse(args.movement)
+		parse(args.movement)		
 
 
 
