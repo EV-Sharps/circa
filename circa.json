@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-13T09:49:49.302231",
+    "updated": "2025-08-13T09:54:36.422377",
     "data": {
         "pit @ mil": {
             "f5_spread": {
@@ -148,6 +148,16 @@
                 "hunter greene": {
                     "6.5": "-130/+100"
                 }
+            },
+            "hr": {
+                "kyle schwarber": "+170/-195",
+                "bryce harper": "+260/-310",
+                "trea turner": "+500/-670",
+                "nick castellanos": "+530/-720",
+                "jt realmuto": "+550/-750",
+                "elly de la cruz": "+580/-805",
+                "spencer steer": "+600/-850",
+                "austin hays": "+600/-850"
             }
         },
         "sea @ bal": {
@@ -166,6 +176,16 @@
                 "trevor rogers": {
                     "5.5": "+125/-155"
                 }
+            },
+            "hr": {
+                "cal raleigh": "+250/-300",
+                "eugenio suarez": "+365/-455",
+                "julio rodriguez": "+430/-560",
+                "randy arozarena": "+460/-605",
+                "josh naylor": "+520/-700",
+                "gunnar henderson": "+400/-510",
+                "ryan mountcastle": "+560/-770",
+                "adley rutschman": "+480/-640"
             }
         },
         "mia @ cle": {
@@ -184,6 +204,10 @@
                 "gavin williams": {
                     "5.5": "-130/+100"
                 }
+            },
+            "hr": {
+                "jose ramirez": "+350/-435",
+                "kyle manzardo": "+330/-405"
             }
         },
         "min @ nyy": {
@@ -235,6 +259,15 @@
                 "david peterson": {
                     "4.5": "-120/-110"
                 }
+            },
+            "hr": {
+                "matt olson": "+520/-700",
+                "marcell ozuna": "+545/-745",
+                "ozzie albies": "+650/-950",
+                "juan soto": "+250/-300",
+                "pete alonso": "+280/-340",
+                "francisco lindor": "+420/-545",
+                "brandon nimmo": "+450/-590"
             }
         },
         "bos @ hou": {
