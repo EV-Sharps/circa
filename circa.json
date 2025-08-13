@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-13T09:58:03.906979",
+    "updated": "2025-08-13T10:05:27.465415",
     "data": {
         "pit @ mil": {
             "f5_spread": {
@@ -260,6 +260,24 @@
                     "5.5": "-115/-115"
                 }
             },
+            "hr": {
+                "kyle tucker": "+430/-560",
+                "seiya suzuki": "+400/-510",
+                "pete crow armstrong": "+430/-560",
+                "michael busch": "+400/-510",
+                "vladimir guerrero": "+350/-435",
+                "bo bichette": "+480/-640",
+                "daulton varsho": "+415/-535",
+                "addison barger": "+430/-560"
+            },
+            "tb": {
+                "pete crow armstrong": {
+                    "1.5": "+135/-165"
+                },
+                "kyle tucker": {
+                    "1.5": "+130/-160"
+                }
+            },
             "h": {
                 "dansby swanson": {
                     "0.5": "-170/+140"
@@ -325,6 +343,16 @@
                 "hunter brown": {
                     "6.5": "-125/-105"
                 }
+            },
+            "hr": {
+                "alex bregman": "+460/-605",
+                "trevor story": "+560/-770",
+                "roman anthony": "+750/-1150",
+                "jarren duran": "+550/-750",
+                "jose altuve": "+450/-590",
+                "christian walker": "+450/-590",
+                "carlos correa": "+500/-670",
+                "jesus sanchez": "+530/-720"
             }
         },
         "lad @ laa": {
@@ -340,6 +368,16 @@
                 "kyle hendricks": {
                     "3.5": "+115/-145"
                 }
+            },
+            "hr": {
+                "shohei ohtani": "+150/-170",
+                "mookie betts": "+450/-590",
+                "freddie freeman": "+370/-460",
+                "teoscar hernandez": "+360/-450",
+                "max muncy": "+285/-345",
+                "mike trout": "+350/-435",
+                "taylor ward": "+480/-640",
+                "jo adell": "+350/-435"
             }
         },
         "tb @ ath": {
@@ -347,6 +385,7 @@
                 "-0.5": "+115/-135"
             },
             "f5_ml": "-125/+105",
+            "rfi": "-110/-110",
             "k": {
                 "drew rasmussen": {
                     "4.5": "-120/-110"
@@ -390,6 +429,9 @@
             "rfi": {}
         },
         "lad @ ang": {
+            "rfi": {}
+        },
+        "ray @ ath": {
             "rfi": {}
         },
         "det @ chw": {
