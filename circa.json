@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-13T09:54:36.422377",
+    "updated": "2025-08-13T09:58:03.906979",
     "data": {
         "pit @ mil": {
             "f5_spread": {
@@ -206,8 +206,13 @@
                 }
             },
             "hr": {
+                "kyle stowers": "+400/-510",
+                "agustin ramirez": "+450/-590",
+                "otto lopez": "+875/-1400",
+                "xavier edwards": "+1300/-2450",
                 "jose ramirez": "+350/-435",
-                "kyle manzardo": "+330/-405"
+                "kyle manzardo": "+330/-405",
+                "carlos santana": "+600/-850"
             }
         },
         "min @ nyy": {
@@ -226,6 +231,16 @@
                 "cam schittler": {
                     "5.5": "+125/-155"
                 }
+            },
+            "hr": {
+                "royce lewis": "+450/-590",
+                "matt wallner": "+280/-340",
+                "byron buxton": "+245/-290",
+                "aaron judge": "+195/-225",
+                "giancarlo stanton": "+255/-305",
+                "cody bellinger": "+340/-420",
+                "jazz chisholm": "+330/-405",
+                "trent grisham": "+290/-350"
             }
         },
         "chc @ tor": {
@@ -243,6 +258,30 @@
                 },
                 "kevin gausman": {
                     "5.5": "-115/-115"
+                }
+            },
+            "h": {
+                "dansby swanson": {
+                    "0.5": "-170/+140"
+                },
+                "michael busch": {
+                    "0.5": "-190/+155"
+                }
+            },
+            "rbi": {
+                "seiya suzuki": {
+                    "0.5": "+160/-195"
+                },
+                "pete crow armstrong": {
+                    "0.5": "+160/-195"
+                }
+            },
+            "sb": {
+                "pete crow armstrong": {
+                    "0.5": "+325/-415"
+                },
+                "kyle tucker": {
+                    "0.5": "+460/-615"
                 }
             }
         },
@@ -293,6 +332,7 @@
                 "-0.5": "-150/+130"
             },
             "f5_ml": "-225/+195",
+            "rfi": "-110/-110",
             "k": {
                 "shohei ohtani": {
                     "5.5": "-120/-110"
@@ -347,6 +387,9 @@
             "rfi": {}
         },
         "bos @ ast": {
+            "rfi": {}
+        },
+        "lad @ ang": {
             "rfi": {}
         },
         "det @ chw": {
