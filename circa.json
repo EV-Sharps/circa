@@ -1,29 +1,31 @@
 {
-    "updated": "2025-08-13T16:43:01.326819",
+    "updated": "2025-08-13T18:11:14.938979",
     "data": {
-        "phi @ cin": {
+        "mia @ cle": {
             "f5_spread": {
-                "-0.5": "+115/-135"
+                "0.5": "-150/+130"
             },
-            "f5_ml": "-125/+105",
-            "rfi": "+120/-140",
+            "f5_total": {
+                "4.0": "-105/-115"
+            },
+            "f5_ml": "-105/-115",
+            "rfi": "+115/-135",
             "k": {
-                "cristopher sanchez": {
-                    "5.5": "-105/-125"
+                "eury perez": {
+                    "5.5": "+140/-170"
                 },
-                "hunter greene": {
-                    "6.5": "-120/-110"
+                "gavin williams": {
+                    "5.5": "-115/-115"
                 }
             },
             "hr": {
-                "kyle schwarber": "+170/-195",
-                "bryce harper": "+260/-310",
-                "trea turner": "+500/-670",
-                "nick castellanos": "+530/-720",
-                "jt realmuto": "+550/-750",
-                "elly de la cruz": "+580/-805",
-                "spencer steer": "+600/-850",
-                "austin hays": "+600/-850"
+                "kyle stowers": "+385/-485",
+                "agustin ramirez": "+450/-590",
+                "otto lopez": "+875/-1400",
+                "xavier edwards": "+1300/-2450",
+                "jose ramirez": "+315/-385",
+                "kyle manzardo": "+330/-405",
+                "carlos santana": "+600/-850"
             }
         },
         "sea @ bal": {
@@ -52,61 +54,6 @@
                 "gunnar henderson": "+400/-510",
                 "ryan mountcastle": "+675/-1000",
                 "adley rutschman": "+480/-640"
-            }
-        },
-        "mia @ cle": {
-            "f5_spread": {
-                "0.5": "-150/+130"
-            },
-            "f5_total": {
-                "4.0": "-105/-115"
-            },
-            "f5_ml": "-105/-115",
-            "rfi": "+115/-135",
-            "k": {
-                "eury perez": {
-                    "5.5": "+140/-170"
-                },
-                "gavin williams": {
-                    "5.5": "-115/-115"
-                }
-            },
-            "hr": {
-                "kyle stowers": "+400/-510",
-                "agustin ramirez": "+450/-590",
-                "otto lopez": "+875/-1400",
-                "xavier edwards": "+1300/-2450",
-                "jose ramirez": "+315/-385",
-                "kyle manzardo": "+330/-405",
-                "carlos santana": "+600/-850"
-            }
-        },
-        "min @ nyy": {
-            "f5_spread": {
-                "0.5": "-140/+120"
-            },
-            "f5_total": {
-                "4.5": "+105/-125"
-            },
-            "f5_ml": "+100/-120",
-            "rfi": "+100/-120",
-            "k": {
-                "joe ryan": {
-                    "6.5": "+105/-135"
-                },
-                "cam schlittler": {
-                    "4.5": "-165/+135"
-                }
-            },
-            "hr": {
-                "royce lewis": "+450/-590",
-                "matt wallner": "+340/-420",
-                "byron buxton": "+235/-280",
-                "aaron judge": "+195/-225",
-                "giancarlo stanton": "+255/-305",
-                "cody bellinger": "+340/-420",
-                "jazz chisholm": "+330/-405",
-                "trent grisham": "+290/-350"
             }
         },
         "chc @ tor": {
@@ -184,7 +131,7 @@
                 }
             },
             "hr": {
-                "matt olson": "+520/-700",
+                "matt olson": "+500/-670",
                 "marcell ozuna": "+545/-745",
                 "ozzie albies": "+650/-950",
                 "juan soto": "+270/-325",
@@ -219,6 +166,34 @@
                 "christian walker": "+450/-590",
                 "carlos correa": "+470/-620",
                 "jesus sanchez": "+530/-720"
+            }
+        },
+        "min @ nyy": {
+            "f5_spread": {
+                "0.5": "-140/+120"
+            },
+            "f5_total": {
+                "4.5": "+105/-125"
+            },
+            "f5_ml": "+100/-120",
+            "rfi": "+100/-120",
+            "k": {
+                "joe ryan": {
+                    "6.5": "+105/-135"
+                },
+                "cam schlittler": {
+                    "4.5": "-165/+135"
+                }
+            },
+            "hr": {
+                "royce lewis": "+450/-590",
+                "matt wallner": "+340/-420",
+                "byron buxton": "+235/-280",
+                "aaron judge": "+195/-225",
+                "giancarlo stanton": "+255/-305",
+                "cody bellinger": "+320/-395",
+                "jazz chisholm": "+330/-405",
+                "trent grisham": "+290/-350"
             }
         },
         "lad @ laa": {
@@ -265,10 +240,9 @@
             },
             "hr": {
                 "junior caminero": "+295/-360",
-                "brandon lowe": "+340/-420",
+                "brandon lowe": "+325/-400",
                 "yandy diaz": "+460/-605",
                 "josh lowe": "+600/-850",
-                "nick kurtz": "+290/-350",
                 "brent rooker": "+330/-405",
                 "shea langeliers": "+300/-365",
                 "tyler soderstrom": "+450/-590"
@@ -284,17 +258,11 @@
             "h": {
                 "lawrence butler": {
                     "0.5": "-150/+120"
-                },
-                "jj bleday": {
-                    "0.5": "-130/EV"
                 }
             },
             "rbi": {
                 "brent rooker": {
                     "0.5": "+160/-195"
-                },
-                "nick kurtz": {
-                    "0.5": "+170/-210"
                 }
             },
             "sb": {
@@ -303,22 +271,19 @@
                 }
             }
         },
-        "phi @ red": {
-            "rfi": {}
-        },
-        "mar @ ori": {
-            "rfi": {}
-        },
         "mar @ gua": {
             "rfi": {}
         },
-        "twi @ yan": {
+        "mar @ ori": {
             "rfi": {}
         },
         "bra @ met": {
             "rfi": {}
         },
         "bos @ ast": {
+            "rfi": {}
+        },
+        "twi @ yan": {
             "rfi": {}
         },
         "lad @ ang": {
