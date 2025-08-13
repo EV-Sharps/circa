@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-13T12:12:02.130425",
+    "updated": "2025-08-13T13:13:31.362495",
     "data": {
         "pit @ mil": {
             "f5_spread": {
@@ -15,18 +15,18 @@
                     "4.5": "+110/-140"
                 },
                 "brandon woodruff": {
-                    "7.5": "+145/-175"
+                    "7.5": "+135/-165"
                 }
             },
             "hr": {
-                "oneil cruz": "+390/-495",
                 "bryan reynolds": "+560/-770",
                 "spencer horwitz": "+625/-900",
                 "andrew mccutchen": "+520/-700",
                 "christian yelich": "+470/-620",
-                "william contreras": "+440/-575",
+                "william contreras": "+425/-550",
                 "andrew vaughn": "+430/-560",
-                "brice turang": "+875/-1400"
+                "brice turang": "+875/-1400",
+                "nick gonzales [pit] hit a home run?": "+825/-1300"
             }
         },
         "det @ chw": {
@@ -40,10 +40,10 @@
             "rfi": "+100/-120",
             "k": {
                 "troy melton": {
-                    "4.5": "-115/-115"
+                    "4.5": "+100/-130"
                 },
                 "shane smith": {
-                    "4.5": "-135/+105"
+                    "4.5": "-160/+130"
                 }
             },
             "hr": {
@@ -67,9 +67,6 @@
             "h": {
                 "lenyn sosa": {
                     "0.5": "-220/+180"
-                },
-                "mike tauchman": {
-                    "0.5": "-210/+170"
                 }
             },
             "rbi": {
@@ -97,7 +94,7 @@
             "rfi": "-110/-110",
             "k": {
                 "jake irvin": {
-                    "3.5": "+125/-155"
+                    "3.5": "+145/-175"
                 },
                 "seth lugo": {
                     "4.5": "-150/+120"
@@ -117,6 +114,9 @@
         "col @ stl": {
             "f5_spread": {
                 "0.5": "+125/-145"
+            },
+            "f5_total": {
+                "4.5": "-105/-115"
             },
             "f5_ml": "+185/-215",
             "rfi": "-105/-115",
@@ -157,19 +157,21 @@
             },
             "hr": {
                 "corbin carroll": "+270/-325",
-                "ketel marte": "+360/-450",
+                "ketel marte": "+380/-475",
                 "geraldo perdomo": "+800/-1250",
                 "corey seager": "+340/-420",
-                "adolis garcia": "+460/-605",
                 "wyatt langford": "+450/-590",
                 "marcus semien": "+500/-670"
             }
         },
         "sd @ sf": {
-            "f5_total": {
-                "4.0": "-125/+105"
+            "f5_spread": {
+                "-0.5": "-115/-105"
             },
-            "f5_ml": "-150/+130",
+            "f5_total": {
+                "4.0": "-115/-105"
+            },
+            "f5_ml": "-160/+140",
             "rfi": "+105/-125",
             "k": {
                 "nick pivetta": {
@@ -185,7 +187,6 @@
                 "jackson merrill": "+580/-805",
                 "ryan ohearn": "+800/-1250",
                 "rafael devers": "+420/-545",
-                "matt chapman": "+450/-590",
                 "willy adames": "+500/-670",
                 "heliot ramos": "+565/-780"
             }
@@ -283,8 +284,8 @@
                 "joe ryan": {
                     "6.5": "-120/-110"
                 },
-                "cam schittler": {
-                    "5.5": "+125/-155"
+                "cam schlittler": {
+                    "4.5": "-165/+135"
                 }
             },
             "hr": {
