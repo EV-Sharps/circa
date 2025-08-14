@@ -1,66 +1,6 @@
 {
-    "updated": "2025-08-14T14:06:20.307372",
+    "updated": "2025-08-14T15:22:32.790363",
     "data": {
-        "chc @ tor": {
-            "f5_spread": {
-                "-0.5": "+130/-150"
-            },
-            "f5_total": {
-                "4.0": "-125/+105"
-            },
-            "f5_ml": "-115/-105",
-            "rfi": "+110/-130",
-            "k": {
-                "matthew boyd": {
-                    "4.5": "+105/-135"
-                },
-                "max scherzer": {
-                    "5.5": "-140/+110"
-                }
-            },
-            "hr": {
-                "kyle tucker": "+380/-475",
-                "seiya suzuki": "+350/-435",
-                "pete crow armstrong": "+420/-545",
-                "michael busch": "+360/-450",
-                "vladimir guerrero": "+360/-450",
-                "bo bichette": "+510/-685",
-                "daulton varsho": "+600/-850",
-                "addison barger": "+530/-720"
-            },
-            "tb": {
-                "seiya suzuki": {
-                    "1.5": "+135/-165"
-                },
-                "pete crow armstrong": {
-                    "1.5": "+135/-165"
-                }
-            },
-            "h": {
-                "michael busch": {
-                    "0.5": "-190/+155"
-                },
-                "nico hoerner": {
-                    "0.5": "-185/+150"
-                }
-            },
-            "rbi": {
-                "seiya suzuki": {
-                    "0.5": "+185/-230"
-                },
-                "dansby swanson": {
-                    "0.5": "+240/-300"
-                }
-            },
-            "sb": {
-                "pete crow armstrong": {
-                    "0.5": "+370/-475"
-                },
-                "kyle tucker": {
-                    "0.5": "+430/-565"
-                }
-            }
-        },
         "mia @ cle": {
             "f5_spread": {
                 "0.5": "-154/+134"
@@ -75,15 +15,15 @@
                     "5.5": "+120/-150"
                 },
                 "tanner bibee": {
-                    "5.5": "+130/-160"
+                    "5.5": "+115/-145"
                 }
             },
             "hr": {
-                "kyle stowers": "+410/-525",
-                "agustin ramirez": "+490/-650",
+                "kyle stowers": "+395/-500",
+                "agustin ramirez": "+470/-620",
                 "otto lopez": "+900/-1450",
                 "xavier edwards": "+1200/-2150",
-                "jose ramirez": "+430/-560",
+                "jose ramirez": "+420/-545",
                 "kyle manzardo": "+450/-590",
                 "steven kwan": "+1200/-2150"
             }
@@ -137,9 +77,9 @@
                 "matt olson": "+420/-545",
                 "drake baldwin": "+600/-850",
                 "marcell ozuna": "+420/-545",
-                "juan soto": "+285/-345",
-                "pete alonso": "+300/-365",
-                "francisco lindor": "+400/-510",
+                "juan soto": "+270/-325",
+                "pete alonso": "+280/-340",
+                "francisco lindor": "+350/-435",
                 "brandon nimmo": "+500/-670"
             }
         },
@@ -159,9 +99,9 @@
             },
             "hr": {
                 "riley greene": "+330/-405",
-                "spencer torkelson": "+390/-495",
-                "kerry carpenter": "+265/-320",
-                "gleyber torres": "+530/-720",
+                "spencer torkelson": "+370/-460",
+                "kerry carpenter": "+245/-290",
+                "gleyber torres": "+520/-700",
                 "royce lewis": "+800/-1250",
                 "byron buxton": "+400/-510",
                 "kody clemens": "+675/-1000"
@@ -186,11 +126,11 @@
             },
             "hr": {
                 "corbin carroll": "+210/-245",
-                "ketel marte": "+290/-350",
+                "ketel marte": "+280/-340",
                 "lourdes gurriel": "+420/-545",
-                "geraldo perdomo": "+560/-770",
+                "geraldo perdomo": "+530/-720",
                 "hunter goodman": "+320/-395",
-                "brenton doyle": "+520/-700",
+                "brenton doyle": "+505/-680",
                 "jordan beck": "+480/-640"
             }
         },
