@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T10:17:16.187586",
+    "updated": "2025-08-15T10:24:54.339622",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -24,9 +24,9 @@
                 "andrew mccutchen": "+500/-670",
                 "kyle tucker": "+420/-545",
                 "seiya suzuki": "+400/-510",
-                "pete crow armstrong": "+460/-605",
+                "pete crow armstrong": "+390/-495",
                 "michael busch": "+330/-405",
-                "dansby swanson": "+600/-850"
+                "dansby swanson": "+625/-900"
             },
             "tb": {
                 "dansby swanson": {
@@ -173,11 +173,8 @@
             "f5_spread": {
                 "0.5": "-135/+115"
             },
-            "f5_total": {
-                "4.5": "+100/-120"
-            },
             "f5_ml": "+105/-125",
-            "rfi": "+100/-120",
+            "rfi": "-105/-115",
             "k": {
                 "luis castillo": {
                     "4.5": "-130/+100"
