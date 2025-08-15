@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T10:33:53.790965",
+    "updated": "2025-08-15T10:44:57.984540",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -378,6 +378,42 @@
                 "jack perkins": {
                     "5.5": "+110/-140"
                 }
+            },
+            "hr": {
+                "mike trout": "+285/-345",
+                "taylor ward": "+350/-435",
+                "jo adell": "+350/-435",
+                "zach neto": "+400/-510",
+                "nick kurtz": "+320/-395",
+                "brent rooker": "+300/-365",
+                "shea langeliers": "+250/-300",
+                "tyler soderstrom": "/"
+            },
+            "tb": {
+                "shea langeliers": {
+                    "1.5": "-115/-115"
+                }
+            },
+            "h": {
+                "nick kurtz": {
+                    "0.5": "-195/+160"
+                },
+                "brent rooker": {
+                    "0.5": "-290/+230"
+                }
+            },
+            "rbi": {
+                "nick kurtz": {
+                    "0.5": "+175/-215"
+                },
+                "shea langeliers": {
+                    "0.5": "+135/-165"
+                }
+            },
+            "sb": {
+                "max schuemann": {
+                    "0.5": "+575/-800"
+                }
             }
         },
         "sd @ lad": {
@@ -416,6 +452,15 @@
                 "landen roupp": {
                     "3.5": "+120/-150"
                 }
+            },
+            "hr": {
+                "junior caminero": "+430/-560",
+                "brandon lowe": "+560/-770",
+                "yandy diaz": "+675/-1000",
+                "rafael devers": "+420/-545",
+                "willy adames": "+520/-700",
+                "heliot ramos": "+675/-1000",
+                "casey schmitt": "+700/-1050"
             }
         },
         "pir @ chc": {
