@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T10:28:24.311881",
+    "updated": "2025-08-15T10:33:53.790965",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -393,6 +393,11 @@
                 "clayton kershaw": {
                     "3.5": "+125/-155"
                 }
+            },
+            "hr": {
+                "fernando tatis": "+340/-420",
+                "manny machado": "+350/-435",
+                "jackson merrill": "+540/-735"
             }
         },
         "tb @ sf": {
