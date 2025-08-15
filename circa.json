@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T09:42:49.351830",
+    "updated": "2025-08-15T09:51:24.915159",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -157,6 +157,16 @@
                 "joey cantillo": {
                     "5.5": "+125/-155"
                 }
+            },
+            "hr": {
+                "marcell ozuna": "+520/-700",
+                "matt olson": "+400/-510",
+                "sean murphy": "+520/-700",
+                "michael harris": "+625/-900",
+                "jose ramirez": "+400/-510",
+                "kyle manzardo": "+420/-545",
+                "daniel schneemann": "+600/-850",
+                "bo naylor": "+520/-700"
             }
         },
         "sea @ nym": {
@@ -175,6 +185,16 @@
                 "sean manaea": {
                     "5.5": "+100/-130"
                 }
+            },
+            "hr": {
+                "cal raleigh": "+235/-280",
+                "randy arozarena": "+340/-420",
+                "julio rodriguez": "+350/-435",
+                "eugenio suarez": "+315/-385",
+                "juan soto": "+310/-380",
+                "pete alonso": "+340/-420",
+                "francisco lindor": "+440/-575",
+                "brandon nimmo": "+500/-670"
             }
         },
         "bal @ hou": {
@@ -254,6 +274,7 @@
                 "-0.5": "-130/+110"
             },
             "f5_ml": "-184/+159",
+            "rfi": "-170/+150",
             "k": {
                 "brandon pfaadt": {
                     "4.5": "-105/-125"
@@ -288,6 +309,7 @@
                 "5.0": "-120/+100"
             },
             "f5_ml": "+150/-170",
+            "rfi": "-120/+100",
             "k": {
                 "clayton kershaw": {
                     "3.5": "+125/-155"
@@ -339,6 +361,12 @@
             "rfi": {}
         },
         "yan @ car": {
+            "rfi": {}
+        },
+        "d`b @ roc": {
+            "rfi": {}
+        },
+        "pad @ lad": {
             "rfi": {}
         },
         "mil @ cin": {
