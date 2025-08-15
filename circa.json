@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T13:17:27.816346",
+    "updated": "2025-08-15T13:46:49.428382",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -19,7 +19,7 @@
                 }
             },
             "hr": {
-                "bryan reynolds": "+625/-900",
+                "bryan reynolds": "+490/-650",
                 "spencer horwitz": "+560/-770",
                 "andrew mccutchen": "+500/-670",
                 "kyle tucker": "+420/-545",
@@ -79,7 +79,7 @@
                 "christian yelich": "+320/-395",
                 "william contreras": "+450/-590",
                 "andrew vaughn": "+400/-510",
-                "brice turang": "+520/-700"
+                "brice turang": "+460/-605"
             }
         },
         "phi @ wsh": {
@@ -262,7 +262,7 @@
             },
             "hr": {
                 "riley greene": "+340/-420",
-                "spencer torkelson": "+370/-460",
+                "spencer torkelson": "+340/-420",
                 "kerry carpenter": "+290/-350",
                 "gleyber torres": "+520/-700",
                 "royce lewis": "+560/-770",
@@ -376,10 +376,10 @@
                 "corbin carroll": "+250/-300",
                 "ketel marte": "+250/-300",
                 "lourdes gurriel": "+450/-590",
-                "geraldo perdomo": "+450/-590",
+                "geraldo perdomo": "+440/-570",
                 "hunter goodman": "+320/-395",
                 "brenton doyle": "+520/-700",
-                "mickey moniak": "+320/-395",
+                "mickey moniak": "+340/-420",
                 "jordan beck": "+480/-640"
             }
         },
@@ -442,10 +442,10 @@
                 "0.5": "+100/-120"
             },
             "f5_total": {
-                "5.0": "-120/+100"
+                "5.5": "+100/-120"
             },
             "f5_ml": "+150/-170",
-            "rfi": "-120/+100",
+            "rfi": "-125/+105",
             "k": {
                 "clayton kershaw": {
                     "3.5": "+125/-155"
