@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T10:24:54.339622",
+    "updated": "2025-08-15T10:28:24.311881",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -323,6 +323,18 @@
                 "andre pallante": {
                     "3.5": "-150/+120"
                 }
+            },
+            "hr": {
+                "aaron judge": "+220/-260",
+                "cody bellinger": "+560/-770",
+                "trent grisham": "+520/-700",
+                "jazz chisholm": "+500/-670",
+                "giancarlo stanton": "+340/-420",
+                "anthony volpe": "+750/-1150",
+                "alec burleson": "+520/-700",
+                "lars nootbaar": "+500/-670",
+                "nolan gorman": "+500/-670",
+                "ivan herrera": "+625/-900"
             }
         },
         "ari @ col": {
