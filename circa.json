@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-15T09:37:15.129364",
+    "updated": "2025-08-15T09:42:49.351830",
     "data": {
         "pit @ chc": {
             "f5_spread": {
@@ -104,6 +104,16 @@
                 "chris bassitt": {
                     "4.5": "-145/+115"
                 }
+            },
+            "hr": {
+                "corey seager": "+335/-415",
+                "wyatt langford": "+500/-670",
+                "josh jung": "+675/-1000",
+                "marcus semien": "+520/-700",
+                "bo bichette": "+560/-770",
+                "daulton varsho": "+430/-560",
+                "addison barger": "+420/-545",
+                "vladimir guerrero": "+400/-510"
             }
         },
         "mia @ bos": {
@@ -119,6 +129,16 @@
                 "lucas giolito": {
                     "4.5": "-150/+120"
                 }
+            },
+            "hr": {
+                "kyle stowers": "+460/-605",
+                "agustin ramirez": "+480/-640",
+                "otto lopez": "+800/-1250",
+                "xavier edwards": "+1200/-2150",
+                "alex bregman": "+500/-670",
+                "trevor story": "+500/-670",
+                "roman anthony": "+750/-1150",
+                "jarren duran": "+600/-850"
             }
         },
         "atl @ cle": {
@@ -201,6 +221,7 @@
                 "5.0": "-105/-115"
             },
             "f5_ml": "+150/-170",
+            "rfi": "-110/-110",
             "k": {
                 "aaron civale": {
                     "3.5": "-120/-110"
@@ -218,6 +239,7 @@
                 "5.0": "+100/-120"
             },
             "f5_ml": "-137/+117",
+            "rfi": "-110/-110",
             "k": {
                 "luis gil": {
                     "4.5": "-145/+115"
@@ -311,6 +333,12 @@
             "rfi": {}
         },
         "tig @ twi": {
+            "rfi": {}
+        },
+        "chw @ roy": {
+            "rfi": {}
+        },
+        "yan @ car": {
             "rfi": {}
         },
         "mil @ cin": {
