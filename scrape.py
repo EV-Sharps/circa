@@ -292,6 +292,10 @@ def parse(movement):
 			ou = f"""{row["GameLine"]["OverOdds"]}/{row["GameLine"]["UnderOdds"]}"""
 			data[game][prop][player][line] = ou.replace("EV", "+100")
 
+	for game, gData in old.items():
+		if game not in data:
+			data[game] = gData
+
 	print("")
 	with open("circa.json", "w") as fh:
 		json.dump({"updated": datetime.now().isoformat(), "data": data}, fh, indent=4)
