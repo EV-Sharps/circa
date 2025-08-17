@@ -207,7 +207,7 @@ def parse(movement):
 	old = {}
 	if movement:
 		with open("circa.json") as fh:
-			old = json.load(fh)["data"]
+			old = json.load(fh).get("data", {})
 
 	data = {}
 	dt = str(datetime.now())[:10]
