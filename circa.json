@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-17T12:00:28.962797",
+    "updated": "2025-08-17T12:31:38.387736",
     "data": {
         "mia @ bos": {
             "f5_spread": {
@@ -46,13 +46,13 @@
                 }
             },
             "hr": {
-                "corey seager": "+360/-450",
+                "corey seager": "+380/-475",
                 "wyatt langford": "+420/-545",
                 "josh jung": "+600/-850",
                 "daulton varsho": "+375/-470",
                 "alejandro kirk": "+700/-1050",
                 "vladimir guerrero": "+410/-525",
-                "bo bichette": "+700/-1050"
+                "bo bichette": "+675/-1000"
             }
         },
         "mil @ cin": {
@@ -60,7 +60,7 @@
                 "0.5": "-120/+100"
             },
             "f5_total": {
-                "4.5": "-115/-105"
+                "4.5": "-125/+105"
             },
             "f5_ml": "+120/-140",
             "rfi": "+105/-125",
@@ -69,7 +69,7 @@
                     "3.5": "-140/+110"
                 },
                 "andrew abbott": {
-                    "4.5": "+125/-155"
+                    "4.5": "+100/-130"
                 }
             },
             "hr": {
@@ -77,7 +77,7 @@
                 "william contreras": "+360/-450",
                 "andrew vaughn": "+330/-405",
                 "brice turang": "+600/-850",
-                "elly de la cruz": "+480/-640",
+                "elly de la cruz": "+470/-620",
                 "spencer steer": "+500/-670",
                 "austin hays": "+410/-525",
                 "miguel andujar": "+625/-900"
@@ -124,7 +124,7 @@
                     "4.5": "-135/+105"
                 },
                 "cristian javier": {
-                    "4.5": "-155/+125"
+                    "5.5": "+115/-145"
                 }
             },
             "hr": {
@@ -132,7 +132,7 @@
                 "ryan mountcastle": "+500/-670",
                 "adley rutschman": "+590/-825",
                 "jordan westburg": "+380/-475",
-                "jose altuve": "+540/-735",
+                "jose altuve": "+530/-720",
                 "carlos correa": "+540/-735",
                 "jesus sanchez": "+450/-590"
             }
@@ -161,7 +161,7 @@
                 "bobby witt": "+360/-450",
                 "salvador perez": "+365/-455",
                 "mike yastrzemski": "+520/-700",
-                "vinnie pasquantino": "+530/-720"
+                "vinnie pasquantino": "+525/-710"
             },
             "tb": {
                 "andrew benintendi": {
@@ -197,6 +197,9 @@
             "k": {
                 "chris paddack": {
                     "4.5": "+100/-130"
+                },
+                "thomas hatch": {
+                    "3.5": "-160/+130"
                 }
             },
             "hr": {
@@ -243,10 +246,10 @@
             "rfi": "+120/-140",
             "k": {
                 "carmen mlodzinski": {
-                    "1.5": "-185/+150"
+                    "2.5": "+115/-145"
                 },
                 "javier assad": {
-                    "4.5": "+120/-150"
+                    "4.5": "+125/-155"
                 }
             },
             "hr": {
@@ -297,13 +300,13 @@
                 "-0.5": "-105/-115"
             },
             "f5_total": {
-                "7.0": "-105/-115"
+                "7.0": "+100/-120"
             },
             "f5_ml": "-140/+120",
-            "rfi": "-185/+160",
+            "rfi": "-170/+150",
             "k": {
                 "nabil crismatt": {
-                    "3.5": "-145/+115"
+                    "3.5": "-135/+105"
                 },
                 "antonio senzatela": {
                     "2.5": "+105/-135"
@@ -313,7 +316,7 @@
                 "corbin carroll": "+250/-300",
                 "lourdes gurriel": "+420/-545",
                 "geraldo perdomo": "+560/-770",
-                "ezequiel tovar": "+415/-535",
+                "ezequiel tovar": "+440/-575",
                 "mickey moniak": "+390/-495",
                 "jordan beck": "+430/-560"
             }
