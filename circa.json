@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-19T13:46:28.489510",
+    "updated": "2025-08-19T14:11:20.659100",
     "data": {
         "stl @ mia": {
             "f5_spread": {
@@ -34,7 +34,7 @@
                 "3.5": "+105/-125"
             },
             "f5_ml": "+155/-180",
-            "rfi": "+155/-180",
+            "rfi": "+165/-190",
             "k": {
                 "hunter brown": {
                     "6.5": "+120/-150"
@@ -99,7 +99,7 @@
                 }
             },
             "hr": {
-                "juan soto": "+290/-350",
+                "juan soto": "+280/-340",
                 "pete alonso": "+320/-395",
                 "francisco lindor": "+350/-435",
                 "brandon nimmo": "+430/-560",
@@ -422,8 +422,8 @@
                 "carlos santana": "+800/-1250",
                 "steven kwan": "+1200/-2250",
                 "corbin carroll": "+400/-510",
-                "ketel marte": "+430/-560",
-                "lourdes gurriel": "+600/-850",
+                "ketel marte": "+390/-495",
+                "lourdes gurriel": "+530/-720",
                 "geraldo perdomo": "+900/-1450"
             }
         },
@@ -484,7 +484,7 @@
             "hr": {
                 "dh gm 1 c yelich": "+850/-1350",
                 "dh gm 1 w contreras": "+580/-805",
-                "dh gm 1 a vaughn": "+515/-695",
+                "dh gm 1 a vaughn": "+550/-750",
                 "dh gm 1 b turang": "+1100/-1950",
                 "dh gm 1 m busch": "+430/-560",
                 "dh gm 1 s suzuki": "+430/-560",
