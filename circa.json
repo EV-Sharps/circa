@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-19T14:11:20.659100",
+    "updated": "2025-08-19T16:00:31.786214",
     "data": {
         "stl @ mia": {
             "f5_spread": {
@@ -34,7 +34,7 @@
                 "3.5": "+105/-125"
             },
             "f5_ml": "+155/-180",
-            "rfi": "+165/-190",
+            "rfi": "+155/-180",
             "k": {
                 "hunter brown": {
                     "6.5": "+120/-150"
@@ -67,13 +67,12 @@
                     "5.5": "-135/+105"
                 },
                 "mitch keller": {
-                    "3.5": "-145/+115"
+                    "3.5": "-120/-110"
                 }
             },
             "hr": {
                 "bo bichette": "+825/-1300",
                 "george springer": "+600/-850",
-                "daulton varsho": "+480/-640",
                 "addison barger": "+480/-640",
                 "bryan reynolds": "+600/-850",
                 "spencer horwitz": "+750/-1150",
@@ -106,17 +105,17 @@
                 "james wood": "+675/-1000",
                 "cj abrams": "+825/-1300",
                 "josh bell": "+675/-1000",
-                "dylan crews": "+625/-900"
+                "dylan crews": "+750/-1150"
             }
         },
         "sea @ phi": {
             "f5_spread": {
-                "0.5": "+120/-140"
+                "0.5": "+125/-145"
             },
             "f5_total": {
                 "4.5": "+105/-125"
             },
-            "f5_ml": "+180/-210",
+            "f5_ml": "+185/-215",
             "rfi": "+100/-120",
             "k": {
                 "bryce miller": {
@@ -268,7 +267,6 @@
                 "josh jung": "+700/-1050",
                 "bobby witt": "+425/-550",
                 "vinnie pasquantino": "+600/-850",
-                "salvador perez": "+480/-640",
                 "mike yastrzemski": "+600/-850"
             }
         },
@@ -280,7 +278,7 @@
             "rfi": "+115/-135",
             "k": {
                 "jacob lopez": {
-                    "5.5": "-125/-105"
+                    "5.5": "-115/-115"
                 },
                 "joe ryan": {
                     "6.5": "-140/+110"
@@ -316,7 +314,7 @@
                     "0.5": "+195/-240"
                 },
                 "shea langeliers": {
-                    "0.5": "+195/-240"
+                    "0.5": "+170/-210"
                 }
             },
             "sb": {
@@ -337,14 +335,13 @@
                 }
             },
             "hr": {
-                "shohei ohtani": "+120/-140",
+                "shohei ohtani": "+135/-155",
                 "mookie betts": "+420/-545",
                 "freddie freeman": "+320/-395",
                 "teoscar hernandez": "+290/-350",
                 "hunter goodman": "+300/-365",
                 "ezequiel tovar": "+520/-700",
-                "mickey moniak": "+400/-510",
-                "jordan beck": "+520/-700"
+                "mickey moniak": "+400/-510"
             }
         },
         "cin @ laa": {
@@ -471,46 +468,15 @@
         },
         "mil @ chc": {
             "k": {
-                "dh gm 1 chad patrick": {
-                    "4.5": "-140/+110"
-                },
-                "dh gm 1 matthew boyd": {
-                    "4.5": "-145/+115"
-                },
                 "dh gm 2 jameson taillon": {
                     "3.5": "-145/+115"
                 }
             },
             "hr": {
-                "dh gm 1 c yelich": "+850/-1350",
-                "dh gm 1 w contreras": "+580/-805",
-                "dh gm 1 a vaughn": "+550/-750",
-                "dh gm 1 b turang": "+1100/-1950",
-                "dh gm 1 m busch": "+430/-560",
-                "dh gm 1 s suzuki": "+430/-560",
-                "dh gm 1 p crow armstrong": "+500/-670",
                 "dh gm 2 c yelich": "+750/-1150",
                 "dh gm 2 w contreras": "+560/-770",
                 "dh gm 2 a vaughn": "+560/-770",
                 "dh gm 2 b turang": "+1300/-2450"
-            },
-            "tb": {
-                "dh gm 1 p crow armstrong": {
-                    "1.5": "+125/-155"
-                }
-            },
-            "h": {
-                "dh gm 1 i happ": {
-                    "0.5": "-170/+140"
-                },
-                "dh gm 1 s suzuki": {
-                    "0.5": "-200/+165"
-                }
-            },
-            "sb": {
-                "p crow armstrong(chc) steal a base?": {
-                    "0.5": "+345/-440"
-                }
             }
         }
     }
