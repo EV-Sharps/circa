@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-20T12:23:30.418406",
+    "updated": "2025-08-20T12:29:52.568196",
     "data": {
         "tor @ pit": {
             "f5_total": {
@@ -22,7 +22,6 @@
                 "bo bichette": "+825/-1300",
                 "nathan lukes": "+1050/-1800",
                 "spencer horwitz": "+750/-1150",
-                "andrew mccutchen": "+800/-1250",
                 "bryan reynolds": "+560/-770"
             }
         },
@@ -48,7 +47,7 @@
                 "eugenio suarez": "+360/-450",
                 "julio rodriguez": "+470/-620",
                 "randy arozarena": "+420/-545",
-                "kyle schwarber": "+205/-240",
+                "kyle schwarber": "+200/-235",
                 "bryce harper": "+270/-325",
                 "trea turner": "+560/-770",
                 "alec bohm": "+800/-1250"
@@ -129,9 +128,9 @@
                 "willson contreras": "+500/-670",
                 "alec burleson": "+560/-770",
                 "lars nootbaar": "+470/-620",
-                "nolan gorman": "+470/-620",
-                "ivan herrera": "+625/-900",
-                "agustin ramirez": "+600/-850",
+                "nolan gorman": "+460/-605",
+                "ivan herrera": "+600/-850",
+                "agustin ramirez": "+550/-750",
                 "otto lopez": "+1000/-1700",
                 "jakob marsee": "+750/-1150"
             }
@@ -240,7 +239,7 @@
                 "aaron judge": "+265/-320",
                 "cody bellinger": "+540/-735",
                 "jazz chisholm": "+470/-620",
-                "junior caminero": "+295/-360",
+                "junior caminero": "+290/-350",
                 "brandon lowe": "+395/-500",
                 "yandy diaz": "+490/-650",
                 "josh lowe": "+600/-850"
@@ -378,7 +377,7 @@
                 "shohei ohtani": "+125/-145",
                 "mookie betts": "+350/-435",
                 "freddie freeman": "+320/-395",
-                "teoscar hernandez": "+310/-380",
+                "teoscar hernandez": "+295/-360",
                 "andy pages": "+360/-450",
                 "hunter goodman": "+340/-420",
                 "ezequiel tovar": "+600/-850",
@@ -438,7 +437,7 @@
                 "fernando tatis": "+410/-525",
                 "manny machado": "+430/-560",
                 "ramon laureano": "+515/-695",
-                "xander bogaerts": "+800/-1250"
+                "xander bogaerts": "+750/-1150"
             }
         },
         "tor @ pir": {
