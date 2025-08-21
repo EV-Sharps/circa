@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-21T11:07:18.945721",
+    "updated": "2025-08-21T11:29:21.146875",
     "data": {
         "ath @ min": {
             "f5_spread": {
@@ -21,7 +21,6 @@
             "hr": {
                 "nick kurtz": "+250/-300",
                 "brent rooker": "+395/-500",
-                "shea langeliers": "+325/-400",
                 "tyler soderstrom": "+425/-550",
                 "royce lewis": "+455/-600",
                 "byron buxton": "+290/-350",
@@ -68,7 +67,7 @@
                     "3.5": "-110/-120"
                 },
                 "michael lorenzen": {
-                    "4.5": "+130/-160"
+                    "4.5": "+155/-190"
                 }
             },
             "hr": {
@@ -103,7 +102,6 @@
                 "brice turang": "+1150/-2100",
                 "seiya suzuki": "+575/-800",
                 "pete crow armstrong": "+625/-900",
-                "carson kelly": "+1050/-1800",
                 "michael busch": "+520/-700"
             },
             "tb": {
@@ -234,6 +232,12 @@
                 "brandon young": {
                     "4.5": "+115/-145"
                 }
+            },
+            "hr": {
+                "jose altuve": "+675/-1000",
+                "christian walker": "+520/-700",
+                "carlos correa": "+675/-1000",
+                "gunnar henderson": "+425/-550"
             }
         },
         "bos @ nyy": {
@@ -253,9 +257,9 @@
         },
         "stl @ tb": {
             "f5_spread": {
-                "-0.5": "+118/-138"
+                "-0.5": "+120/-140"
             },
-            "f5_ml": "-122/+102",
+            "f5_ml": "-120/+100",
             "rfi": "-105/-115",
             "k": {
                 "sonny gray": {
