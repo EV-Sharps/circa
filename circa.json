@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-25T10:33:04.987184",
+    "updated": "2025-08-25T11:28:07.357820",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -22,7 +22,7 @@
                 "gunnar henderson": "+480/-640",
                 "samuel basallo": "+625/-900",
                 "jackson holliday": "+675/-1000",
-                "ryan mountcastle": "+800/-1250"
+                "ryan mountcastle": "+700/-1050"
             }
         },
         "atl @ mia": {
@@ -67,13 +67,13 @@
                     "3.5": "-150/+120"
                 },
                 "tanner bibee": {
-                    "5.5": "-140/+110"
+                    "5.5": "-130/+100"
                 }
             },
             "hr": {
                 "junior caminero": "+400/-510",
                 "brandon lowe": "+390/-495",
-                "yandy diaz": "+480/-640",
+                "yandy diaz": "+560/-770",
                 "josh lowe": "+750/-1150",
                 "jose ramirez": "+480/-640",
                 "kyle manzardo": "+390/-495",
@@ -102,7 +102,7 @@
                 "cj abrams": "+500/-670",
                 "josh bell": "+450/-590",
                 "dylan crews": "+600/-850",
-                "aaron judge": "+180/-210",
+                "aaron judge": "+190/-220",
                 "giancarlo stanton": "+280/-340",
                 "cody bellinger": "+420/-545",
                 "jazz chisholm": "+315/-385"
@@ -113,7 +113,7 @@
                 "0.5": "-130/+110"
             },
             "f5_total": {
-                "4.0": "+100/-120"
+                "4.0": "-105/-115"
             },
             "f5_ml": "+110/-130",
             "rfi": "+110/-130",
@@ -260,7 +260,7 @@
             "rfi": "+105/-125",
             "k": {
                 "johan oviedo": {
-                    "4.5": "+105/-135"
+                    "4.5": "+100/-130"
                 },
                 "michael mcgreevy": {
                     "4.5": "+150/-185"
@@ -279,24 +279,24 @@
         },
         "laa @ tex": {
             "f5_spread": {
-                "0.5": "-105/-115"
+                "0.5": "+110/-130"
             },
             "f5_total": {
                 "4.0": "+100/-120"
             },
-            "f5_ml": "+150/-170",
+            "f5_ml": "+168/-193",
             "rfi": "+120/-140",
             "k": {
                 "jose soriano": {
                     "4.5": "-130/+100"
                 },
                 "jacob degrom": {
-                    "7.5": "-125/-105"
+                    "7.5": "+100/-130"
                 }
             },
             "hr": {
                 "mike trout": "+370/-460",
-                "taylor ward": "+375/-470",
+                "taylor ward": "+400/-510",
                 "jo adell": "+350/-435",
                 "zach neto": "+450/-590",
                 "corey seager": "+400/-510",
@@ -327,7 +327,7 @@
                 "manny machado": "+420/-545",
                 "ramon laureano": "+560/-770",
                 "ryan ohearn": "+580/-805",
-                "cal raleigh": "+180/-210",
+                "cal raleigh": "+190/-220",
                 "eugenio suarez": "+250/-300",
                 "julio rodriguez": "+340/-420",
                 "randy arozarena": "+300/-365"
@@ -370,10 +370,10 @@
             },
             "h": {
                 "brent rooker": {
-                    "0.5": "-220/+180"
+                    "0.5": "-185/+150"
                 },
                 "nick kurtz": {
-                    "0.5": "-190/+155"
+                    "0.5": "-160/+130"
                 }
             },
             "rbi": {
@@ -398,7 +398,7 @@
             "rfi": "+110/-130",
             "k": {
                 "hunter greene": {
-                    "6.5": "-125/-105"
+                    "6.5": "-120/-110"
                 },
                 "emmet sheehan": {
                     "5.5": "+120/-150"
@@ -409,7 +409,7 @@
                 "spencer steer": "+500/-670",
                 "austin hays": "+470/-620",
                 "noelvi marte": "+450/-590",
-                "shohei ohtani": "+175/-200",
+                "shohei ohtani": "+185/-215",
                 "mookie betts": "+520/-700",
                 "freddie freeman": "+440/-575",
                 "teoscar hernandez": "+360/-450"
