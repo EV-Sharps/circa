@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-26T10:22:50.325883",
+    "updated": "2025-08-26T10:24:59.874358",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -51,7 +51,9 @@
                 "marcell ozuna": "+575/-800",
                 "ronald acuna": "+395/-500",
                 "agustin ramirez": "+550/-750",
-                "jakob marsee": "+825/-1300"
+                "jakob marsee": "+825/-1300",
+                "otto lopez": "+875/-1400",
+                "xavier edwards": "+1250/-2400"
             }
         },
         "tb @ cle": {
@@ -335,6 +337,16 @@
                 "justin verlander": {
                     "4.5": "-115/-115"
                 }
+            },
+            "hr": {
+                "kyle tucker": "+480/-640",
+                "seiya suzuki": "+560/-770",
+                "pete crow armstrong": "+510/-685",
+                "carson kelly": "+850/-1350",
+                "rafael devers": "+560/-770",
+                "heliot ramos": "+600/-850",
+                "willy adames": "+420/-545",
+                "casey schmitt": "+625/-900"
             },
             "tb": {
                 "kyle tucker": {
