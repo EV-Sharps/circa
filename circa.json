@@ -1,31 +1,6 @@
 {
-    "updated": "2025-08-26T18:34:57.871518",
+    "updated": "2025-08-26T18:37:05.202488",
     "data": {
-        "bos @ bal": {
-            "f5_spread": {
-                "-0.5": "+135/-155"
-            },
-            "f5_total": {
-                "4.5": "-120/+100"
-            },
-            "f5_ml": "-108/-112",
-            "rfi": "+100/-120",
-            "k": {
-                "lucas giolito": {
-                    "5.5": "+120/-150"
-                },
-                "kyle bradish": {
-                    "4.5": "-135/+105"
-                }
-            },
-            "hr": {
-                "alex bregman": "+470/-620",
-                "trevor story": "+505/-680",
-                "roman anthony": "+435/-565",
-                "gunnar henderson": "+350/-435",
-                "jackson holliday": "+580/-805"
-            }
-        },
         "atl @ mia": {
             "f5_spread": {
                 "-0.5": "+120/-140"
@@ -76,7 +51,6 @@
                 "yandy diaz": "+450/-590",
                 "josh lowe": "+800/-1250",
                 "jose ramirez": "+430/-560",
-                "kyle manzardo": "+440/-575",
                 "steven kwan": "+975/-1600"
             }
         },
@@ -483,9 +457,6 @@
                 "teoscar hernandez": "+345/-425"
             }
         },
-        "bos @ ori": {
-            "rfi": {}
-        },
         "bra @ mar": {
             "rfi": {}
         },
@@ -526,6 +497,34 @@
             "rfi": {}
         },
         "red @ lad": {
+            "rfi": {}
+        },
+        "bos @ bal": {
+            "f5_spread": {
+                "-0.5": "+135/-155"
+            },
+            "f5_total": {
+                "4.5": "-120/+100"
+            },
+            "f5_ml": "-108/-112",
+            "rfi": "+100/-120",
+            "k": {
+                "lucas giolito": {
+                    "5.5": "+120/-150"
+                },
+                "kyle bradish": {
+                    "4.5": "-135/+105"
+                }
+            },
+            "hr": {
+                "alex bregman": "+470/-620",
+                "trevor story": "+505/-680",
+                "roman anthony": "+435/-565",
+                "gunnar henderson": "+350/-435",
+                "jackson holliday": "+580/-805"
+            }
+        },
+        "bos @ ori": {
             "rfi": {}
         }
     }
