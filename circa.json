@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-26T10:35:12.051356",
+    "updated": "2025-08-26T11:18:31.015327",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -24,7 +24,7 @@
                 "roman anthony": "+410/-525",
                 "gunnar henderson": "+350/-435",
                 "samuel basallo": "+430/-560",
-                "jackson holliday": "+520/-700",
+                "jackson holliday": "+580/-805",
                 "ryan mountcastle": "+600/-850"
             }
         },
@@ -116,7 +116,7 @@
             "rfi": "-110/-110",
             "k": {
                 "bailey ober": {
-                    "4.5": "+130/-160"
+                    "4.5": "+140/-170"
                 },
                 "chris bassitt": {
                     "5.5": "-145/+115"
@@ -128,7 +128,7 @@
                 "byron buxton": "+350/-435",
                 "kody clemens": "+470/-620",
                 "george springer": "+300/-365",
-                "daulton varsho": "+280/-340",
+                "daulton varsho": "+295/-360",
                 "addison barger": "+370/-460",
                 "bo bichette": "+515/-695"
             }
@@ -172,7 +172,7 @@
                     "4.5": "-110/-120"
                 },
                 "jacob misiorowski": {
-                    "5.5": "-140/+110"
+                    "5.5": "-150/+120"
                 }
             },
             "hr": {
@@ -271,7 +271,7 @@
                 "-0.5": "+120/-140"
             },
             "f5_total": {
-                "4.5": "-115/-105"
+                "4.5": "-125/+105"
             },
             "f5_ml": "-120/+100",
             "rfi": "-105/-115",
@@ -305,7 +305,7 @@
             "rfi": "+100/-120",
             "k": {
                 "tanner gordon": {
-                    "3.5": "+115/-145"
+                    "3.5": "+140/-170"
                 },
                 "hunter brown": {
                     "6.5": "-130/+100"
@@ -319,7 +319,7 @@
                 "jose altuve": "+525/-710",
                 "christian walker": "+320/-395",
                 "carlos correa": "+450/-590",
-                "jesus sanchez": "+350/-435"
+                "jesus sanchez": "+380/-475"
             }
         },
         "sd @ sea": {
