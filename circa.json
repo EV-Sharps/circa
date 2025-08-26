@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-26T10:07:32.791522",
+    "updated": "2025-08-26T10:10:12.233252",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -53,6 +53,16 @@
                 "parker messick": {
                     "5.5": "+120/-150"
                 }
+            },
+            "hr": {
+                "junior caminero": "+400/-510",
+                "brandon lowe": "+410/-525",
+                "yandy diaz": "+450/-590",
+                "josh lowe": "+800/-1250",
+                "jose ramirez": "+430/-560",
+                "kyle manzardo": "+440/-575",
+                "carlos santana": "+600/-850",
+                "steven kwan": "+975/-1600"
             }
         },
         "wsh @ nyy": {
@@ -346,6 +356,14 @@
                 },
                 "jacob wilson": {
                     "1.5": "+120/-150"
+                }
+            },
+            "h": {
+                "lawrence butler": {
+                    "0.5": "-155/+125"
+                },
+                "tyler soderstrom": {
+                    "0.5": "-215/+175"
                 }
             }
         },
