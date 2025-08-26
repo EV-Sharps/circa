@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-26T10:18:36.491691",
+    "updated": "2025-08-26T10:22:50.325883",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -44,6 +44,14 @@
                 "sandy alcantara": {
                     "4.5": "-115/-115"
                 }
+            },
+            "hr": {
+                "matt olson": "+395/-500",
+                "drake baldwin": "+675/-1000",
+                "marcell ozuna": "+575/-800",
+                "ronald acuna": "+395/-500",
+                "agustin ramirez": "+550/-750",
+                "jakob marsee": "+825/-1300"
             }
         },
         "tb @ cle": {
@@ -402,6 +410,14 @@
                 },
                 "tyler soderstrom": {
                     "0.5": "-215/+175"
+                }
+            },
+            "rbi": {
+                "brent rooker": {
+                    "0.5": "+140/-170"
+                },
+                "shea langeliers": {
+                    "0.5": "+140/-170"
                 }
             },
             "sb": {
