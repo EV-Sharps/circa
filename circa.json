@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-26T10:24:59.874358",
+    "updated": "2025-08-26T10:31:28.372162",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -126,7 +126,7 @@
                 "royce lewis": "+500/-670",
                 "matt wallner": "+435/-565",
                 "byron buxton": "+350/-435",
-                "kody clemens": "+450/-590",
+                "kody clemens": "+470/-620",
                 "george springer": "+300/-365",
                 "daulton varsho": "+280/-340",
                 "addison barger": "+370/-460",
@@ -149,6 +149,16 @@
                 "sean manaea": {
                     "5.5": "-140/+110"
                 }
+            },
+            "hr": {
+                "kyle schwarber": "+270/-325",
+                "bryce harper": "+455/-600",
+                "trea turner": "+575/-800",
+                "alec bohm": "+575/-800",
+                "juan soto": "+520/-700",
+                "pete alonso": "+325/-400",
+                "francisco lindor": "+425/-550",
+                "brandon nimmo": "+875/-1400"
             }
         },
         "ari @ mil": {
@@ -164,6 +174,16 @@
                 "jacob misiorowski": {
                     "5.5": "-140/+110"
                 }
+            },
+            "hr": {
+                "corbin carroll": "+340/-420",
+                "ketel marte": "+425/-550",
+                "lourdes gurriel": "+530/-720",
+                "geraldo perdomo": "+825/-1300",
+                "christian yelich": "+510/-685",
+                "william contreras": "+510/-685",
+                "andrew vaughn": "+430/-560",
+                "brice turang": "+800/-1250"
             }
         },
         "kc @ chw": {
@@ -235,6 +255,15 @@
                 "andre pallante": {
                     "3.5": "-150/+120"
                 }
+            },
+            "hr": {
+                "bryan reynolds": "+900/-1450",
+                "spencer horwitz": "+900/-1450",
+                "andrew mccutchen": "+800/-1250",
+                "ivan herrera": "+800/-1250",
+                "willson contreras": "+560/-770",
+                "alec burleson": "+625/-900",
+                "nolan gorman": "+550/-750"
             }
         },
         "laa @ tex": {
@@ -466,7 +495,7 @@
                 "shohei ohtani": "+160/-185",
                 "mookie betts": "+450/-590",
                 "freddie freeman": "+360/-450",
-                "teoscar hernandez": "+320/-395"
+                "teoscar hernandez": "+345/-425"
             }
         },
         "bos @ ori": {
