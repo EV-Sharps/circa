@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-26T10:04:28.884681",
+    "updated": "2025-08-26T10:07:32.791522",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -92,6 +92,16 @@
                 "chris bassitt": {
                     "5.5": "-145/+115"
                 }
+            },
+            "hr": {
+                "royce lewis": "+500/-670",
+                "matt wallner": "+435/-565",
+                "byron buxton": "+350/-435",
+                "kody clemens": "+450/-590",
+                "george springer": "+300/-365",
+                "daulton varsho": "+280/-340",
+                "addison barger": "+370/-460",
+                "bo bichette": "+515/-695"
             }
         },
         "phi @ nym": {
@@ -149,6 +159,22 @@
                 "lenyn sosa": "+450/-590",
                 "colson montgomery": "+395/-500",
                 "miguel vargas": "+515/-695"
+            },
+            "tb": {
+                "luis robert": {
+                    "1.5": "+130/-160"
+                },
+                "colson montgomery": {
+                    "1.5": "+130/-160"
+                }
+            },
+            "h": {
+                "edgar quero": {
+                    "0.5": "-195/+160"
+                },
+                "lenyn sosa": {
+                    "0.5": "-260/+210"
+                }
             }
         },
         "pit @ stl": {
@@ -269,6 +295,22 @@
                 "justin verlander": {
                     "4.5": "-115/-115"
                 }
+            },
+            "tb": {
+                "kyle tucker": {
+                    "1.5": "+140/-170"
+                },
+                "seiya suzuki": {
+                    "1.5": "+125/-155"
+                }
+            },
+            "h": {
+                "dansby swanson": {
+                    "0.5": "-185/+150"
+                },
+                "michael busch": {
+                    "0.5": "-195/+160"
+                }
             }
         },
         "det @ ath": {
@@ -297,6 +339,14 @@
                 "brent rooker": "+310/-380",
                 "shea langeliers": "+260/-310",
                 "tyler soderstrom": "+420/-545"
+            },
+            "tb": {
+                "nick kurtz": {
+                    "1.5": "-115/-115"
+                },
+                "jacob wilson": {
+                    "1.5": "+120/-150"
+                }
             }
         },
         "cin @ lad": {
