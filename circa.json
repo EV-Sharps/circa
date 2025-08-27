@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-27T09:54:00.140030",
+    "updated": "2025-08-27T09:56:28.579787",
     "data": {
         "wsh @ nyy": {
             "f5_spread": {
@@ -278,7 +278,14 @@
                 }
             },
             "hr": {
-                "mike trout": "+375/-470"
+                "mike trout": "+375/-470",
+                "taylor ward": "+375/-470",
+                "jo adell": "+325/-400",
+                "zach neto": "+360/-450",
+                "josh jung": "+775/-1200",
+                "corey seager": "+285/-345",
+                "wyatt langford": "+455/-600",
+                "adolis garcia": "+455/-600"
             }
         },
         "col @ hou": {
@@ -376,6 +383,16 @@
                 "luis morales": {
                     "4.5": "-140/+110"
                 }
+            },
+            "hr": {
+                "riley greene": "+325/-400",
+                "spencer torkelson": "+400/-510",
+                "kerry carpenter": "+280/-340",
+                "gleyber torres": "+600/-850",
+                "nick kurtz": "+250/-300",
+                "brent rooker": "+320/-390",
+                "shea langeliers": "+280/-340",
+                "tyler soderstrom": "+455/-600"
             }
         },
         "nat @ yan": {
