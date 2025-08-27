@@ -1,146 +1,5 @@
 
-import argparse
-import requests
-import os
-import json
-import unicodedata
-
-from datetime import datetime
-
-def convertTeam(team):
-	if team == "B0S":
-		return "bos"
-	team = team.lower().replace(".", "").replace(":", "")
-	t = team.replace(" ", "")[:3].strip()
-	if "cubs" in team:
-		return "chc"
-	elif t == "art":
-		return "ari"
-	elif t == "80s":
-		return "bos"
-	elif t == "cii":
-		return "cin"
-	elif t in ["chi", "chy", "chk", "cws", "chv"]:
-		return "chw"
-	elif t in ["kan", "kcr"]:
-		return "kc"
-	elif "dodgers" in team:
-		return "lad"
-	elif t == "los":
-		return "laa"
-	elif t == "nil":
-		return "mil"
-	elif t in ["nia", "mta"]:
-		return "mia"
-	elif t in ["nin", "win", "hin"]:
-		return "min"
-	elif t == "nyh":
-		return "nym"
-	elif t == "ny":
-		return "nym"
-	elif t == "nyn":
-		return "nym"
-	elif t == "new":
-		if "yankees" in team:
-			return "nyy"
-		return "nym"
-	elif t == "pht":
-		return "phi"
-	elif t == "ath" or t == "the":
-		return "ath"
-	elif t == "was":
-		return "wsh"
-	elif t == "sdp":
-		return "sd"
-	elif t == "sfg":
-		return "sf"
-	elif t == "san":
-		if "padres" in team:
-			return "sd"
-		return "sf"
-	elif t in ["tam", "tbr"]:
-		return "tb"
-
-	if t == "oak":
-		return "ath"
-	return t
-
-def convertMGMMLBTeam(team):
-	team = team.lower()
-	if team in ["diamondbacks", "d`backs"]:
-		return "ari"
-	elif team == "braves":
-		return "atl"
-	elif team == "orioles":
-		return "bal"
-	elif team == "red sox":
-		return "bos"
-	elif team == "cubs":
-		return "chc"
-	elif team == "white sox":
-		return "chw"
-	elif team == "reds":
-		return "cin"
-	elif team == "guardians":
-		return "cle"
-	elif team == "rockies":
-		return "col"
-	elif team == "tigers":
-		return "det"
-	elif team == "astros":
-		return "hou"
-	elif team == "royals":
-		return "kc"
-	elif team == "angels":
-		return "laa"
-	elif team == "dodgers":
-		return "lad"
-	elif team == "marlins":
-		return "mia"
-	elif team == "brewers":
-		return "mil"
-	elif team == "twins":
-		return "min"
-	elif team == "mets":
-		return "nym"
-	elif team == "yankees":
-		return "nyy"
-	elif team == "athletics":
-		return "ath"
-	elif team == "phillies":
-		return "phi"
-	elif team == "pirates":
-		return "pit"
-	elif team == "padres":
-		return "sd"
-	elif team == "giants":
-		return "sf"
-	elif team == "mariners":
-		return "sea"
-	elif team == "cardinals":
-		return "stl"
-	elif team == "rays":
-		return "tb"
-	elif team == "rangers":
-		return "tex"
-	elif team == "blue jays":
-		return "tor"
-	elif team == "nationals":
-		return "wsh"
-	return team
-
-def strip_accents(text):
-	try:
-		text = unicode(text, 'utf-8')
-	except NameError: # unicode is a default on python 3
-		pass
-	text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode("utf-8")
-	return str(text)
-
-def parsePlayer(player):
-	player = strip_accents(player).lower().replace(".", "").replace("'", "").replace("_", " ").replace("-", " ").replace(" jr", "").replace(" sr", "").replace(" iv", "").replace(" iii", "").replace(" ii", "")
-	player = player.split(" (")[0]
-	return player
+from shared import *
 
 def downloadResponse(cookie, sport):
 	#cookie = "_ga_1PZGDRY6F5=GS2.1.s1754837516$o4$g1$t1754837523$j53$l0$h0; ASP.NET_SessionId=aek1zwfztdsk1kbeofvyqntr; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; GvcSessionKey=aek1zwfztdsk1kbeofvyqntr; NativeApp=true; NativeAppKey=true"
@@ -152,7 +11,7 @@ def downloadResponse(cookie, sport):
 	elif sport == "nfl":
 		ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20fb&sportId=11&leagueId=568&leagueName=NFL"
 		leagueIds = "568,2159,571,713,1338,580,613,581,2213,612,690,324,1086,1781,1088,1786,1948,1126,2238,1776,1777,1778,1780,1982,1983,1984,2240,2241,1142,1403,1094,1498,1784,1785,1779,18,1968"
-	elif sport == "ncaab":
+	elif sport == "ncaaf":
 		ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=ncaa%20fb&sportId=all&leagueId=574&leagueName=NCAA%20FB"
 		leagueIds = "574,575,1297,1058,1059,349,1369,1749,977,1005,1007,1006,1789"
 
@@ -178,8 +37,50 @@ def downloadResponse(cookie, sport):
 
 	os.system(command)
 
-def parseNFL():
-	pass
+def parseSport(sport):
+
+	with open(f"{sport}_response.json") as fh:
+	#with open("nfl_response.json") as fh:
+		response = json.load(fh)
+
+	#with open(f"{sport}_response.json", "w") as fh:
+	#	json.dump(response, fh, indent=4)
+
+	data = {}
+	for row in response["Games"]:
+		a,h = row["VTeam"], row["HTeam"]
+		if sport == "nfl":
+			game = f"{convertNFL(a)} @ {convertNFL(h)}"
+		else:
+			game = f"{a} @ {h}"
+
+		if not row["GameLine"] or not row.get("Heading", "").startswith("NFL WEEK"):
+			continue
+
+		data.setdefault(game, {})
+		if row["GameLine"]["VSpreadPoints"]:
+			line = str(float(row["GameLine"]["VSpreadPoints"].replace("½", ".5")))
+			ou = row["GameLine"]["VSpreadOdds"]+"/"+row["GameLine"]["HSpreadOdds"]
+			if ou == "/":
+				ou = ""
+			data[game]["spread"] = {
+				line: ou.replace("EV", "+100")
+			}
+		if row["GameLine"]["OverPoints"]:
+			line = str(float(row["GameLine"]["OverPoints"].split(" ")[-1].replace("½", ".5")))
+			ou = row["GameLine"]["OverOdds"]+"/"+row["GameLine"]["UnderOdds"]
+			if ou == "/":
+				ou = ""
+			data[game]["total"] = {
+				line: ou.replace("EV", "+100")
+			}
+		if row["GameLine"]["VOdds"]:
+			ou = row["GameLine"]["VOdds"]+"/"+row["GameLine"]["HOdds"]
+			data[game]["ml"] = ou.replace("EV", "+100")
+
+	with open(f"{sport}.json", "w") as fh:
+		json.dump(data, fh, indent=4)
+
 
 def parseFutures():
 	with open("response.json") as fh:
@@ -385,10 +286,8 @@ if __name__ == "__main__":
 		downloadResponse(args.cookie, sport)
 	
 
-	if sport == "nfl":
-		parseNFL()
-	elif sport == "ncaaf":
-		pass
+	if sport in ["nfl", "ncaaf"]:
+		parseSport(sport)
 	elif sport == "futures":
 		parseFutures()
 	else:
