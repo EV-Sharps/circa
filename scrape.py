@@ -39,8 +39,8 @@ def downloadResponse(cookie, sport):
 
 def parseSport(sport):
 
-	with open(f"{sport}_response.json") as fh:
-	#with open("nfl_response.json") as fh:
+	#with open(f"{sport}_response.json") as fh:
+	with open("response.json") as fh:
 		response = json.load(fh)
 
 	#with open(f"{sport}_response.json", "w") as fh:
