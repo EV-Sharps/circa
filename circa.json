@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-27T09:34:24.046957",
+    "updated": "2025-08-27T09:37:26.871795",
     "data": {
         "wsh @ nyy": {
             "f5_spread": {
@@ -46,7 +46,15 @@
                 "4.0": "+100/-120"
             },
             "f5_ml": "-145/+125",
-            "rfi": "+120/-140"
+            "rfi": "+120/-140",
+            "k": {
+                "drew rasmussen": {
+                    "4.5": "-150/+120"
+                },
+                "slade cecconi": {
+                    "4.5": "+110/-140"
+                }
+            }
         },
         "sd @ sea": {
             "f5_spread": {
@@ -65,13 +73,24 @@
             "f5_total": {
                 "4.5": "-120/+100"
             },
-            "f5_ml": "-140/+120"
+            "f5_ml": "-140/+120",
+            "rfi": "-110/-110",
+            "k": {
+                "brayan bello": {
+                    "4.5": "-145/+115"
+                }
+            }
         },
         "min @ tor": {
             "f5_spread": {
                 "0.5": "-102/-118"
             },
-            "f5_ml": "+140/-160"
+            "f5_ml": "+140/-160",
+            "k": {
+                "eric lauer": {
+                    "4.5": "-145/+115"
+                }
+            }
         },
         "phi @ nym": {
             "f5_spread": {
@@ -152,7 +171,9 @@
                 "andrew mccutchen": "+725/-1100",
                 "ivan herrera": "+675/-1000",
                 "jordan walker": "+700/-1050",
-                "alec burleson": "+520/-700"
+                "alec burleson": "+520/-700",
+                "nolan gorman": "+470/-620",
+                "lars nootbaar": "+520/-700"
             }
         },
         "laa @ tex": {
@@ -188,6 +209,16 @@
                 "shohei ohtani": {
                     "5.5": "-135/+105"
                 }
+            },
+            "hr": {
+                "elly de la cruz": "+550/-750",
+                "spencer steer": "+625/-900",
+                "austin hays": "+600/-850",
+                "shohei ohtani": "+225/-265",
+                "mookie betts": "+490/-650",
+                "freddie freeman": "+455/-600",
+                "teoscar hernandez": "+385/-480",
+                "andy pages": "+455/-600"
             }
         },
         "chc @ sf": {
@@ -205,6 +236,13 @@
                 "carson whisenhunt": {
                     "3.5": "+115/-145"
                 }
+            },
+            "hr": {
+                "kyle tucker": "+470/-620",
+                "seiya suzuki": "+430/-560",
+                "pete crow armstrong": "+560/-770",
+                "carson kelly": "+725/-1100",
+                "rafael devers": "+375/-470"
             }
         },
         "det @ ath": {
@@ -226,6 +264,9 @@
             "rfi": {}
         },
         "pad @ mar": {
+            "rfi": {}
+        },
+        "bos @ ori": {
             "rfi": {}
         }
     }
