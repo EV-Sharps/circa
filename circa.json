@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-27T09:37:26.871795",
+    "updated": "2025-08-27T09:39:05.808206",
     "data": {
         "wsh @ nyy": {
             "f5_spread": {
@@ -54,6 +54,14 @@
                 "slade cecconi": {
                     "4.5": "+110/-140"
                 }
+            },
+            "hr": {
+                "junior caminero": "+250/-300",
+                "brandon lowe": "+360/-450",
+                "yandy diaz": "+625/-900",
+                "josh lowe": "+565/-780",
+                "jose ramirez": "+470/-620",
+                "kyle manzardo": "+455/-600"
             }
         },
         "sd @ sea": {
@@ -150,7 +158,15 @@
             "f5_spread": {
                 "-0.5": "+108/-128"
             },
-            "f5_ml": "-132/+112"
+            "f5_ml": "-132/+112",
+            "k": {
+                "ryan bergert": {
+                    "4.5": "-105/-125"
+                },
+                "aaron civale": {
+                    "3.5": "-125/-105"
+                }
+            }
         },
         "pit @ stl": {
             "f5_spread": {
@@ -183,7 +199,15 @@
             "f5_total": {
                 "5.0": "-120/+100"
             },
-            "f5_ml": "+132/-152"
+            "f5_ml": "+132/-152",
+            "k": {
+                "jack kochanowicz": {
+                    "2.5": "-150/+120"
+                },
+                "jacob latz": {
+                    "4.5": "+105/-135"
+                }
+            }
         },
         "col @ hou": {
             "f5_spread": {
@@ -242,7 +266,10 @@
                 "seiya suzuki": "+430/-560",
                 "pete crow armstrong": "+560/-770",
                 "carson kelly": "+725/-1100",
-                "rafael devers": "+375/-470"
+                "rafael devers": "+375/-470",
+                "heliot ramos": "+650/-950",
+                "willy adames": "+470/-620",
+                "casey schmitt": "+650/-950"
             }
         },
         "det @ ath": {
