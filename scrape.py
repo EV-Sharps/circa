@@ -52,9 +52,13 @@ def parseSport(sport):
 		if sport == "nfl":
 			game = f"{convertNFL(a)} @ {convertNFL(h)}"
 		else:
-			game = f"{a} @ {h}"
+			game = f"{a} @ {h}".lower()
 
-		if not row["GameLine"] or not row.get("Heading", "").startswith("NFL WEEK"):
+		if not row["GameLine"]:
+			continue
+		if sport == "nfl" and not row.get("Heading", "").startswith("NFL WEEK"):
+			continue
+		elif sport == "ncaaf" and row["LeagueName"] != "NCAA FB":
 			continue
 
 		data.setdefault(game, {})
