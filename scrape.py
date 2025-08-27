@@ -83,7 +83,7 @@ def parseSport(sport):
 			data[game]["ml"] = ou.replace("EV", "+100")
 
 	with open(f"{sport}.json", "w") as fh:
-		json.dump(data, fh, indent=4)
+		json.dump({"updated": datetime.now().isoformat(), "data": data}, fh, indent=4)
 
 
 def parseFutures():
@@ -211,7 +211,6 @@ def parse(movement):
 		if game not in data:
 			data[game] = gData
 
-	print("")
 	with open("circa.json", "w") as fh:
 		json.dump({"updated": datetime.now().isoformat(), "data": data}, fh, indent=4)
 
