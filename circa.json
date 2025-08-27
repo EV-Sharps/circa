@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-27T09:50:00.078307",
+    "updated": "2025-08-27T09:54:00.140030",
     "data": {
         "wsh @ nyy": {
             "f5_spread": {
@@ -17,6 +17,15 @@
                 "max fried": {
                     "6.5": "-135/+105"
                 }
+            },
+            "hr": {
+                "james wood": "+470/-620",
+                "cj abrams": "+650/-950",
+                "aaron judge": "+200/-235",
+                "giancarlo stanton": "+260/-310",
+                "cody bellinger": "+415/-535",
+                "jazz chisholm": "+360/-450",
+                "ben rice": "+340/-420"
             }
         },
         "atl @ mia": {
@@ -89,6 +98,16 @@
                 "bryan woo": {
                     "5.5": "+115/-145"
                 }
+            },
+            "hr": {
+                "fernando tatis": "+415/-535",
+                "manny machado": "+400/-510",
+                "ramon laureano": "+500/-670",
+                "ryan ohearn": "+600/-850",
+                "cal raleigh": "+225/-265",
+                "eugenio suarez": "+350/-435",
+                "julio rodriguez": "+390/-495",
+                "randy arozarena": "+360/-450"
             }
         },
         "bos @ bal": {
@@ -225,6 +244,7 @@
                 "4.0": "+100/-120"
             },
             "f5_ml": "+157/-182",
+            "rfi": "+120/-140",
             "k": {
                 "sonny gray": {
                     "6.5": "+100/-130"
@@ -383,6 +403,9 @@
             "rfi": {}
         },
         "roy @ chw": {
+            "rfi": {}
+        },
+        "pir @ car": {
             "rfi": {}
         }
     }
