@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-27T12:52:02.862971",
+    "updated": "2025-08-27T12:58:28.371734",
     "data": {
         "wsh @ nyy": {
             "f5_spread": {
@@ -21,15 +21,15 @@
             "hr": {
                 "james wood": "+600/-850",
                 "cj abrams": "+650/-950",
-                "aaron judge": "+225/-265",
-                "cody bellinger": "+490/-650",
+                "aaron judge": "+220/-260",
+                "cody bellinger": "+465/-615",
                 "jazz chisholm": "+360/-450",
                 "ben rice": "+340/-420"
             }
         },
         "atl @ mia": {
             "f5_spread": {
-                "-0.5": "+118/-138"
+                "-0.5": "+115/-135"
             },
             "f5_total": {
                 "4.5": "-120/+100"
