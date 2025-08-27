@@ -142,13 +142,20 @@ def parsePlayer(player):
 	player = player.split(" (")[0]
 	return player
 
-def downloadResponse(cookie, nfl):
+def downloadResponse(cookie, sport):
 	#cookie = "_ga_1PZGDRY6F5=GS2.1.s1754837516$o4$g1$t1754837523$j53$l0$h0; ASP.NET_SessionId=aek1zwfztdsk1kbeofvyqntr; KeepBets=false; gDetails=%5B%5D; lDetails=%5B%5D; _ga=GA1.1.2076399515.1754779621; GvcSessionKey=aek1zwfztdsk1kbeofvyqntr; NativeApp=true; NativeAppKey=true"
 	ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20baseball&sportId=23&leagueId=1138&leagueName=MLB%20-%20PLAYER%20TO%20HIT%20A%20HOME%20RUN"
 	leagueIds = "5,548,618,532,620,554,1124,1138,1930,1125,1928,1139,1935,1792,1275,1241"
-	if nfl:
+	if sport == "futures":
 		ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20fb&sportId=11&leagueId=1982&leagueName=NFL%20-%20TOTAL%20REG%20SEASON%20PASSING%20YARDS"
 		leagueIds = "567,568,2159,571,713,1338,580,613,581,2213,612,690,324,1086,1781,1088,1786,1948,1126,2238,1776,1777,1778,1780,1982,1983,1984,2240,2241,1142,1403,1094,1498,1784,1785,1779,18,1968"
+	elif sport == "nfl":
+		ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=pro%20fb&sportId=11&leagueId=568&leagueName=NFL"
+		leagueIds = "568,2159,571,713,1338,580,613,581,2213,612,690,324,1086,1781,1088,1786,1948,1126,2238,1776,1777,1778,1780,1982,1983,1984,2240,2241,1142,1403,1094,1498,1784,1785,1779,18,1968"
+	elif sport == "ncaab":
+		ref = "https://ia.circasports.com/Web-CIRCAIOWA/sports/sportsoddssummary?sportName=ncaa%20fb&sportId=all&leagueId=574&leagueName=NCAA%20FB"
+		leagueIds = "574,575,1297,1058,1059,349,1369,1749,977,1005,1007,1006,1789"
+
 
 	command = """curl 'https://ia.circasports.com/MobileService//api/sports/getLeagueGamesAnon' \
 -X POST \
@@ -172,6 +179,9 @@ def downloadResponse(cookie, nfl):
 	os.system(command)
 
 def parseNFL():
+	pass
+
+def parseFutures():
 	with open("response.json") as fh:
 		response = json.load(fh)
 
@@ -356,16 +366,31 @@ if __name__ == "__main__":
 	#callAPI()
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--nfl", action="store_true")
+	parser.add_argument("--ncaab", action="store_true")
+	parser.add_argument("--ncaaf", action="store_true")
+	parser.add_argument("--futures", action="store_true")
 	parser.add_argument("--movement", "-m", action="store_true")
 	parser.add_argument("--cookie", "-c")
 	args = parser.parse_args()
 
+	sport = "mlb"
+	if args.nfl:
+		sport = "nfl"
+	elif args.ncaaf:
+		sport = "ncaaf"
+	elif args.futures:
+		sport = "futures"
+
 	if args.cookie:
-		downloadResponse(args.cookie, args.nfl)
+		downloadResponse(args.cookie, sport)
 	
 
-	if args.nfl:
+	if sport == "nfl":
 		parseNFL()
+	elif sport == "ncaaf":
+		pass
+	elif sport == "futures":
+		parseFutures()
 	else:
 		parse(args.movement)		
 
