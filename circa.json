@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-27T12:38:25.124498",
+    "updated": "2025-08-27T12:52:02.862971",
     "data": {
         "wsh @ nyy": {
             "f5_spread": {
@@ -22,7 +22,7 @@
                 "james wood": "+600/-850",
                 "cj abrams": "+650/-950",
                 "aaron judge": "+225/-265",
-                "cody bellinger": "+520/-700",
+                "cody bellinger": "+490/-650",
                 "jazz chisholm": "+360/-450",
                 "ben rice": "+340/-420"
             }
@@ -34,7 +34,7 @@
             "f5_total": {
                 "4.5": "-120/+100"
             },
-            "f5_ml": "-122/+102",
+            "f5_ml": "-125/+105",
             "rfi": "-105/-115",
             "k": {
                 "joey wentz": {
@@ -46,21 +46,18 @@
             },
             "hr": {
                 "matt olson": "+340/-420",
-                "drake baldwin": "+520/-700",
-                "ronald acuna": "+280/-340",
-                "michael harris": "+425/-550",
+                "drake baldwin": "+480/-640",
+                "ronald acuna": "+310/-380",
+                "michael harris": "+535/-725",
                 "jakob marsee": "+700/-1050",
                 "otto lopez": "+750/-1150"
             }
         },
         "tb @ cle": {
-            "f5_spread": {
-                "-0.5": "-105/-115"
-            },
             "f5_total": {
                 "3.5": "-120/+100"
             },
-            "f5_ml": "-155/+135",
+            "f5_ml": "-160/+140",
             "rfi": "+130/-150",
             "k": {
                 "drew rasmussen": {
@@ -71,8 +68,8 @@
                 }
             },
             "hr": {
-                "junior caminero": "+250/-300",
-                "brandon lowe": "+360/-450",
+                "junior caminero": "+285/-345",
+                "brandon lowe": "+420/-540",
                 "yandy diaz": "+625/-900",
                 "josh lowe": "+565/-780",
                 "kyle manzardo": "+455/-600",
@@ -122,7 +119,7 @@
                 }
             },
             "hr": {
-                "alex bregman": "+520/-700",
+                "alex bregman": "+455/-600",
                 "trevor story": "+520/-700",
                 "roman anthony": "+500/-670",
                 "gunnar henderson": "+425/-550",
@@ -147,7 +144,7 @@
                 "matt wallner": "+425/-550",
                 "byron buxton": "+280/-340",
                 "kody clemens": "+575/-800",
-                "george springer": "+280/-340",
+                "george springer": "+265/-320",
                 "daulton varsho": "+310/-380",
                 "bo bichette": "+500/-670"
             }
