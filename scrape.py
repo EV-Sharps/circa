@@ -123,6 +123,8 @@ def parse(movement):
 	if movement:
 		with open("circa.json") as fh:
 			old = json.load(fh).get("data", {})
+		with open("movement.json") as fh:
+			move_data = json.load(fh)
 
 	data = {}
 	dt = str(datetime.now())[:10]
@@ -157,7 +159,6 @@ def parse(movement):
 		game = row["Heading"].replace("WHITE SOX", "CHW").replace("BLUE JAYS", "TOR").replace("RED SOX", "BOS").split(" ")[0]
 		circaGame = game
 		a,h = map(str, game.split("/"))
-
 
 		if prop == "f5":
 			game = f"{convertMGMMLBTeam(a)} @ {convertMGMMLBTeam(h)}"
@@ -195,9 +196,24 @@ def parse(movement):
 			if movement:
 				try:
 					if game not in old or player not in old[game].get("hr", {}):
+						move_data.append({
+							"type": "add",
+							"game": game,
+							"player": player,
+							"ou": ou,
+							"dt": datetime.now().isoformat()
+						})
 						print("adding", game, player, ou)
 					elif ou != old[game]["hr"][player]:
 						print(game, player, old[game]["hr"][player], " TO ", ou)
+						move_data.append({
+							"type": "add",
+							"game": game,
+							"player": player,
+							"ou": ou,
+							"from": old[game]["hr"][player],
+							"dt": datetime.now().isoformat()
+						})
 				except:
 					pass
 		elif prop in ["h", "sb", "rbi"]:
@@ -216,6 +232,10 @@ def parse(movement):
 	print("")
 	with open("circa.json", "w") as fh:
 		json.dump({"updated": datetime.now().isoformat(), "data": data}, fh, indent=4)
+
+	if movement:
+		with open("movement.json", "w") as fh:
+			json.dump(move_data, fh, indent=4)
 
 
 def callAPI():
