@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-28T10:22:56.954539",
+    "updated": "2025-08-28T10:25:45.207139",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -212,6 +212,16 @@
                 "clay holmes": {
                     "4.5": "+130/-160"
                 }
+            },
+            "hr": {
+                "agustin ramirez": "+560/-770",
+                "otto lopez": "+750/-1150",
+                "xavier edwards": "+1200/-2150",
+                "jakob marsee": "+825/-1300",
+                "juan soto": "+320/-395",
+                "pete alonso": "+260/-310",
+                "francisco lindor": "+450/-590",
+                "brandon nimmo": "+500/-670"
             }
         },
         "nyy @ chw": {
