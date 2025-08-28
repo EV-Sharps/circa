@@ -1,15 +1,15 @@
 {
-    "updated": "2025-08-28T14:17:29.428373",
+    "updated": "2025-08-28T15:34:07.974290",
     "data": {
         "chc @ sf": {
             "f5_spread": {
-                "0.5": "-145/+125"
+                "0.5": "-135/+115"
             },
             "f5_total": {
                 "3.5": "-115/-105"
             },
             "f5_ml": "+110/-130",
-            "rfi": "+140/-160",
+            "rfi": "+135/-155",
             "k": {
                 "shota imanaga": {
                     "5.5": "+125/-155"
@@ -24,7 +24,7 @@
                 "ian happ": "+925/-1500",
                 "rafael devers": "+370/-460",
                 "heliot ramos": "+440/-575",
-                "willy adames": "+500/-670",
+                "willy adames": "+455/-600",
                 "casey schmitt": "+550/-750"
             },
             "tb": {
@@ -129,7 +129,7 @@
             },
             "hr": {
                 "aaron judge": "+185/-215",
-                "trent grisham": "+335/-410",
+                "trent grisham": "+345/-425",
                 "jazz chisholm": "+360/-450",
                 "giancarlo stanton": "+255/-305",
                 "cody bellinger": "+400/-510",
