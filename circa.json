@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-28T12:19:06.670925",
+    "updated": "2025-08-28T12:23:32.473854",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -8,7 +8,7 @@
             "f5_total": {
                 "4.0": "-115/-105"
             },
-            "f5_ml": "-210/+180",
+            "f5_ml": "-212/+182",
             "rfi": "+125/-145",
             "k": {
                 "garrett crochet": {
@@ -21,7 +21,7 @@
             "hr": {
                 "alex bregman": "+400/-510",
                 "trevor story": "+370/-460",
-                "roman anthony": "+430/-560",
+                "roman anthony": "+420/-545",
                 "gunnar henderson": "+540/-735",
                 "jackson holliday": "+800/-1250",
                 "colton cowser": "+800/-1250",
@@ -48,7 +48,7 @@
                 "lourdes gurriel": "+625/-900",
                 "geraldo perdomo": "+1200/-2150",
                 "william contreras": "+470/-620",
-                "andrew vaughn": "+520/-700",
+                "andrew vaughn": "+475/-630",
                 "brice turang": "+650/-950"
             }
         },
@@ -129,7 +129,7 @@
                 "rafael devers": "+400/-510",
                 "heliot ramos": "+440/-575",
                 "willy adames": "+500/-670",
-                "casey schmitt": "+675/-1000"
+                "casey schmitt": "+550/-750"
             },
             "tb": {
                 "pete crow armstrong": {
@@ -184,7 +184,7 @@
                 "marcell ozuna": "+420/-545",
                 "ronald acuna": "+295/-360",
                 "kyle schwarber": "+155/-180",
-                "bryce harper": "+220/-260",
+                "bryce harper": "+215/-250",
                 "trea turner": "+420/-545",
                 "alec bohm": "+625/-900"
             }
@@ -212,7 +212,7 @@
                 "xavier edwards": "+1200/-2150",
                 "jakob marsee": "+825/-1300",
                 "juan soto": "+290/-350",
-                "pete alonso": "+260/-310",
+                "pete alonso": "+235/-280",
                 "francisco lindor": "+385/-485",
                 "brandon nimmo": "+500/-670"
             }
@@ -236,7 +236,7 @@
             },
             "hr": {
                 "aaron judge": "+185/-215",
-                "trent grisham": "+400/-510",
+                "trent grisham": "+335/-410",
                 "jazz chisholm": "+400/-510",
                 "giancarlo stanton": "+290/-350",
                 "cody bellinger": "+400/-510",
