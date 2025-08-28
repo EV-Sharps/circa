@@ -126,7 +126,9 @@ def parse(movement):
 
 	data = {}
 	dt = str(datetime.now())[:10]
-	print(dt)
+	print("")
+	print(datetime.now().isoformat())
+	print("")
 	for row in response["Games"]:
 		prop = ""
 		if row["LeagueName"] == "MLB - PLAYER TO HIT A HOME RUN":
@@ -211,6 +213,7 @@ def parse(movement):
 		if game not in data:
 			data[game] = gData
 
+	print("")
 	with open("circa.json", "w") as fh:
 		json.dump({"updated": datetime.now().isoformat(), "data": data}, fh, indent=4)
 

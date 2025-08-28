@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-28T12:23:32.473854",
+    "updated": "2025-08-28T12:42:07.973284",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -20,7 +20,7 @@
             },
             "hr": {
                 "alex bregman": "+400/-510",
-                "trevor story": "+370/-460",
+                "trevor story": "+375/-470",
                 "roman anthony": "+420/-545",
                 "gunnar henderson": "+540/-735",
                 "jackson holliday": "+800/-1250",
@@ -55,9 +55,6 @@
         "col @ hou": {
             "f5_spread": {
                 "1.5": "-135/+115"
-            },
-            "f5_total": {
-                "5.0": "+100/-120"
             },
             "f5_ml": "+190/-220",
             "rfi": "-115/-105",
@@ -184,7 +181,7 @@
                 "marcell ozuna": "+420/-545",
                 "ronald acuna": "+295/-360",
                 "kyle schwarber": "+155/-180",
-                "bryce harper": "+215/-250",
+                "bryce harper": "+230/-270",
                 "trea turner": "+420/-545",
                 "alec bohm": "+625/-900"
             }
@@ -237,8 +234,8 @@
             "hr": {
                 "aaron judge": "+185/-215",
                 "trent grisham": "+335/-410",
-                "jazz chisholm": "+400/-510",
-                "giancarlo stanton": "+290/-350",
+                "jazz chisholm": "+360/-450",
+                "giancarlo stanton": "+255/-305",
                 "cody bellinger": "+400/-510",
                 "lenyn sosa": "+675/-1000",
                 "andrew benintendi": "+540/-735",
