@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-28T09:50:43.235648",
+    "updated": "2025-08-28T09:52:48.788477",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -128,6 +128,15 @@
                 "logan webb": {
                     "5.5": "-130/+100"
                 }
+            },
+            "hr": {
+                "kyle tucker": "+560/-770",
+                "seiya suzuki": "+560/-770",
+                "pete crow armstrong": "+600/-850",
+                "rafael devers": "+400/-510",
+                "heliot ramos": "+560/-770",
+                "willy adames": "+500/-670",
+                "casey schmitt": "+675/-1000"
             }
         },
         "atl @ phi": {
