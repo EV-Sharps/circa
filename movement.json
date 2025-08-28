@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "type": "add",
+        "game": "atl @ phi",
+        "player": "ronald acuna",
+        "ou": "+270/-325",
+        "from": "+295/-360",
+        "dt": "2025-08-28T17:15:59.062906"
+    },
+    {
+        "type": "add",
+        "game": "nyy @ chw",
+        "player": "cody bellinger",
+        "ou": "+365/-455",
+        "from": "+400/-510",
+        "dt": "2025-08-28T17:15:59.063153"
+    }
+]
