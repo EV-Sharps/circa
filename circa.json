@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-28T10:29:47.081033",
+    "updated": "2025-08-28T10:37:18.763357",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -22,7 +22,6 @@
                 "alex bregman": "+450/-590",
                 "trevor story": "+400/-510",
                 "roman anthony": "+500/-670",
-                "jarren duran": "+450/-590",
                 "gunnar henderson": "+540/-735",
                 "jackson holliday": "+800/-1250",
                 "colton cowser": "+800/-1250",
@@ -240,6 +239,16 @@
                 "davis martin": {
                     "4.5": "+110/-140"
                 }
+            },
+            "hr": {
+                "aaron judge": "+200/-235",
+                "trent grisham": "+400/-510",
+                "jazz chisholm": "+400/-510",
+                "giancarlo stanton": "+290/-350",
+                "cody bellinger": "+450/-590",
+                "lenyn sosa": "+675/-1000",
+                "andrew benintendi": "+540/-735",
+                "miguel vargas": "+625/-900"
             }
         },
         "bos @ ori": {
