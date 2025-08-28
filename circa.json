@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-28T10:16:38.402144",
+    "updated": "2025-08-28T10:22:56.954539",
     "data": {
         "bos @ bal": {
             "f5_spread": {
@@ -184,6 +184,16 @@
                 "aaron nola": {
                     "5.5": "-120/-110"
                 }
+            },
+            "hr": {
+                "matt olson": "+300/-365",
+                "ozzie albies": "+520/-700",
+                "marcell ozuna": "+420/-545",
+                "ronald acuna": "+350/-435",
+                "kyle schwarber": "+170/-195",
+                "bryce harper": "+250/-300",
+                "trea turner": "+420/-545",
+                "alec bohm": "+625/-900"
             }
         },
         "mia @ nym": {
