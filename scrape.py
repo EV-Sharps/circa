@@ -197,17 +197,16 @@ def parse(movement):
 				try:
 					if game not in old or player not in old[game].get("hr", {}):
 						move_data.append({
-							"type": "add",
 							"game": game,
 							"player": player,
 							"ou": ou,
+							"from": "",
 							"dt": datetime.now().isoformat()
 						})
 						print("adding", game, player, ou)
 					elif ou != old[game]["hr"][player]:
 						print(game, player, old[game]["hr"][player], " TO ", ou)
 						move_data.append({
-							"type": "add",
 							"game": game,
 							"player": player,
 							"ou": ou,
