@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T09:39:13.824038",
+    "updated": "2025-08-29T09:43:22.457203",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -97,6 +97,16 @@
                 "shane bieber": {
                     "5.5": "+100/-130"
                 }
+            },
+            "hr": {
+                "christian yelich": "+560/-770",
+                "william contreras": "+520/-700",
+                "andrew vaughn": "+430/-560",
+                "brice turang": "+825/-1300",
+                "george springer": "+420/-545",
+                "daulton varsho": "+420/-545",
+                "addison barger": "+600/-850",
+                "bo bichette": "+600/-850"
             }
         },
         "mia @ nym": {
@@ -137,7 +147,7 @@
             "rfi": "+115/-135",
             "k": {
                 "paul skenes": {
-                    "6.5": "-140/+110"
+                    "6.5": "-110/-120"
                 }
             }
         },
