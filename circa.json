@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T09:43:22.457203",
+    "updated": "2025-08-29T09:46:23.431063",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -147,8 +147,17 @@
             "rfi": "+115/-135",
             "k": {
                 "paul skenes": {
-                    "6.5": "-110/-120"
+                    "6.5": "-120/-110"
                 }
+            },
+            "hr": {
+                "bryan reynolds": "+560/-770",
+                "oneil cruz": "+500/-670",
+                "andrew mccutchen": "+675/-1000",
+                "alex bregman": "+560/-770",
+                "trevor story": "+560/-770",
+                "roman anthony": "+520/-700",
+                "romy gonzalez": "+675/-1000"
             }
         },
         "nyy @ chw": {
@@ -183,7 +192,7 @@
                     "3.5": "-130/+100"
                 },
                 "cristian javier": {
-                    "5.5": "+100/-130"
+                    "5.5": "-125/-105"
                 }
             }
         },
@@ -290,6 +299,16 @@
                 "robbie ray": {
                     "6.5": "-105/-125"
                 }
+            },
+            "hr": {
+                "gunnar henderson": "+625/-900",
+                "colton cowser": "+875/-1400",
+                "samuel basallo": "+725/-1100",
+                "jackson holliday": "+875/-1400",
+                "rafael devers": "+455/-600",
+                "heliot ramos": "+675/-1000",
+                "willy adames": "+490/-650",
+                "matt chapman": "+520/-700"
             }
         },
         "car @ red": {
