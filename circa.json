@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T13:40:44.333185",
+    "updated": "2025-08-29T13:55:06.000838",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -91,7 +91,7 @@
             "rfi": "+125/-145",
             "k": {
                 "freddy peralta": {
-                    "5.5": "+145/-175"
+                    "5.5": "+125/-155"
                 },
                 "shane bieber": {
                     "5.5": "+100/-130"
@@ -100,7 +100,7 @@
             "hr": {
                 "christian yelich": "+560/-770",
                 "william contreras": "+520/-700",
-                "andrew vaughn": "+435/-565",
+                "andrew vaughn": "+490/-650",
                 "brice turang": "+825/-1300",
                 "george springer": "+420/-545",
                 "daulton varsho": "+440/-575",
@@ -322,7 +322,7 @@
             "f5_total": {
                 "5.5": "-120/+100"
             },
-            "f5_ml": "-220/+190",
+            "f5_ml": "-225/+195",
             "rfi": "-135/+115",
             "k": {
                 "cade horton": {
