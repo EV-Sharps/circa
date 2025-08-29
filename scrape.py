@@ -63,7 +63,7 @@ def parseSport(sport):
 
 		data.setdefault(game, {})
 		if row["GameLine"]["VSpreadPoints"]:
-			line = str(float(row["GameLine"]["VSpreadPoints"].replace("½", ".5")))
+			line = str(float(row["GameLine"]["VSpreadPoints"].replace("PK", "0.0").replace("½", ".5")))
 			ou = row["GameLine"]["VSpreadOdds"]+"/"+row["GameLine"]["HSpreadOdds"]
 			if ou == "/":
 				ou = ""

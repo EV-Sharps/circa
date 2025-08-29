@@ -1,398 +1,328 @@
 {
-    "boise st @ s florida": {
-        "spread": {
-            "-6.0": ""
-        },
-        "total": {
-            "62.5": ""
-        },
-        "ml": "-220/+190"
-    },
-    "ohio @ rutgers": {
-        "spread": {
-            "15.5": ""
-        },
-        "total": {
-            "51.0": ""
-        },
-        "ml": "+495/-660"
-    },
-    "e carolina @ nc state": {
-        "spread": {
-            "14.0": ""
-        },
-        "total": {
-            "61.5": ""
-        },
-        "ml": "+455/-600"
-    },
-    "jax st @ ucf": {
-        "spread": {
-            "20.5": ""
-        },
-        "total": {
-            "53.0": ""
-        },
-        "ml": "+725/-1100"
-    },
-    "wyoming @ akron": {
-        "spread": {
-            "-5.0": ""
-        },
-        "total": {
-            "48.0": ""
-        },
-        "ml": "-202/+176"
-    },
-    "buffalo @ minnesota": {
-        "spread": {
-            "17.5": ""
-        },
-        "total": {
-            "43.5": ""
-        },
-        "ml": "+650/-950"
-    },
-    "nebraska @ cincinnati": {
-        "spread": {
-            "-6.5": ""
-        },
-        "total": {
-            "51.5": ""
-        },
-        "ml": "-260/+220"
-    },
-    "miami oh @ wisconsin": {
-        "spread": {
-            "17.5": ""
-        },
-        "total": {
-            "41.0": ""
-        },
-        "ml": "+625/-900"
-    },
-    "app st @ charlotte": {
-        "spread": {
-            "-5.5": ""
-        },
-        "total": {
-            "49.5": ""
-        },
-        "ml": "-210/+180"
-    },
-    "kennesaw st @ wake forest": {
-        "spread": {
-            "18.0": ""
-        },
-        "total": {
-            "51.0": ""
-        },
-        "ml": "+650/-950"
-    },
-    "w michigan @ michigan st": {
-        "spread": {
-            "20.5": ""
-        },
-        "total": {
-            "50.0": ""
-        },
-        "ml": "+900/-1450"
-    },
-    "auburn @ baylor": {
-        "spread": {
-            "-2.5": ""
-        },
-        "total": {
-            "58.5": ""
-        },
-        "ml": "-133/+113"
-    },
-    "ga tech @ colorado": {
-        "spread": {
-            "-4.0": ""
-        },
-        "total": {
-            "52.0": ""
-        },
-        "ml": "-185/+160"
-    },
-    "unlv @ s houston st": {
-        "spread": {
-            "-9.5": ""
-        },
-        "total": {
-            "61.0": ""
-        },
-        "ml": "-320/+265"
-    },
-    "c michigan @ san jose st": {
-        "spread": {
-            "13.5": ""
-        },
-        "total": {
-            "51.0": ""
-        },
-        "ml": "+385/-485"
-    },
-    "ball st @ purdue": {
-        "spread": {
-            "17.0": ""
-        },
-        "total": {
-            "49.0": ""
-        },
-        "ml": "+575/-800"
-    },
-    "syracuse @ tennessee": {
-        "spread": {
-            "14.0": ""
-        },
-        "total": {
-            "51.5": ""
-        },
-        "ml": "+400/-510"
-    },
-    "fau @ maryland": {
-        "spread": {
-            "15.0": ""
-        },
-        "total": {
-            "62.0": ""
-        },
-        "ml": "+445/-580"
-    },
-    "texas @ ohio st": {
-        "spread": {
-            "1.5": ""
-        },
-        "total": {
-            "48.0": ""
-        },
-        "ml": "+100/-120"
-    },
-    "n`western @ tulane": {
-        "spread": {
-            "6.0": ""
-        },
-        "total": {
-            "46.0": ""
-        },
-        "ml": "+180/-210"
-    },
-    "miss st @ so miss": {
-        "spread": {
-            "-13.0": ""
-        },
-        "total": {
-            "61.5": ""
-        },
-        "ml": "-440/+355"
-    },
-    "toledo @ kentucky": {
-        "spread": {
-            "9.0": ""
-        },
-        "total": {
-            "48.0": ""
-        },
-        "ml": "+275/-330"
-    },
-    "odu @ indiana": {
-        "spread": {
-            "24.0": ""
-        },
-        "total": {
-            "55.0": ""
-        },
-        "ml": "+1250/-2400"
-    },
-    "nevada @ penn st": {
-        "spread": {
-            "44.0": ""
-        },
-        "total": {
-            "56.5": ""
-        }
-    },
-    "temple @ u mass": {
-        "spread": {
-            "-2.0": ""
-        },
-        "total": {
-            "47.5": ""
-        },
-        "ml": "-128/+108"
-    },
-    "marshall @ georgia": {
-        "spread": {
-            "38.5": ""
-        },
-        "total": {
-            "55.0": ""
-        }
-    },
-    "alabama @ florida st": {
-        "spread": {
-            "-14.0": ""
-        },
-        "total": {
-            "50.5": ""
-        },
-        "ml": "-550/+425"
-    },
-    "coastal car @ virginia": {
-        "spread": {
-            "11.5": ""
-        },
-        "total": {
-            "58.0": ""
-        },
-        "ml": "+340/-420"
-    },
-    "utsa @ texas a&m": {
-        "spread": {
-            "24.0": ""
-        },
-        "total": {
-            "56.5": ""
-        },
-        "ml": "+1050/-1800"
-    },
-    "new mexico @ michigan": {
-        "spread": {
-            "35.0": ""
-        },
-        "total": {
-            "49.0": ""
-        }
-    },
-    "utep @ utah st": {
-        "spread": {
-            "6.5": ""
-        },
-        "total": {
-            "60.5": ""
-        },
-        "ml": "+195/-225"
-    },
-    "missouri st @ usc": {
-        "spread": {
-            "35.0": ""
-        },
-        "total": {
-            "59.5": ""
-        }
-    },
-    "lsu @ clemson": {
-        "spread": {
-            "3.5": ""
-        },
-        "total": {
-            "57.5": ""
-        },
-        "ml": "+155/-180"
-    },
-    "georgia st @ ole miss": {
-        "spread": {
-            "35.0": ""
-        },
-        "total": {
-            "60.5": ""
-        }
-    },
-    "e michigan @ texas st": {
-        "spread": {
-            "14.0": ""
-        },
-        "total": {
-            "58.5": ""
-        },
-        "ml": "+395/-500"
-    },
-    "rice @ louisiana": {
-        "spread": {
-            "11.5": ""
-        },
-        "total": {
-            "47.0": ""
-        },
-        "ml": "+325/-400"
-    },
-    "ga southern @ fresno st": {
-        "spread": {
-            "-1.5": ""
-        },
-        "total": {
-            "51.5": ""
-        },
-        "ml": "-125/+105"
-    },
-    "hawaii @ arizona": {
-        "spread": {
-            "17.5": ""
-        },
-        "total": {
-            "52.5": ""
-        },
-        "ml": "+575/-800"
-    },
-    "california @ oregon st": {
-        "spread": {
-            "1.5": ""
-        },
-        "total": {
-            "49.0": ""
-        },
-        "ml": "+105/-125"
-    },
-    "colorado st @ washington": {
-        "spread": {
-            "21.5": ""
-        },
-        "total": {
-            "54.0": ""
-        },
-        "ml": "+1100/-1950"
-    },
-    "utah @ ucla": {
-        "spread": {
-            "-5.5": ""
-        },
-        "total": {
-            "52.0": ""
-        },
-        "ml": "-220/+190"
-    },
-    "va tech @ s carolina": {
-        "spread": {
-            "8.0": ""
-        },
-        "total": {
-            "52.5": ""
-        },
-        "ml": "+235/-280"
-    },
-    "notre dame @ miami fl": {
-        "spread": {
-            "-3.0": ""
-        },
-        "total": {
-            "49.0": ""
-        },
-        "ml": "-145/+125"
-    },
-    "tcu @ n carolina": {
-        "spread": {
-            "-3.5": ""
-        },
-        "total": {
-            "56.0": ""
-        },
-        "ml": "-160/+140"
-    },
-    "away @ home": {
-        "spread": {
-            "5.0": "-105/-115"
+    "updated": "2025-08-29T02:21:44.936377",
+    "data": {
+        "app st @ charlotte": {
+            "spread": {
+                "-4.0": ""
+            },
+            "total": {
+                "49.5": ""
+            },
+            "ml": "-185/+160"
+        },
+        "kennesaw st @ wake forest": {
+            "spread": {
+                "18.0": ""
+            },
+            "total": {
+                "51.0": ""
+            },
+            "ml": "+650/-950"
+        },
+        "w michigan @ michigan st": {
+            "spread": {
+                "21.0": ""
+            },
+            "total": {
+                "50.0": ""
+            },
+            "ml": "+1000/-1700"
+        },
+        "auburn @ baylor": {
+            "spread": {
+                "-2.0": ""
+            },
+            "total": {
+                "58.0": ""
+            },
+            "ml": "-128/+108"
+        },
+        "ga tech @ colorado": {
+            "spread": {
+                "-4.0": ""
+            },
+            "total": {
+                "51.5": ""
+            },
+            "ml": "-185/+160"
+        },
+        "unlv @ s houston st": {
+            "spread": {
+                "-9.5": ""
+            },
+            "total": {
+                "61.0": ""
+            },
+            "ml": "-320/+265"
+        },
+        "c michigan @ san jose st": {
+            "spread": {
+                "14.0": ""
+            },
+            "total": {
+                "52.0": ""
+            },
+            "ml": "+430/-560"
+        },
+        "ball st @ purdue": {
+            "spread": {
+                "17.0": ""
+            },
+            "total": {
+                "50.0": ""
+            },
+            "ml": "+575/-800"
+        },
+        "syracuse @ tennessee": {
+            "spread": {
+                "13.5": ""
+            },
+            "total": {
+                "51.5": ""
+            },
+            "ml": "+380/-475"
+        },
+        "fau @ maryland": {
+            "spread": {
+                "14.0": ""
+            },
+            "total": {
+                "62.0": ""
+            },
+            "ml": "+435/-565"
+        },
+        "texas @ ohio st": {
+            "spread": {
+                "0.0": ""
+            },
+            "total": {
+                "47.0": ""
+            }
+        },
+        "n`western @ tulane": {
+            "spread": {
+                "5.0": ""
+            },
+            "total": {
+                "46.0": ""
+            },
+            "ml": "+170/-195"
+        },
+        "miss st @ so miss": {
+            "spread": {
+                "-13.0": ""
+            },
+            "total": {
+                "60.0": ""
+            },
+            "ml": "-440/+355"
+        },
+        "toledo @ kentucky": {
+            "spread": {
+                "10.0": ""
+            },
+            "total": {
+                "48.0": ""
+            },
+            "ml": "+290/-350"
+        },
+        "odu @ indiana": {
+            "spread": {
+                "24.0": ""
+            },
+            "total": {
+                "53.5": ""
+            },
+            "ml": "+1250/-2400"
+        },
+        "nevada @ penn st": {
+            "spread": {
+                "43.5": ""
+            },
+            "total": {
+                "55.0": ""
+            }
+        },
+        "temple @ u mass": {
+            "spread": {
+                "-2.0": ""
+            },
+            "total": {
+                "49.0": ""
+            },
+            "ml": "-128/+108"
+        },
+        "marshall @ georgia": {
+            "spread": {
+                "39.5": ""
+            },
+            "total": {
+                "54.0": ""
+            }
+        },
+        "alabama @ florida st": {
+            "spread": {
+                "-14.0": ""
+            },
+            "total": {
+                "49.0": ""
+            },
+            "ml": "-550/+425"
+        },
+        "coastal car @ virginia": {
+            "spread": {
+                "11.5": ""
+            },
+            "total": {
+                "56.5": ""
+            },
+            "ml": "+340/-420"
+        },
+        "utsa @ texas a&m": {
+            "spread": {
+                "23.5": ""
+            },
+            "total": {
+                "56.5": ""
+            },
+            "ml": "+1050/-1800"
+        },
+        "new mexico @ michigan": {
+            "spread": {
+                "35.0": ""
+            },
+            "total": {
+                "49.0": ""
+            }
+        },
+        "utep @ utah st": {
+            "spread": {
+                "6.5": ""
+            },
+            "total": {
+                "60.5": ""
+            },
+            "ml": "+185/-215"
+        },
+        "missouri st @ usc": {
+            "spread": {
+                "37.0": ""
+            },
+            "total": {
+                "59.5": ""
+            }
+        },
+        "lsu @ clemson": {
+            "spread": {
+                "4.5": ""
+            },
+            "total": {
+                "57.5": ""
+            },
+            "ml": "+165/-190"
+        },
+        "georgia st @ ole miss": {
+            "spread": {
+                "34.0": ""
+            },
+            "total": {
+                "61.0": ""
+            }
+        },
+        "e michigan @ texas st": {
+            "spread": {
+                "14.0": ""
+            },
+            "total": {
+                "58.5": ""
+            },
+            "ml": "+395/-500"
+        },
+        "rice @ louisiana": {
+            "spread": {
+                "11.5": ""
+            },
+            "total": {
+                "47.0": ""
+            },
+            "ml": "+325/-400"
+        },
+        "ga southern @ fresno st": {
+            "spread": {
+                "-1.5": ""
+            },
+            "total": {
+                "51.5": ""
+            },
+            "ml": "-125/+105"
+        },
+        "hawaii @ arizona": {
+            "spread": {
+                "17.5": ""
+            },
+            "total": {
+                "52.5": ""
+            },
+            "ml": "+575/-800"
+        },
+        "california @ oregon st": {
+            "spread": {
+                "1.5": ""
+            },
+            "total": {
+                "49.0": ""
+            },
+            "ml": "+105/-125"
+        },
+        "colorado st @ washington": {
+            "spread": {
+                "21.5": ""
+            },
+            "total": {
+                "54.0": ""
+            },
+            "ml": "+1100/-1950"
+        },
+        "utah @ ucla": {
+            "spread": {
+                "-5.5": ""
+            },
+            "total": {
+                "51.0": ""
+            },
+            "ml": "-220/+190"
+        },
+        "va tech @ s carolina": {
+            "spread": {
+                "8.0": ""
+            },
+            "total": {
+                "52.5": ""
+            },
+            "ml": "+235/-280"
+        },
+        "notre dame @ miami fl": {
+            "spread": {
+                "-3.0": ""
+            },
+            "total": {
+                "49.0": ""
+            },
+            "ml": "-145/+125"
+        },
+        "tcu @ n carolina": {
+            "spread": {
+                "-3.5": ""
+            },
+            "total": {
+                "56.0": ""
+            },
+            "ml": "-160/+140"
+        },
+        "away @ home": {
+            "spread": {
+                "5.0": "-105/-115"
+            }
         }
     }
 }
