@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T09:52:20.629311",
+    "updated": "2025-08-29T10:00:15.129773",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -101,7 +101,7 @@
             "hr": {
                 "christian yelich": "+560/-770",
                 "william contreras": "+520/-700",
-                "andrew vaughn": "+430/-560",
+                "andrew vaughn": "+435/-565",
                 "brice turang": "+825/-1300",
                 "george springer": "+420/-545",
                 "daulton varsho": "+420/-545",
@@ -110,15 +110,22 @@
             }
         },
         "mia @ nym": {
-            "f5_spread": {
-                "0.5": "-105/-115"
-            },
-            "f5_ml": "+135/-155",
+            "f5_ml": "+130/-150",
             "rfi": "+100/-120",
             "k": {
                 "eury perez": {
                     "4.5": "-155/+125"
                 }
+            },
+            "hr": {
+                "agustin ramirez": "+460/-605",
+                "jakob marsee": "+800/-1250",
+                "otto lopez": "+900/-1450",
+                "xavier edwards": "+1300/-2600",
+                "juan soto": "+330/-405",
+                "pete alonso": "+280/-340",
+                "francisco lindor": "+420/-545",
+                "brandon nimmo": "+525/-705"
             }
         },
         "sea @ cle": {
@@ -134,6 +141,15 @@
                 "logan allen": {
                     "4.5": "-125/-105"
                 }
+            },
+            "hr": {
+                "cal raleigh": "+255/-305",
+                "eugenio suarez": "+390/-495",
+                "julio rodriguez": "+480/-640",
+                "randy arozarena": "+520/-700",
+                "jose ramirez": "+460/-605",
+                "kyle manzardo": "+540/-735",
+                "steven kwan": "+1300/-2600"
             }
         },
         "pit @ bos": {
@@ -275,6 +291,7 @@
                 }
             },
             "hr": {
+                "josh smith": "+875/-1400",
                 "josh jung": "+425/-550",
                 "wyatt langford": "+395/-500",
                 "adolis garcia": "+425/-550",
