@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T10:50:06.834128",
+    "updated": "2025-08-29T10:54:19.069738",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -44,12 +44,12 @@
                 }
             },
             "hr": {
-                "matt olson": "+370/-460",
+                "matt olson": "+385/-485",
                 "ronald acuna": "+340/-420",
                 "marcell ozuna": "+500/-670",
                 "alec bohm": "+700/-1050",
                 "kyle schwarber": "+200/-235",
-                "bryce harper": "+340/-420",
+                "bryce harper": "+300/-365",
                 "trea turner": "+500/-670"
             }
         },
@@ -342,6 +342,38 @@
                 "ezequiel tovar": "+560/-770",
                 "mickey moniak": "+420/-545",
                 "jordan beck": "+600/-850"
+            },
+            "tb": {
+                "pete crow armstrong": {
+                    "1.5": "-115/-115"
+                },
+                "seiya suzuki": {
+                    "1.5": "-115/-115"
+                }
+            },
+            "h": {
+                "matt shaw": {
+                    "0.5": "-250/+200"
+                },
+                "dansby swanson": {
+                    "0.5": "-325/+260"
+                }
+            },
+            "rbi": {
+                "nico hoerner": {
+                    "0.5": "+185/-230"
+                },
+                "seiya suzuki": {
+                    "0.5": "+110/-140"
+                }
+            },
+            "sb": {
+                "pete crow armstrong": {
+                    "0.5": "+275/-350"
+                },
+                "kyle tucker": {
+                    "0.5": "+375/-485"
+                }
             }
         },
         "tex @ ath": {
