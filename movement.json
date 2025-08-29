@@ -411,5 +411,89 @@
         "ou": "+425/-550",
         "from": "+455/-600",
         "dt": "2025-08-29T18:21:38.148605"
+    },
+    {
+        "game": "atl @ phi",
+        "player": "ronald acuna",
+        "ou": "+325/-400",
+        "from": "+350/-435",
+        "dt": "2025-08-29T18:26:34.722293"
+    },
+    {
+        "game": "atl @ phi",
+        "player": "kyle schwarber",
+        "ou": "+170/-195",
+        "from": "+180/-210",
+        "dt": "2025-08-29T18:26:34.722345"
+    },
+    {
+        "game": "tb @ wsh",
+        "player": "junior caminero",
+        "ou": "+260/-310",
+        "from": "+285/-345",
+        "dt": "2025-08-29T18:26:34.722392"
+    },
+    {
+        "game": "mil @ tor",
+        "player": "george springer",
+        "ou": "+370/-460",
+        "from": "+420/-545",
+        "dt": "2025-08-29T18:26:34.722538"
+    },
+    {
+        "game": "sea @ cle",
+        "player": "eugenio suarez",
+        "ou": "+340/-420",
+        "from": "+390/-495",
+        "dt": "2025-08-29T18:26:34.722697"
+    },
+    {
+        "game": "nyy @ chw",
+        "player": "cody bellinger",
+        "ou": "+370/-460",
+        "from": "+475/-630",
+        "dt": "2025-08-29T18:26:34.722887"
+    },
+    {
+        "game": "laa @ hou",
+        "player": "christian walker",
+        "ou": "+320/-390",
+        "from": "+350/-435",
+        "dt": "2025-08-29T18:26:34.723030"
+    },
+    {
+        "game": "det @ kc",
+        "player": "kerry carpenter",
+        "ou": "+325/-400",
+        "from": "+350/-435",
+        "dt": "2025-08-29T18:26:34.723089"
+    },
+    {
+        "game": "chc @ col",
+        "player": "pete crow armstrong",
+        "ou": "+325/-400",
+        "from": "+360/-450",
+        "dt": "2025-08-29T18:26:34.723280"
+    },
+    {
+        "game": "tex @ ath",
+        "player": "nick kurtz",
+        "ou": "+235/-280",
+        "from": "+250/-300",
+        "dt": "2025-08-29T18:26:34.723400"
+    },
+    {
+        "game": "tex @ ath",
+        "player": "tyler soderstrom",
+        "ou": "+395/-500",
+        "from": "+425/-550",
+        "dt": "2025-08-29T18:26:34.723443"
+    },
+    {
+        "game": "bal @ sf",
+        "player": "willy adames",
+        "ou": "+405/-520",
+        "from": "+490/-650",
+        "dt": "2025-08-29T18:26:34.723598"
     }
 ]

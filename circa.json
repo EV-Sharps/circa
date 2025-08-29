@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T18:21:38.149324",
+    "updated": "2025-08-29T18:28:21.884628",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -47,10 +47,10 @@
             },
             "hr": {
                 "matt olson": "+385/-485",
-                "ronald acuna": "+350/-435",
+                "ronald acuna": "+325/-400",
                 "marcell ozuna": "+500/-670",
                 "alec bohm": "+700/-1050",
-                "kyle schwarber": "+180/-210",
+                "kyle schwarber": "+170/-195",
                 "bryce harper": "+265/-320",
                 "trea turner": "+500/-670"
             }
@@ -73,7 +73,7 @@
                 }
             },
             "hr": {
-                "junior caminero": "+285/-345",
+                "junior caminero": "+260/-310",
                 "brandon lowe": "+420/-545",
                 "yandy diaz": "+340/-420",
                 "josh lowe": "+875/-1400",
@@ -102,7 +102,7 @@
                 "william contreras": "+520/-700",
                 "andrew vaughn": "+490/-650",
                 "brice turang": "+650/-950",
-                "george springer": "+420/-545",
+                "george springer": "+370/-460",
                 "daulton varsho": "+440/-575",
                 "addison barger": "+600/-850",
                 "bo bichette": "+550/-750"
@@ -146,7 +146,7 @@
             },
             "hr": {
                 "cal raleigh": "+255/-305",
-                "eugenio suarez": "+390/-495",
+                "eugenio suarez": "+340/-420",
                 "julio rodriguez": "+405/-520",
                 "randy arozarena": "+520/-700",
                 "jose ramirez": "+420/-540",
@@ -156,12 +156,12 @@
         },
         "pit @ bos": {
             "f5_spread": {
-                "-0.5": "+125/-145"
+                "-0.5": "+115/-135"
             },
             "f5_total": {
                 "4.0": "-105/-115"
             },
-            "f5_ml": "-115/-105",
+            "f5_ml": "-130/+110",
             "rfi": "+125/-145",
             "k": {
                 "paul skenes": {
@@ -196,7 +196,7 @@
             "hr": {
                 "aaron judge": "+215/-250",
                 "giancarlo stanton": "+250/-300",
-                "cody bellinger": "+475/-630",
+                "cody bellinger": "+370/-460",
                 "jazz chisholm": "+340/-420",
                 "lenyn sosa": "+600/-850",
                 "michael taylor": "+560/-770",
@@ -246,7 +246,7 @@
                 "jo adell": "+270/-325",
                 "zach neto": "+350/-435",
                 "jose altuve": "+405/-520",
-                "christian walker": "+350/-435",
+                "christian walker": "+320/-390",
                 "carlos correa": "+420/-545"
             }
         },
@@ -270,7 +270,7 @@
             "hr": {
                 "riley greene": "+360/-450",
                 "spencer torkelson": "+420/-545",
-                "kerry carpenter": "+350/-435",
+                "kerry carpenter": "+325/-400",
                 "gleyber torres": "+750/-1150",
                 "bobby witt": "+360/-450",
                 "vinnie pasquantino": "+375/-470",
@@ -326,7 +326,7 @@
             "hr": {
                 "kyle tucker": "+340/-420",
                 "seiya suzuki": "+340/-420",
-                "pete crow armstrong": "+360/-450",
+                "pete crow armstrong": "+325/-400",
                 "carson kelly": "+500/-670",
                 "hunter goodman": "+340/-420",
                 "ezequiel tovar": "+560/-770",
@@ -385,10 +385,10 @@
                 "josh jung": "+425/-550",
                 "wyatt langford": "+340/-420",
                 "adolis garcia": "+390/-495",
-                "nick kurtz": "+250/-300",
+                "nick kurtz": "+235/-280",
                 "brent rooker": "+310/-380",
                 "shea langeliers": "+245/-290",
-                "tyler soderstrom": "+425/-550"
+                "tyler soderstrom": "+395/-500"
             },
             "tb": {
                 "nick kurtz": {
@@ -422,12 +422,12 @@
         },
         "ari @ lad": {
             "f5_spread": {
-                "0.5": "+113/-133"
+                "0.5": "+115/-135"
             },
             "f5_total": {
                 "4.5": "-115/-105"
             },
-            "f5_ml": "+165/-190",
+            "f5_ml": "+175/-200",
             "rfi": "-105/-115",
             "k": {
                 "zac gallen": {
@@ -470,7 +470,7 @@
                 "colton cowser": "+825/-1300",
                 "jackson holliday": "+875/-1400",
                 "rafael devers": "+425/-550",
-                "willy adames": "+490/-650",
+                "willy adames": "+405/-520",
                 "matt chapman": "+520/-700"
             }
         },
