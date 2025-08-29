@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T10:17:12.232514",
+    "updated": "2025-08-29T10:29:08.008032",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -18,7 +18,7 @@
             "hr": {
                 "ivan herrera": "+560/-770",
                 "willson contreras": "+320/-395",
-                "alec burleson": "+340/-420",
+                "alec burleson": "+360/-450",
                 "nolan gorman": "+290/-350",
                 "elly de la cruz": "+600/-850",
                 "spencer steer": "+460/-605",
@@ -202,6 +202,35 @@
                 "korey lee": "+800/-1250",
                 "michael taylor": "+560/-770",
                 "andrew benintendi": "+600/-850"
+            },
+            "tb": {
+                "chase meidroth": {
+                    "1.5": "+170/-210"
+                },
+                "lenyn sosa": {
+                    "1.5": "+140/-170"
+                }
+            },
+            "h": {
+                "mike tauchman": {
+                    "0.5": "-110/-120"
+                },
+                "chase meidroth": {
+                    "0.5": "-200/+165"
+                }
+            },
+            "rbi": {
+                "andrew benintendi": {
+                    "0.5": "+245/-310"
+                },
+                "lenyn sosa": {
+                    "0.5": "+200/-250"
+                }
+            },
+            "sb": {
+                "chase meidroth": {
+                    "0.5": "+575/-800"
+                }
             }
         },
         "laa @ hou": {
@@ -220,6 +249,15 @@
                 "cristian javier": {
                     "5.5": "-125/-105"
                 }
+            },
+            "hr": {
+                "mike trout": "+330/-405",
+                "taylor ward": "+420/-545",
+                "jo adell": "+300/-365",
+                "zach neto": "+350/-435",
+                "jose altuve": "+480/-640",
+                "christian walker": "+340/-420",
+                "carlos correa": "+420/-545"
             }
         },
         "det @ kc": {
