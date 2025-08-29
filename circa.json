@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T10:09:12.846187",
+    "updated": "2025-08-29T10:15:01.733233",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -317,6 +317,16 @@
                 "blake snell": {
                     "6.5": "+100/-130"
                 }
+            },
+            "hr": {
+                "corbin carroll": "+455/-600",
+                "ketel marte": "+295/-360",
+                "lourdes gurriel": "+625/-900",
+                "geraldo perdomo": "+1000/-1700",
+                "shohei ohtani": "+175/-200",
+                "mookie betts": "+455/-600",
+                "freddie freeman": "+395/-500",
+                "teoscar hernandez": "+360/-450"
             }
         },
         "bal @ sf": {
