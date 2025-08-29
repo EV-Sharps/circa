@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T10:39:59.085158",
+    "updated": "2025-08-29T10:50:06.834128",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -332,6 +332,16 @@
                 "german marquez": {
                     "3.5": "+100/-130"
                 }
+            },
+            "hr": {
+                "kyle tucker": "+400/-510",
+                "seiya suzuki": "+340/-420",
+                "pete crow armstrong": "+360/-450",
+                "carson kelly": "+500/-670",
+                "hunter goodman": "+340/-420",
+                "ezequiel tovar": "+560/-770",
+                "mickey moniak": "+420/-545",
+                "jordan beck": "+600/-850"
             }
         },
         "tex @ ath": {
