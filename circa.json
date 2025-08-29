@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T10:15:01.733233",
+    "updated": "2025-08-29T10:17:12.232514",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -92,7 +92,7 @@
             "rfi": "+115/-135",
             "k": {
                 "freddy peralta": {
-                    "5.5": "+110/-140"
+                    "5.5": "+120/-150"
                 },
                 "shane bieber": {
                     "5.5": "+100/-130"
@@ -192,6 +192,16 @@
                 "yoendrys gomez": {
                     "4.5": "+105/-135"
                 }
+            },
+            "hr": {
+                "aaron judge": "+215/-250",
+                "giancarlo stanton": "+230/-270",
+                "cody bellinger": "+560/-770",
+                "jazz chisholm": "+340/-420",
+                "lenyn sosa": "+600/-850",
+                "korey lee": "+800/-1250",
+                "michael taylor": "+560/-770",
+                "andrew benintendi": "+600/-850"
             }
         },
         "laa @ hou": {
