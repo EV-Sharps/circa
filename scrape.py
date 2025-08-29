@@ -185,6 +185,9 @@ def parse(movement):
 		if "gm2" in player:
 			game = f"{convertTeam(a)}-gm2 @ {convertTeam(h)}-gm2"
 		player = player.replace("dh gm1 ", "").replace("dh gm2 ", "")
+
+		if player == "bryan reynolds":
+			continue
 		data.setdefault(game, {})
 		data[game].setdefault(prop, {})
 		if prop == "rfi":
