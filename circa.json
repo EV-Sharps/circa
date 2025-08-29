@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T14:25:54.405271",
+    "updated": "2025-08-29T14:56:19.626279",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -17,7 +17,7 @@
             },
             "hr": {
                 "ivan herrera": "+520/-700",
-                "willson contreras": "+320/-395",
+                "willson contreras": "+340/-420",
                 "nolan gorman": "+290/-350",
                 "elly de la cruz": "+600/-850",
                 "spencer steer": "+460/-605",
@@ -109,6 +109,9 @@
             }
         },
         "mia @ nym": {
+            "f5_total": {
+                "4.0": "-105/-115"
+            },
             "f5_ml": "+130/-150",
             "rfi": "+100/-120",
             "k": {
@@ -194,7 +197,7 @@
             },
             "hr": {
                 "aaron judge": "+215/-250",
-                "giancarlo stanton": "+230/-270",
+                "giancarlo stanton": "+250/-300",
                 "cody bellinger": "+475/-630",
                 "jazz chisholm": "+340/-420",
                 "lenyn sosa": "+600/-850",
@@ -250,9 +253,9 @@
                 }
             },
             "hr": {
-                "mike trout": "+300/-365",
+                "mike trout": "+280/-340",
                 "taylor ward": "+380/-475",
-                "jo adell": "+300/-365",
+                "jo adell": "+270/-325",
                 "zach neto": "+350/-435",
                 "jose altuve": "+480/-640",
                 "christian walker": "+360/-450",
@@ -344,7 +347,7 @@
             },
             "tb": {
                 "pete crow armstrong": {
-                    "1.5": "-115/-115"
+                    "1.5": "-130/+100"
                 },
                 "seiya suzuki": {
                     "1.5": "-115/-115"
@@ -434,7 +437,7 @@
                 "0.5": "+113/-133"
             },
             "f5_ml": "+165/-190",
-            "rfi": "+100/-120",
+            "rfi": "-105/-115",
             "k": {
                 "zac gallen": {
                     "4.5": "-130/+100"
