@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T14:56:19.626279",
+    "updated": "2025-08-29T15:07:30.158949",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -169,8 +169,7 @@
                 }
             },
             "hr": {
-                "bryan reynolds": "+560/-770",
-                "oneil cruz": "+500/-670",
+                "bryan reynolds": "+520/-700",
                 "andrew mccutchen": "+625/-900",
                 "alex bregman": "+560/-770",
                 "trevor story": "+560/-770",
@@ -313,7 +312,7 @@
                 "ramon laureano": "+575/-800",
                 "ryan ohearn": "+575/-800",
                 "royce lewis": "+520/-700",
-                "matt wallner": "+380/-475",
+                "matt wallner": "+335/-415",
                 "byron buxton": "+290/-350",
                 "kody clemens": "+575/-800"
             }
@@ -332,7 +331,7 @@
                     "4.5": "+105/-135"
                 },
                 "german marquez": {
-                    "3.5": "+100/-130"
+                    "3.5": "-120/-110"
                 }
             },
             "hr": {
