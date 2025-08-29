@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-29T16:14:04.580740",
+    "updated": "2025-08-29T16:32:20.932321",
     "data": {
         "stl @ cin": {
             "f5_spread": {
@@ -199,7 +199,6 @@
                 "cody bellinger": "+475/-630",
                 "jazz chisholm": "+340/-420",
                 "lenyn sosa": "+600/-850",
-                "korey lee": "+800/-1250",
                 "michael taylor": "+560/-770",
                 "andrew benintendi": "+600/-850"
             },
@@ -212,9 +211,6 @@
                 }
             },
             "h": {
-                "mike tauchman": {
-                    "0.5": "-110/-120"
-                },
                 "chase meidroth": {
                     "0.5": "-185/+150"
                 }
@@ -236,9 +232,6 @@
         "laa @ hou": {
             "f5_spread": {
                 "0.5": "-105/-115"
-            },
-            "f5_total": {
-                "5.0": "-105/-115"
             },
             "f5_ml": "+140/-160",
             "rfi": "-110/-110",
@@ -283,7 +276,7 @@
                 "kerry carpenter": "+350/-435",
                 "gleyber torres": "+750/-1150",
                 "bobby witt": "+360/-450",
-                "vinnie pasquantino": "+470/-620",
+                "vinnie pasquantino": "+430/-560",
                 "salvador perez": "+430/-560",
                 "mike yastrzemski": "+460/-605"
             }
@@ -397,7 +390,7 @@
                 "adolis garcia": "+390/-495",
                 "nick kurtz": "+250/-300",
                 "brent rooker": "+310/-380",
-                "shea langeliers": "+265/-320",
+                "shea langeliers": "+245/-290",
                 "tyler soderstrom": "+425/-550"
             },
             "tb": {
