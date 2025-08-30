@@ -1,59 +1,6 @@
 {
-    "updated": "2025-08-29T19:22:36.201917",
+    "updated": "2025-08-29T20:01:09.968737",
     "data": {
-        "nyy @ chw": {
-            "f5_spread": {
-                "-0.5": "-150/+130"
-            },
-            "f5_total": {
-                "4.5": "-120/+100"
-            },
-            "f5_ml": "-220/+190",
-            "rfi": "-110/-110",
-            "k": {
-                "carlos rodon": {
-                    "5.5": "-125/-105"
-                },
-                "yoendrys gomez": {
-                    "4.5": "+105/-135"
-                }
-            },
-            "hr": {
-                "aaron judge": "+215/-250",
-                "giancarlo stanton": "+250/-300",
-                "cody bellinger": "+370/-460",
-                "jazz chisholm": "+340/-420",
-                "lenyn sosa": "+600/-850",
-                "michael taylor": "+560/-770",
-                "andrew benintendi": "+600/-850"
-            },
-            "tb": {
-                "chase meidroth": {
-                    "1.5": "+170/-210"
-                },
-                "lenyn sosa": {
-                    "1.5": "+140/-170"
-                }
-            },
-            "h": {
-                "chase meidroth": {
-                    "0.5": "-185/+150"
-                }
-            },
-            "rbi": {
-                "andrew benintendi": {
-                    "0.5": "+245/-310"
-                },
-                "lenyn sosa": {
-                    "0.5": "+200/-250"
-                }
-            },
-            "sb": {
-                "chase meidroth": {
-                    "0.5": "+575/-800"
-                }
-            }
-        },
         "laa @ hou": {
             "f5_ml": "+135/-155",
             "rfi": "-125/+105",
@@ -208,7 +155,7 @@
                 "josh jung": "+425/-550",
                 "wyatt langford": "+340/-420",
                 "adolis garcia": "+390/-495",
-                "nick kurtz": "+235/-280",
+                "nick kurtz": "+265/-320",
                 "brent rooker": "+310/-380",
                 "shea langeliers": "+245/-290",
                 "tyler soderstrom": "+395/-500"
@@ -251,7 +198,7 @@
                 "4.5": "-115/-105"
             },
             "f5_ml": "+175/-200",
-            "rfi": "-105/-115",
+            "rfi": "-110/-110",
             "k": {
                 "zac gallen": {
                     "4.5": "-130/+100"
@@ -297,9 +244,6 @@
                 "matt chapman": "+520/-700"
             }
         },
-        "yan @ chw": {
-            "rfi": {}
-        },
         "ang @ ast": {
             "rfi": {}
         },
@@ -319,6 +263,62 @@
             "rfi": {}
         },
         "ori @ gia": {
+            "rfi": {}
+        },
+        "nyy @ chw": {
+            "f5_spread": {
+                "-0.5": "-150/+130"
+            },
+            "f5_total": {
+                "4.5": "-120/+100"
+            },
+            "f5_ml": "-220/+190",
+            "rfi": "-110/-110",
+            "k": {
+                "carlos rodon": {
+                    "5.5": "-125/-105"
+                },
+                "yoendrys gomez": {
+                    "4.5": "+105/-135"
+                }
+            },
+            "hr": {
+                "aaron judge": "+215/-250",
+                "giancarlo stanton": "+250/-300",
+                "cody bellinger": "+370/-460",
+                "jazz chisholm": "+340/-420",
+                "lenyn sosa": "+600/-850",
+                "michael taylor": "+560/-770",
+                "andrew benintendi": "+600/-850"
+            },
+            "tb": {
+                "chase meidroth": {
+                    "1.5": "+170/-210"
+                },
+                "lenyn sosa": {
+                    "1.5": "+140/-170"
+                }
+            },
+            "h": {
+                "chase meidroth": {
+                    "0.5": "-185/+150"
+                }
+            },
+            "rbi": {
+                "andrew benintendi": {
+                    "0.5": "+245/-310"
+                },
+                "lenyn sosa": {
+                    "0.5": "+200/-250"
+                }
+            },
+            "sb": {
+                "chase meidroth": {
+                    "0.5": "+575/-800"
+                }
+            }
+        },
+        "yan @ chw": {
             "rfi": {}
         },
         "mil @ tor": {
