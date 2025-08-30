@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T13:44:11.427973",
+    "updated": "2025-08-30T13:51:37.480119",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -59,9 +59,9 @@
         },
         "mia @ nym": {
             "f5_spread": {
-                "0.5": "-109/-111"
+                "0.5": "-115/-105"
             },
-            "f5_ml": "+141/-161",
+            "f5_ml": "+131/-151",
             "rfi": "+110/-130",
             "k": {
                 "edward cabrera": {
@@ -280,7 +280,7 @@
                 "julio rodriguez": "+550/-750",
                 "randy arozarena": "+470/-620",
                 "jose ramirez": "+480/-640",
-                "kyle manzardo": "+550/-750",
+                "kyle manzardo": "+470/-620",
                 "bo naylor": "+585/-815",
                 "steven kwan": "+1000/-1700"
             }
