@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T09:48:23.396432",
+    "updated": "2025-08-30T09:53:32.052621",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -17,6 +17,16 @@
                 "kevin gausman": {
                     "5.5": "-105/-125"
                 }
+            },
+            "hr": {
+                "christian yelich": "+600/-850",
+                "william contreras": "+540/-735",
+                "andrew vaughn": "+470/-620",
+                "jackson chourio": "+450/-590",
+                "george springer": "+325/-400",
+                "bo bichette": "+800/-1250",
+                "vladimir guerrero": "+410/-525",
+                "addison barger": "+510/-685"
             }
         },
         "tb @ wsh": {
@@ -70,6 +80,7 @@
                 "0.5": "-105/-115"
             },
             "f5_ml": "+140/-160",
+            "rfi": "-115/-105",
             "k": {
                 "johan oviedo": {
                     "4.5": "+100/-130"
@@ -295,6 +306,9 @@
             "rfi": {}
         },
         "mar @ met": {
+            "rfi": {}
+        },
+        "pir @ bos": {
             "rfi": {}
         }
     }
