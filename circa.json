@@ -1,34 +1,6 @@
 {
-    "updated": "2025-08-30T14:32:26.556059",
+    "updated": "2025-08-30T15:15:28.272151",
     "data": {
-        "mil @ tor": {
-            "f5_spread": {
-                "0.5": "-115/-105"
-            },
-            "f5_total": {
-                "4.5": "-115/-105"
-            },
-            "f5_ml": "+125/-145",
-            "rfi": "+100/-120",
-            "k": {
-                "quinn priester": {
-                    "3.5": "+115/-145"
-                },
-                "kevin gausman": {
-                    "5.5": "-105/-125"
-                }
-            },
-            "hr": {
-                "christian yelich": "+600/-850",
-                "william contreras": "+540/-735",
-                "andrew vaughn": "+470/-620",
-                "jackson chourio": "+450/-590",
-                "george springer": "+355/-440",
-                "bo bichette": "+800/-1250",
-                "vladimir guerrero": "+410/-525",
-                "addison barger": "+510/-685"
-            }
-        },
         "tb @ wsh": {
             "f5_spread": {
                 "-0.5": "-105/-115"
@@ -98,7 +70,7 @@
                 "oneil cruz": "+510/-685",
                 "spencer horwitz": "+725/-1100",
                 "andrew mccutchen": "+540/-735",
-                "alex bregman": "+500/-670",
+                "alex bregman": "+425/-550",
                 "trevor story": "+450/-590",
                 "roman anthony": "+450/-590",
                 "romy gonzalez": "+600/-850"
@@ -123,7 +95,6 @@
             },
             "hr": {
                 "matt olson": "+550/-750",
-                "marcell ozuna": "+555/-760",
                 "ronald acuna": "+425/-550",
                 "kyle schwarber": "+290/-350",
                 "bryce harper": "+450/-590",
@@ -142,7 +113,7 @@
             "rfi": "+100/-120",
             "k": {
                 "michael mcgreevy": {
-                    "3.5": "-125/-105"
+                    "3.5": "-110/-120"
                 },
                 "andrew abbott": {
                     "4.5": "-155/+125"
@@ -183,8 +154,7 @@
                 "jazz chisholm": "+370/-460",
                 "lenyn sosa": "+565/-780",
                 "colson montgomery": "+470/-620",
-                "andrew benintendi": "+875/-1400",
-                "edgar quero": "+1000/-1700"
+                "andrew benintendi": "+875/-1400"
             },
             "tb": {
                 "edgar quero": {
@@ -235,7 +205,7 @@
                 "-0.5": "-105/-115"
             },
             "f5_total": {
-                "5.0": "+100/-120"
+                "5.0": "+105/-125"
             },
             "f5_ml": "-145/+125",
             "rfi": "-110/-110",
@@ -324,7 +294,10 @@
             "rfi": "+115/-135",
             "k": {
                 "trevor rogers": {
-                    "5.5": "-105/-125"
+                    "5.5": "+105/-135"
+                },
+                "carson seymour": {
+                    "3.5": "+120/-150"
                 }
             },
             "hr": {
@@ -471,9 +444,6 @@
                 }
             }
         },
-        "bre @ tor": {
-            "rfi": {}
-        },
         "ray @ nat": {
             "rfi": {}
         },
@@ -514,6 +484,37 @@
             "rfi": {}
         },
         "ran @ ath": {
+            "rfi": {}
+        },
+        "mil @ tor": {
+            "f5_spread": {
+                "0.5": "-115/-105"
+            },
+            "f5_total": {
+                "4.5": "-105/-115"
+            },
+            "f5_ml": "+125/-145",
+            "rfi": "+100/-120",
+            "k": {
+                "quinn priester": {
+                    "3.5": "+115/-145"
+                },
+                "kevin gausman": {
+                    "5.5": "-105/-125"
+                }
+            },
+            "hr": {
+                "christian yelich": "+600/-850",
+                "william contreras": "+540/-735",
+                "andrew vaughn": "+470/-620",
+                "jackson chourio": "+450/-590",
+                "george springer": "+355/-440",
+                "bo bichette": "+800/-1250",
+                "vladimir guerrero": "+410/-525",
+                "addison barger": "+510/-685"
+            }
+        },
+        "bre @ tor": {
             "rfi": {}
         }
     }
