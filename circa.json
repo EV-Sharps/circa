@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T10:41:27.828557",
+    "updated": "2025-08-30T10:47:48.377529",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -115,6 +115,15 @@
                 "cristopher sanchez": {
                     "5.5": "-140/+110"
                 }
+            },
+            "hr": {
+                "matt olson": "+550/-750",
+                "marcell ozuna": "+555/-760",
+                "ronald acuna": "+425/-550",
+                "kyle schwarber": "+290/-350",
+                "bryce harper": "+450/-590",
+                "trea turner": "+540/-735",
+                "alec bohm": "+580/-805"
             }
         },
         "stl @ cin": {
@@ -267,6 +276,7 @@
                 "randy arozarena": "+470/-620",
                 "jose ramirez": "+480/-640",
                 "kyle manzardo": "+550/-750",
+                "bo naylor": "+585/-815",
                 "steven kwan": "+1000/-1700"
             }
         },
@@ -413,6 +423,7 @@
                 "5.5": "-120/+100"
             },
             "f5_ml": "-143/+123",
+            "rfi": "-130/+110",
             "k": {
                 "merrill kelly": {
                     "5.5": "+100/-130"
@@ -495,6 +506,9 @@
             "rfi": {}
         },
         "d`b @ lad": {
+            "rfi": {}
+        },
+        "ran @ ath": {
             "rfi": {}
         }
     }
