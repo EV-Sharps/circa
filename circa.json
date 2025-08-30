@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T13:33:38.582064",
+    "updated": "2025-08-30T13:44:11.427973",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -68,7 +68,7 @@
                     "5.5": "+115/-145"
                 },
                 "david peterson": {
-                    "5.5": "-135/+105"
+                    "5.5": "-130/+100"
                 }
             },
             "hr": {
@@ -307,7 +307,7 @@
                 "riley greene": "+450/-590",
                 "spencer torkelson": "+460/-605",
                 "kerry carpenter": "+480/-640",
-                "mike yastrzemski": "+520/-700",
+                "mike yastrzemski": "+480/-640",
                 "bobby witt": "+400/-510",
                 "vinnie pasquantino": "+500/-670",
                 "salvador perez": "+450/-590"
@@ -449,7 +449,7 @@
             },
             "tb": {
                 "jacob wilson": {
-                    "1.5": "+125/-155"
+                    "1.5": "+120/-150"
                 }
             },
             "h": {
