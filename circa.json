@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T10:13:10.521552",
+    "updated": "2025-08-30T10:16:04.920146",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -151,6 +151,16 @@
                 "shane smith": {
                     "4.5": "-140/+110"
                 }
+            },
+            "hr": {
+                "aaron judge": "+210/-245",
+                "giancarlo stanton": "+270/-325",
+                "cody bellinger": "+390/-495",
+                "jazz chisholm": "+370/-460",
+                "lenyn sosa": "+625/-900",
+                "colson montgomery": "+470/-620",
+                "andrew benintendi": "+875/-1400",
+                "edgar quero": "+1000/-1700"
             }
         },
         "laa @ hou": {
@@ -215,6 +225,7 @@
                 "3.5": "-120/+100"
             },
             "f5_ml": "-140/+120",
+            "rfi": "+125/-145",
             "k": {
                 "logan gilbert": {
                     "6.5": "-135/+105"
@@ -387,6 +398,9 @@
             "rfi": {}
         },
         "ang @ ast": {
+            "rfi": {}
+        },
+        "mar @ gua": {
             "rfi": {}
         }
     }
