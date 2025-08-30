@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T09:37:10.684163",
+    "updated": "2025-08-30T09:38:54.118688",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -150,6 +150,15 @@
                 "taj bradley": {
                     "3.5": "-140/+110"
                 }
+            },
+            "hr": {
+                "fernando tatis": "+450/-590",
+                "manny machado": "+400/-510",
+                "ramon laureano": "+500/-670",
+                "ryan ohearn": "+580/-805",
+                "royce lewis": "+480/-640",
+                "byron buxton": "+340/-420",
+                "kody clemens": "+450/-590"
             }
         },
         "sea @ cle": {
