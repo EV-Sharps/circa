@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T10:32:45.422044",
+    "updated": "2025-08-30T10:41:27.828557",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -133,6 +133,16 @@
                 "andrew abbott": {
                     "4.5": "-150/+120"
                 }
+            },
+            "hr": {
+                "ivan herrera": "+410/-525",
+                "willson contreras": "+340/-420",
+                "masyn winn": "+500/-670",
+                "nolan gorman": "+425/-550",
+                "elly de la cruz": "+380/-475",
+                "spencer steer": "+550/-750",
+                "austin hays": "+550/-750",
+                "noelvi marte": "+550/-750"
             }
         },
         "nyy @ chw": {
@@ -318,6 +328,7 @@
                 "-0.5": "-130/+110"
             },
             "f5_ml": "-178/+154",
+            "rfi": "-155/+135",
             "k": {
                 "javier assad": {
                     "3.5": "-125/-105"
@@ -336,12 +347,33 @@
                 "mickey moniak": "+425/-550",
                 "jordan beck": "+530/-720"
             },
+            "tb": {
+                "kyle tucker": {
+                    "1.5": "-135/+105"
+                },
+                "pete crow armstrong": {
+                    "1.5": "-125/-105"
+                }
+            },
+            "h": {
+                "carson kelly": {
+                    "0.5": "-280/+225"
+                },
+                "michael busch": {
+                    "0.5": "-350/+275"
+                }
+            },
             "rbi": {
                 "dansby swanson": {
                     "0.5": "+130/-160"
                 },
                 "seiya suzuki": {
                     "0.5": "+105/-135"
+                }
+            },
+            "sb": {
+                "pete crow armstrong": {
+                    "0.5": "+290/-370"
                 }
             }
         },
@@ -353,6 +385,7 @@
                 "4.5": "-115/-105"
             },
             "f5_ml": "+180/-210",
+            "rfi": "-110/-110",
             "k": {
                 "eduardo rodriguez": {
                     "4.5": "+105/-135"
@@ -456,6 +489,12 @@
             "rfi": {}
         },
         "ori @ gia": {
+            "rfi": {}
+        },
+        "chc @ roc": {
+            "rfi": {}
+        },
+        "d`b @ lad": {
             "rfi": {}
         }
     }
