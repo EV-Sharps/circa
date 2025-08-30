@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T09:38:54.118688",
+    "updated": "2025-08-30T09:41:52.801690",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -44,6 +44,7 @@
                 "4.0": "-120/+100"
             },
             "f5_ml": "+145/-165",
+            "rfi": "+110/-130",
             "k": {
                 "edward cabrera": {
                     "5.5": "+100/-130"
@@ -65,6 +66,15 @@
                 "dustin may": {
                     "5.5": "+115/-145"
                 }
+            },
+            "hr": {
+                "oneil cruz": "+550/-750",
+                "spencer horwitz": "+725/-1100",
+                "andrew mccutchen": "+625/-900",
+                "alex bregman": "+500/-670",
+                "trevor story": "+450/-590",
+                "roman anthony": "+520/-700",
+                "romy gonzalez": "+600/-850"
             }
         },
         "atl @ phi": {
@@ -268,6 +278,9 @@
             }
         },
         "bre @ tor": {
+            "rfi": {}
+        },
+        "mar @ met": {
             "rfi": {}
         }
     }
