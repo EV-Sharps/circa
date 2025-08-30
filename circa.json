@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T10:21:51.782237",
+    "updated": "2025-08-30T10:32:45.422044",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -296,6 +296,7 @@
                 "4.0": "-120/+100"
             },
             "f5_ml": "-138/+118",
+            "rfi": "+110/-130",
             "k": {
                 "trevor rogers": {
                     "5.5": "+115/-145"
@@ -323,6 +324,24 @@
                 },
                 "mccade brown": {
                     "3.5": "+100/-130"
+                }
+            },
+            "hr": {
+                "kyle tucker": "+305/-370",
+                "seiya suzuki": "+320/-395",
+                "pete crow armstrong": "+320/-395",
+                "carson kelly": "+470/-620",
+                "hunter goodman": "+370/-460",
+                "ezequiel tovar": "+600/-850",
+                "mickey moniak": "+425/-550",
+                "jordan beck": "+530/-720"
+            },
+            "rbi": {
+                "dansby swanson": {
+                    "0.5": "+130/-160"
+                },
+                "seiya suzuki": {
+                    "0.5": "+105/-135"
                 }
             }
         },
@@ -434,6 +453,9 @@
             "rfi": {}
         },
         "tig @ roy": {
+            "rfi": {}
+        },
+        "ori @ gia": {
             "rfi": {}
         }
     }
