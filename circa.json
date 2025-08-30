@@ -1,5 +1,5 @@
 {
-    "updated": "2025-08-30T10:47:48.377529",
+    "updated": "2025-08-30T10:54:33.339526",
     "data": {
         "mil @ tor": {
             "f5_spread": {
@@ -73,6 +73,14 @@
                 "david peterson": {
                     "5.5": "-135/+105"
                 }
+            },
+            "hr": {
+                "agustin ramirez": "+500/-670",
+                "otto lopez": "+900/-1450",
+                "juan soto": "+350/-435",
+                "pete alonso": "+330/-405",
+                "francisco lindor": "+510/-685",
+                "brandon nimmo": "+500/-670"
             }
         },
         "pit @ bos": {
